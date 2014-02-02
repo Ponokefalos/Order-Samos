@@ -14,47 +14,137 @@
         <RelativeLayout
             android:id="@+id/RelativeLayout1"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="490dp"
             android:orientation="vertical" >
 
             <ImageButton
-                android:id="@+id/ImageButton01"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:id="@+id/ibtnEstiatoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentTop="true"
-                android:layout_marginLeft="22dp"
-                android:background="@drawable/main"
-                android:src="@drawable/restaurant_logo"
-                />
+                android:layout_marginLeft="23dp"
+                android:layout_marginTop="13dp"
+                android:background="#ffc400"
+                android:src="@drawable/restaurant_blue" />
+
+            <TextView
+                android:id="@+id/tvEstiatoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ibtnEstiatoria"
+                android:layout_alignLeft="@+id/ibtnEstiatoria"
+                android:layout_alignRight="@+id/ibtnEstiatoria"
+                android:gravity="center"
+                android:text="Εστιατόρια"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
 
             <ImageButton
-                android:id="@+id/imageButton1"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:id="@+id/ibtnKatigories"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginRight="18dp"
-                android:background="@drawable/main"
-                android:src="@drawable/restaurant_logo" />
+                android:layout_alignTop="@+id/ibtnEstiatoria"
+                android:layout_marginRight="26dp"
+                android:background="#ffc400"
+                android:src="@drawable/katigories" />
 
             <TextView
-                android:id="@+id/textView1"
+                android:id="@+id/tvKatigories"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/ImageButton01"
-                android:layout_alignParentBottom="true"
-                android:layout_alignRight="@+id/ImageButton01"
-                android:text="TextView" />
+                android:layout_alignBottom="@+id/ibtnKatigories"
+                android:layout_alignLeft="@+id/ibtnKatigories"
+                android:layout_alignRight="@+id/ibtnKatigories"
+                android:gravity="center"
+                android:text="Κατηγορίες"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/ibtnBan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ibtnEstiatoria"
+                android:layout_below="@+id/ibtnEstiatoria"
+                android:layout_marginTop="50dp"
+                android:background="#ffc400"
+                android:src="@drawable/ban" />
 
             <TextView
-                android:id="@+id/textView2"
+                android:id="@+id/tvBan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/imageButton1"
-                android:layout_alignParentBottom="true"
-                android:layout_alignRight="@+id/imageButton1"
-                android:text="TextView" />
+                android:layout_alignBottom="@+id/ibtnBan"
+                android:layout_alignLeft="@+id/ibtnBan"
+                android:layout_alignRight="@+id/ibtnBan"
+                android:gravity="center"
+                android:text="Ban List"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/ibtnRandom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/ibtnKatigories"
+                android:layout_alignTop="@+id/ibtnBan"
+                android:background="#ffc400"
+                android:src="@drawable/random" />
+
+            <TextView
+                android:id="@+id/tvRandom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ibtnRandom"
+                android:layout_alignRight="@+id/ibtnRandom"
+                android:text="Random Choice"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="14sp" />
+
+            <ImageButton
+                android:id="@+id/ibtnProsfores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ibtnBan"
+                android:layout_below="@+id/ibtnBan"
+                android:layout_marginTop="47dp"
+                android:background="#ffc400"
+                android:src="@drawable/prosfores" />
+
+            <TextView
+                android:id="@+id/tvProsfores"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ibtnProsfores"
+                android:layout_alignLeft="@+id/ibtnProsfores"
+                android:layout_alignRight="@+id/ibtnProsfores"
+                android:gravity="center"
+                android:text="Προσφορές"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
+
+            <ImageButton
+                android:id="@+id/ibtnRatings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignRight="@+id/ibtnRandom"
+                android:layout_alignTop="@+id/ibtnProsfores"
+                android:background="#ffc400"
+                android:src="@drawable/ratings" />
+
+            <TextView
+                android:id="@+id/tvRatings"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/ibtnRatings"
+                android:layout_alignLeft="@+id/tvRandom"
+                android:layout_alignRight="@+id/ibtnRatings"
+                android:gravity="center"
+                android:text="Ratings"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="15sp" />
 
         </RelativeLayout>
     </ScrollView>
