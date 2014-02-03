@@ -14,7 +14,7 @@
         <RelativeLayout
             android:id="@+id/RelativeLayout1"
             android:layout_width="match_parent"
-            android:layout_height="490dp"
+            android:layout_height="1136dp"
             android:orientation="vertical" >
 
             <ImageButton
@@ -63,7 +63,7 @@
                 android:textSize="15sp" />
 
             <ImageButton
-                android:id="@+id/ibtnBan"
+                android:id="@+id/ibtnBanList"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignLeft="@+id/ibtnEstiatoria"
@@ -76,20 +76,20 @@
                 android:id="@+id/tvBan"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/ibtnBan"
-                android:layout_alignLeft="@+id/ibtnBan"
-                android:layout_alignRight="@+id/ibtnBan"
+                android:layout_alignBottom="@+id/ibtnBanList"
+                android:layout_alignLeft="@+id/ibtnBanList"
+                android:layout_alignRight="@+id/ibtnBanList"
                 android:gravity="center"
                 android:text="Ban List"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="15sp" />
 
             <ImageButton
-                android:id="@+id/ibtnRandom"
+                android:id="@+id/ibtnRandomChoice"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignRight="@+id/ibtnKatigories"
-                android:layout_alignTop="@+id/ibtnBan"
+                android:layout_alignTop="@+id/ibtnBanList"
                 android:background="#ffc400"
                 android:src="@drawable/random" />
 
@@ -97,8 +97,8 @@
                 android:id="@+id/tvRandom"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/ibtnRandom"
-                android:layout_alignRight="@+id/ibtnRandom"
+                android:layout_alignBottom="@+id/ibtnRandomChoice"
+                android:layout_alignRight="@+id/ibtnRandomChoice"
                 android:text="Random Choice"
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="14sp" />
@@ -107,8 +107,8 @@
                 android:id="@+id/ibtnProsfores"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/ibtnBan"
-                android:layout_below="@+id/ibtnBan"
+                android:layout_alignLeft="@+id/ibtnBanList"
+                android:layout_below="@+id/ibtnBanList"
                 android:layout_marginTop="47dp"
                 android:background="#ffc400"
                 android:src="@drawable/prosfores" />
@@ -129,7 +129,7 @@
                 android:id="@+id/ibtnRatings"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignRight="@+id/ibtnRandom"
+                android:layout_alignRight="@+id/ibtnRandomChoice"
                 android:layout_alignTop="@+id/ibtnProsfores"
                 android:background="#ffc400"
                 android:src="@drawable/ratings" />

@@ -5,7 +5,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="10"
         android:targetSdkVersion="18" />
 
     <application
@@ -20,6 +20,60 @@
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tardis.ordersamos.Estiatoria"
+            android:label="@string/title_activity_estiatoria" >
+            <intent-filter>
+                <action android:name="com.tardis.ordersamos.Estiatoria" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tardis.ordersamos.Katigories"
+            android:label="@string/title_activity_katigories" >
+            <intent-filter>
+                <action android:name="com.tardis.ordersamos.Katigories" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tardis.ordersamos.BanList"
+            android:label="@string/title_activity_ban_list" >
+            <intent-filter>
+                <action android:name="com.tardis.ordersamos.BanList" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tardis.ordersamos.RandomChoice"
+            android:label="@string/title_activity_random_choice" >
+            <intent-filter>
+                <action android:name="com.tardis.ordersamos.RandomChoice" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tardis.ordersamos.Prosfores"
+            android:label="@string/title_activity_prosfores" >
+            <intent-filter>
+                <action android:name="com.tardis.ordersamos.Prosfores" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tardis.ordersamos.Ratings"
+            android:label="@string/title_activity_ratings" >
+            <intent-filter>
+                <action android:name="com.tardis.ordersamos.Ratings" />
+
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
     </application>
