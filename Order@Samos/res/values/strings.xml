@@ -215,7 +215,7 @@
         <item>6,00</item>
 </string-array>
 
-<string-array name="Evrys_submarine sandwich">
+<string-array name="Evrys_submarine_sandwich">
 	<item>Κλασικό</item>
 	<item>Ελληνικό</item>
 	<item>Φάρμας</item>
@@ -226,7 +226,7 @@
         <item>Meatballs sub</item>
 </string-array>
 
-<string-array name="Evrys_submarine sandwitch_times">
+<string-array name="Evrys_submarine_sandwitch_times">
 	<item>4,60</item>
 	<item>4,60</item>
 	<item>4,60</item>

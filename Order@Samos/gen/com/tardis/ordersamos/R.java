@@ -23,8 +23,8 @@ public final class R {
         public static final int Evrys_pitses_mikres_megales_times=0x7f060011;
         public static final int Evrys_salates=0x7f060000;
         public static final int Evrys_salates_times=0x7f060001;
-        public static final int Evrys_submarine sandwich=0x7f06000e;
-        public static final int Evrys_submarine sandwitch_times=0x7f06000f;
+        public static final int Evrys_submarine_sandwich=0x7f06000e;
+        public static final int Evrys_submarine_sandwitch_times=0x7f06000f;
         public static final int Evrys_zumarika=0x7f06000a;
         public static final int Evrys_zumarika_times=0x7f06000b;
     }
