@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/call" android:title="Call">
+        <menu>
+            <item android:id="@+id/whatsup" android:title="whatsup"/>
+            <item android:id="@+id/vodafone" android:title="vodafone"/>
+            <item android:id="@+id/wind" android:title="wind"/>
+        </menu>
+    </item>
+    <item android:id="@+id/menu" android:title="Menu"></item>
+    <item android:id="@+id/ban" android:title="Ban"></item>
+    
+
+</menu>

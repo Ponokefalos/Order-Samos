@@ -66,6 +66,8 @@ public final class R {
         public static final int RelativeLayout1=0x7f090009;
         public static final int RelativeLayout2=0x7f090016;
         public static final int action_settings=0x7f090022;
+        public static final int ban=0x7f090028;
+        public static final int call=0x7f090023;
         public static final int ibtnBanList=0x7f09000e;
         public static final int ibtnCall=0x7f09001d;
         public static final int ibtnEstiatoria=0x7f09000a;
@@ -82,6 +84,7 @@ public final class R {
         public static final int ibtnRandomChoice=0x7f090010;
         public static final int ibtnRatings=0x7f090014;
         public static final int ibtnTaz=0x7f090006;
+        public static final int menu=0x7f090027;
         public static final int scrollView1=0x7f090000;
         public static final int tvBan=0x7f09000f;
         public static final int tvCall=0x7f09001f;
@@ -98,6 +101,9 @@ public final class R {
         public static final int tvRatings=0x7f090015;
         public static final int tvTitlosProsforas=0x7f09001c;
         public static final int tvTitlosProsfores=0x7f090017;
+        public static final int vodafone=0x7f090025;
+        public static final int whatsup=0x7f090024;
+        public static final int wind=0x7f090026;
     }
     public static final class layout {
         public static final int activity_ban_list=0x7f030000;
@@ -111,11 +117,12 @@ public final class R {
     public static final class menu {
         public static final int ban_list=0x7f080000;
         public static final int estiatoria=0x7f080001;
-        public static final int katigories=0x7f080002;
-        public static final int main_menu=0x7f080003;
-        public static final int prosfores=0x7f080004;
-        public static final int random_choice=0x7f080005;
-        public static final int ratings=0x7f080006;
+        public static final int estiatoria_popup=0x7f080002;
+        public static final int katigories=0x7f080003;
+        public static final int main_menu=0x7f080004;
+        public static final int prosfores=0x7f080005;
+        public static final int random_choice=0x7f080006;
+        public static final int ratings=0x7f080007;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;

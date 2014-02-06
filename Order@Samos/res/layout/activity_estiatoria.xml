@@ -27,7 +27,8 @@
                 android:layout_alignParentRight="true"
                 android:layout_alignParentTop="true"
                 android:background="@drawable/fame"
-                android:src="@drawable/tick" />
+                android:src="@drawable/tick"
+                />
 
             <ImageButton
                 android:id="@+id/ibtnEvris"
