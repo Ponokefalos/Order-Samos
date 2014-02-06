@@ -8,6 +8,26 @@
 package com.tardis.ordersamos;
 
 public final class R {
+    public static final class array {
+        public static final int Evrys_burger=0x7f06000c;
+        public static final int Evrys_burger_times=0x7f06000d;
+        public static final int Evrys_omeletes=0x7f060008;
+        public static final int Evrys_omeletes_times=0x7f060009;
+        public static final int Evrys_orektika=0x7f060002;
+        public static final int Evrys_orektika_times=0x7f060003;
+        public static final int Evrys_piata=0x7f060006;
+        public static final int Evrys_piata_times=0x7f060007;
+        public static final int Evrys_pites=0x7f060004;
+        public static final int Evrys_pites_times=0x7f060005;
+        public static final int Evrys_pitses_mikres_megales=0x7f060010;
+        public static final int Evrys_pitses_mikres_megales_times=0x7f060011;
+        public static final int Evrys_salates=0x7f060000;
+        public static final int Evrys_salates_times=0x7f060001;
+        public static final int Evrys_submarine sandwich=0x7f06000e;
+        public static final int Evrys_submarine sandwitch_times=0x7f06000f;
+        public static final int Evrys_zumarika=0x7f06000a;
+        public static final int Evrys_zumarika_times=0x7f06000b;
+    }
     public static final class attr {
     }
     public static final class dimen {
@@ -22,34 +42,62 @@ public final class R {
     }
     public static final class drawable {
         public static final int ban=0x7f020000;
-        public static final int dollar_icon=0x7f020001;
-        public static final int evris=0x7f020002;
-        public static final int ic_launcher=0x7f020003;
-        public static final int katigories=0x7f020004;
-        public static final int prosfores=0x7f020005;
-        public static final int random=0x7f020006;
-        public static final int ratings=0x7f020007;
-        public static final int red=0x7f020008;
-        public static final int restaurant_blue=0x7f020009;
-        public static final int tick=0x7f02000a;
+        public static final int callbtn=0x7f020001;
+        public static final int dollar_icon=0x7f020002;
+        public static final int evris=0x7f020003;
+        public static final int fame=0x7f020004;
+        public static final int giro=0x7f020005;
+        public static final int katigories=0x7f020006;
+        public static final int koutala=0x7f020007;
+        public static final int kouzina=0x7f020008;
+        public static final int main_ic=0x7f020009;
+        public static final int megaro=0x7f02000a;
+        public static final int nostos=0x7f02000b;
+        public static final int prosfores=0x7f02000c;
+        public static final int radious=0x7f02000d;
+        public static final int random=0x7f02000e;
+        public static final int ratings=0x7f02000f;
+        public static final int red=0x7f020010;
+        public static final int restaurant_blue=0x7f020011;
+        public static final int taz=0x7f020012;
+        public static final int tick=0x7f020013;
     }
     public static final class id {
-        public static final int RelativeLayout1=0x7f080002;
-        public static final int action_settings=0x7f08000f;
-        public static final int ibtnBanList=0x7f080007;
-        public static final int ibtnEstiatoria=0x7f080003;
-        public static final int ibtnEvris=0x7f080001;
-        public static final int ibtnKatigories=0x7f080005;
-        public static final int ibtnProsfores=0x7f08000b;
-        public static final int ibtnRandomChoice=0x7f080009;
-        public static final int ibtnRatings=0x7f08000d;
-        public static final int scrollView1=0x7f080000;
-        public static final int tvBan=0x7f080008;
-        public static final int tvEstiatoria=0x7f080004;
-        public static final int tvKatigories=0x7f080006;
-        public static final int tvProsfores=0x7f08000c;
-        public static final int tvRandom=0x7f08000a;
-        public static final int tvRatings=0x7f08000e;
+        public static final int RelativeLayout1=0x7f090009;
+        public static final int RelativeLayout2=0x7f090016;
+        public static final int action_settings=0x7f090022;
+        public static final int ibtnBanList=0x7f09000e;
+        public static final int ibtnCall=0x7f09001d;
+        public static final int ibtnEstiatoria=0x7f09000a;
+        public static final int ibtnEvris=0x7f090002;
+        public static final int ibtnFame=0x7f090001;
+        public static final int ibtnGiro=0x7f090004;
+        public static final int ibtnKatigories=0x7f09000c;
+        public static final int ibtnKoutala=0x7f090003;
+        public static final int ibtnKouzina=0x7f090008;
+        public static final int ibtnMegaro=0x7f090007;
+        public static final int ibtnNostos=0x7f090005;
+        public static final int ibtnProsfores=0x7f090012;
+        public static final int ibtnRandom=0x7f090020;
+        public static final int ibtnRandomChoice=0x7f090010;
+        public static final int ibtnRatings=0x7f090014;
+        public static final int ibtnTaz=0x7f090006;
+        public static final int scrollView1=0x7f090000;
+        public static final int tvBan=0x7f09000f;
+        public static final int tvCall=0x7f09001f;
+        public static final int tvEstiatoria=0x7f09000b;
+        public static final int tvFagito=0x7f09001e;
+        public static final int tvKatigories=0x7f09000d;
+        public static final int tvOnomaMagaziou=0x7f090021;
+        public static final int tvProsfora1=0x7f090018;
+        public static final int tvProsfora2=0x7f090019;
+        public static final int tvProsfora3=0x7f09001a;
+        public static final int tvProsfora4=0x7f09001b;
+        public static final int tvProsfores=0x7f090013;
+        public static final int tvRandom=0x7f090011;
+        public static final int tvRatings=0x7f090015;
+        public static final int tvTitlosProsforas=0x7f09001c;
+        public static final int tvTitlosProsfores=0x7f090017;
     }
     public static final class layout {
         public static final int activity_ban_list=0x7f030000;
@@ -61,24 +109,32 @@ public final class R {
         public static final int activity_ratings=0x7f030006;
     }
     public static final class menu {
-        public static final int ban_list=0x7f070000;
-        public static final int estiatoria=0x7f070001;
-        public static final int katigories=0x7f070002;
-        public static final int main_menu=0x7f070003;
-        public static final int prosfores=0x7f070004;
-        public static final int random_choice=0x7f070005;
-        public static final int ratings=0x7f070006;
+        public static final int ban_list=0x7f080000;
+        public static final int estiatoria=0x7f080001;
+        public static final int katigories=0x7f080002;
+        public static final int main_menu=0x7f080003;
+        public static final int prosfores=0x7f080004;
+        public static final int random_choice=0x7f080005;
+        public static final int ratings=0x7f080006;
     }
     public static final class string {
         public static final int action_settings=0x7f050001;
         public static final int app_name=0x7f050000;
         public static final int hello_world=0x7f050002;
+        public static final int prosforaFame=0x7f05000d;
+        public static final int prosforaMegaro=0x7f05000e;
+        public static final int prosforaSweet=0x7f05000f;
+        public static final int prosforaTaz=0x7f050010;
+        public static final int random_fagito=0x7f05000b;
+        public static final int random_magazi=0x7f05000a;
+        public static final int title_Random_Choice=0x7f050009;
         public static final int title_activity_ban_list=0x7f050005;
         public static final int title_activity_estiatoria=0x7f050003;
         public static final int title_activity_katigories=0x7f050004;
         public static final int title_activity_prosfores=0x7f050007;
         public static final int title_activity_random_choice=0x7f050006;
         public static final int title_activity_ratings=0x7f050008;
+        public static final int title_prosfores=0x7f05000c;
     }
     public static final class style {
         /** 
@@ -102,10 +158,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
+        public static final int AppTheme=0x7f070001;
     }
 }
