@@ -19,7 +19,7 @@ public class Estiatoria extends Activity implements OnClickListener {
 		ibEvris.setOnClickListener(this);
 		// AlertDialog.Builder builder = AlertDialog.Builder(this);
 		//2comment
-		
+		//kati
 	}
 
 	//
