@@ -18,6 +18,7 @@ public class Estiatoria extends Activity implements OnClickListener {
 		ibEvris = (ImageButton) findViewById(R.id.ibtnEvris);
 		ibEvris.setOnClickListener(this);
 		// AlertDialog.Builder builder = AlertDialog.Builder(this);
+		//2comment
 		
 	}
 
