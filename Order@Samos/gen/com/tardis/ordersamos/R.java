@@ -9,7 +9,6 @@ package com.tardis.ordersamos;
 
 public final class R {
     public static final class array {
-        public static final int Data_Evrys=0x7f060012;
         public static final int Evrys_burger=0x7f06000c;
         public static final int Evrys_burger_times=0x7f06000d;
         public static final int Evrys_omeletes=0x7f060008;
@@ -28,6 +27,16 @@ public final class R {
         public static final int Evrys_submarine_sandwitch_times=0x7f06000f;
         public static final int Evrys_zumarika=0x7f06000a;
         public static final int Evrys_zumarika_times=0x7f06000b;
+        public static final int Til_Evrys=0x7f060012;
+        public static final int Til_Fame=0x7f060013;
+        public static final int Til_Giro=0x7f060015;
+        public static final int Til_Koutala=0x7f060014;
+        public static final int Til_Kouzina=0x7f060019;
+        public static final int Til_Megaro=0x7f060017;
+        public static final int Til_Nostos=0x7f060016;
+        public static final int Til_SweetnSalty=0x7f06001b;
+        public static final int Til_Taz=0x7f060018;
+        public static final int Til_Vakxos=0x7f06001a;
     }
     public static final class attr {
     }

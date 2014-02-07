@@ -82,29 +82,36 @@ public class Estiatoria extends Activity implements OnClickListener, OnMenuItemC
 			} */
 				
 			createPopup(v);
-			array_tilefona = R.array.Data_Evrys;
+			array_tilefona = R.array.Til_Evrys;
 		}
 		if (v.getId() == R.id.ibtnFame) {
 			createPopup(v);
+			array_tilefona = R.array.Til_Fame;
 			
 		}
 		if (v.getId() == R.id.ibtnKoutala) {
 			createPopup(v);
+			array_tilefona = R.array.Til_Koutala;
 		}
 		if (v.getId() == R.id.ibtnGiro) {
 			createPopup(v);
+			array_tilefona = R.array.Til_Giro;
 		}
 		if (v.getId() == R.id.ibtnNostos) {
 			createPopup(v);
+			array_tilefona = R.array.Til_Nostos;
 		}
 		if (v.getId() == R.id.ibtnTaz) {
 			createPopup(v);
+			array_tilefona = R.array.Til_Taz;
 		}
 		if (v.getId() == R.id.ibtnMegaro) {
 			createPopup(v);
+			array_tilefona = R.array.Til_Megaro;
 		}
 		if (v.getId() == R.id.ibtnKouzina) {
 			createPopup(v);
+			array_tilefona = R.array.Til_Kouzina;
 		}
 
 	}
@@ -162,12 +169,13 @@ public class Estiatoria extends Activity implements OnClickListener, OnMenuItemC
 	//create dialog
 	public void createCallDialog(){
 		new AlertDialog.Builder(this)
-	    .setTitle("Delete entry")
+	    .setTitle("Call options")
         .setItems(array_tilefona, new DialogInterface.OnClickListener() {
                public void onClick(DialogInterface dialog, int which) {
             	   Resources res =  getResources();
-            	   String tilefona[] = res.getStringArray(array_tilefona);
-            	   callNumber(tilefona[which]);
+            	   String string[] = res.getStringArray(array_tilefona);
+            	   String ari8mos[] = string[which].split(":");
+            	   callNumber(ari8mos[1]);
          }
          })
 	     .show();

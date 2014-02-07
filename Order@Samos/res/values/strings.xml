@@ -311,12 +311,68 @@
         <item>4,20</item>
         <item>4,90</item>
 </string-array>
-<string-array name="Data_Evrys">
-    <item>2273030003</item>
-    <item>2273033868</item>
-    <item>6981898054</item>
-    <item>6944416858</item>
-    <item>6938775152</item>
+<string-array name="Til_Evrys">
+    <item>Stathero1:2273030003</item>
+    <item>Stathero2:2273033868</item>
+    <item>Whatsup:6981898054</item>
+    <item>Vodafone:6944416858</item>
+    <item>Wind:6938775152</item>
+</string-array>
+
+<string-array name="Til_Fame">
+    <item>Stathero1:2273035660</item>
+    <item>Stathero2:2273032795</item>
+    <item>Whatsup:6986900770</item>
+    <item>Wind:6934626363</item>
+</string-array>
+
+<string-array name="Til_Koutala">
+    <item>Stathero1:2273030990</item>
+    <item>Stathero2:2273030991</item>
+    <item>Whatsup:6971608818</item>
+    <item>Vodafone:6945416222</item>
+    <item>Wind:6934689698</item>
+</string-array>
+
+<string-array name="Til_Giro">
+    <item>Stathero:2273079066</item>
+    <item>Whatsup:6973683233</item>
+    <item>Vodafone:6943251313</item>
+    <item>Wind:6909115454</item>
+</string-array>
+
+<string-array name="Til_Nostos">
+    <item>Stathero:2273035365</item>
+</string-array>
+
+<string-array name="Til_Megaro">
+    <item>Stather1:2273030666</item>
+    <item>Whatsup:6978315170</item>
+    <item>Vodafone:6947554496</item>
+    <item>Wind:6930826536</item>
+</string-array>
+
+<string-array name="Til_Taz">
+    <item>Stathero:2273030555</item>
+
+</string-array>
+
+<string-array name="Til_Kouzina">
+    <item>Stathero:2273079165</item>
+    <item>Whatsup:6982309583</item>
+    <item>Vodafone:6940949484</item>
+    <item>Wind:6909115422</item>
+</string-array>
+
+<string-array name="Til_Vakxos">
+    <item>Stathero:2273035550</item>
+    <item>Whatsup:6978247166</item>
+    <item>Vodafone:6958497907</item>
+</string-array>
+
+<string-array name="Til_SweetnSalty">
+    <item>Whatsup:6975808400</item>
+    <item>Vodafone:6947577987</item>
 </string-array>
 
 
