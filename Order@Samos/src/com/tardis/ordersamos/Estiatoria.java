@@ -1,9 +1,9 @@
 package com.tardis.ordersamos;
 
 import android.app.Activity;
-
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
-
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
@@ -74,12 +74,24 @@ public class Estiatoria extends Activity implements OnClickListener, OnMenuItemC
 	    switch (item.getItemId()) {
 	        case R.id.whatsup:
 	            //...
+	        	Intent callEvrysWhatsUp = new Intent(Intent.ACTION_DIAL);
+	        	 String numEvrysWhatsUp = "tel:" + "6981898054";
+	        	 callEvrysWhatsUp.setData(Uri.parse(numEvrysWhatsUp));
+	        	  startActivity( callEvrysWhatsUp ) ;
 	        	return true;
 	        case R.id.vodafone:
 	            //...
+	        	Intent callEvrysVodafone = new Intent(Intent.ACTION_DIAL);
+	        	 String numEvrysVodafone = "tel:" + "6944416858";
+	        	 callEvrysVodafone.setData(Uri.parse(numEvrysVodafone));
+	        	  startActivity( callEvrysVodafone ) ;
 	        	return true;
 	        case R.id.wind:
 	            //...
+	        	Intent callEvrysWind = new Intent(Intent.ACTION_DIAL);
+	        	 String numEvrysWind = "tel:" + "6938775152";
+	        	 callEvrysWind.setData(Uri.parse(numEvrysWind));
+	        	  startActivity( callEvrysWind ) ;
 	        	return true;
 	        case R.id.ban:
 	            //...

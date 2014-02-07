@@ -7,18 +7,19 @@ import android.widget.TextView;
 public class Prosfores extends Activity {
 
 	
-	TextView tvTitlosProsfores,tvProsfora1,tvProsfora2,tvProsfora3,tvProsfora4;
-	String titleProsfores,prosfora1,prosfora2,prosfora3,prosfora4;
+	TextView tvTitlosProsfores,tvFameProsfora,tvMegaroProsfora,tvSweetProsfora,tvTazProsfora,tvEvrysProsfora;
+	String titleProsfores,prosfora1,prosfora2,prosfora3,prosfora4,prosfora5;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_prosfores);
 		
 		tvTitlosProsfores = (TextView)findViewById(R.id.tvTitlosProsforas);
-		tvProsfora1= (TextView)findViewById(R.id.tvProsfora1);
-		tvProsfora2=(TextView) findViewById(R.id.tvProsfora2);
-		tvProsfora3=(TextView) findViewById(R.id.tvProsfora3);
-		tvProsfora4=(TextView) findViewById(R.id.tvProsfora4);
+		tvFameProsfora= (TextView)findViewById(R.id.tvProsforaFame);
+		tvMegaroProsfora=(TextView) findViewById(R.id.tvMegaroProsfora);
+		tvSweetProsfora=(TextView) findViewById(R.id.tvSweetProsfora);
+		tvTazProsfora=(TextView) findViewById(R.id.tvTazProsfora);
+		tvEvrysProsfora=(TextView)findViewById(R.id.tvEvrysProsfora);
 		
 		//title= getResources().getString(R.string.title_Random_Choice);
 		titleProsfores=getResources().getString(R.string.title_prosfores);
@@ -26,12 +27,13 @@ public class Prosfores extends Activity {
 		prosfora2=getResources().getString(R.string.prosforaMegaro);
 		prosfora3=getResources().getString(R.string.prosforaSweet);
 		prosfora4=getResources().getString(R.string.prosforaTaz);
+		prosfora5=getResources().getString(R.string.prosforaEvrys);//prepei na simplirwsw tin prosfora tou 
 		
 		//tvTitlosProsfores.setText(titleProsfores);
-		tvProsfora1.setText(prosfora1);
-		tvProsfora2.setText(prosfora2);
-		tvProsfora3.setText(prosfora3);
-		tvProsfora4.setText(prosfora4);
+		tvFameProsfora.setText(prosfora1);
+		tvMegaroProsfora.setText(prosfora2);
+		tvSweetProsfora.setText(prosfora3);
+		tvTazProsfora.setText(prosfora4);
 		
 	}
 

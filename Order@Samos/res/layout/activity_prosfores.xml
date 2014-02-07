@@ -34,41 +34,55 @@
                 android:textSize="20sp" />
 
             <TextView
-                android:id="@+id/tvProsfora1"
+                android:id="@+id/tvProsforaFame"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
                 android:layout_below="@+id/tvTitlosProsfores"
                 android:layout_marginTop="29dp"
                 android:text="Medium Text"
+                android:textColor="#aa9f97"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <TextView
-                android:id="@+id/tvProsfora2"
+                android:id="@+id/tvMegaroProsfora"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_below="@+id/tvProsfora1"
+                android:layout_below="@+id/tvProsforaFame"
                 android:layout_marginTop="42dp"
                 android:text="Medium Text"
+                android:textColor="#aa9f97"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <TextView
-                android:id="@+id/tvProsfora3"
+                android:id="@+id/tvSweetProsfora"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_below="@+id/tvProsfora2"
+                android:layout_below="@+id/tvMegaroProsfora"
                 android:layout_marginTop="57dp"
                 android:text="Medium Text"
+                android:textColor="#aa9f97"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <TextView
-                android:id="@+id/tvProsfora4"
+                android:id="@+id/tvTazProsfora"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
-                android:layout_below="@+id/tvProsfora3"
+                android:layout_below="@+id/tvSweetProsfora"
+                android:layout_marginTop="26dp"
+                android:text="Medium Text"
+                android:textColor="#aa9f97"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <TextView
+                android:id="@+id/tvEvrysProsfora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/tvTazProsfora"
                 android:layout_marginTop="26dp"
                 android:text="Medium Text"
                 android:textAppearance="?android:attr/textAppearanceMedium" />

@@ -21,6 +21,7 @@
     <string name="prosforaMegaro">ΜΕΓΑΡΟ: \n Με αγορά 3 ειδών (πίτσα, πεϊνερλί, καλτσόνε ζυμαρικά ) Δώρο 1  Σαλάτα του σεφ ή  1 αναψυκτικό 1.5lt\n Έκπτωση για ΑΜΕΑ 20%</string>
     <string name="prosforaSweet">SWEET N SALTY: \n Με 3 αλμυρές κρέπες Δώρο 1 Κρέπα σοκολάτα-μπισκότοή  1  Coca-Cola 500ml \n Με 4 αλμυρές κρέπες Δώρο 1 Coca-Cola 1.5lt</string>
 	<string name="prosforaTaz">TAZ: \n Όλα τα φαγητά (νερό+αναψυκτικό+ψωμί) 6,80</string>
+	<string name="prosforaEvrys"></string>
 
 	<string-array name="Evrys_salates">
 	<item>Σεφ</item>
