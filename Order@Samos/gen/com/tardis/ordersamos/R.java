@@ -9,6 +9,7 @@ package com.tardis.ordersamos;
 
 public final class R {
     public static final class array {
+        public static final int Data_Evrys=0x7f060012;
         public static final int Evrys_burger=0x7f06000c;
         public static final int Evrys_burger_times=0x7f06000d;
         public static final int Evrys_omeletes=0x7f060008;
@@ -66,7 +67,7 @@ public final class R {
         public static final int RelativeLayout1=0x7f090009;
         public static final int RelativeLayout2=0x7f090016;
         public static final int action_settings=0x7f090023;
-        public static final int ban=0x7f090029;
+        public static final int ban=0x7f090026;
         public static final int call=0x7f090024;
         public static final int ibtnBanList=0x7f09000e;
         public static final int ibtnCall=0x7f09001e;
@@ -84,7 +85,7 @@ public final class R {
         public static final int ibtnRandomChoice=0x7f090010;
         public static final int ibtnRatings=0x7f090014;
         public static final int ibtnTaz=0x7f090006;
-        public static final int menu=0x7f090028;
+        public static final int menu=0x7f090025;
         public static final int scrollView1=0x7f090000;
         public static final int tvBan=0x7f09000f;
         public static final int tvCall=0x7f090020;
@@ -102,9 +103,6 @@ public final class R {
         public static final int tvTazProsfora=0x7f09001b;
         public static final int tvTitlosProsforas=0x7f09001d;
         public static final int tvTitlosProsfores=0x7f090017;
-        public static final int vodafone=0x7f090026;
-        public static final int whatsup=0x7f090025;
-        public static final int wind=0x7f090027;
     }
     public static final class layout {
         public static final int activity_ban_list=0x7f030000;

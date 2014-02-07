@@ -311,8 +311,13 @@
         <item>4,20</item>
         <item>4,90</item>
 </string-array>
-
-
+<string-array name="Data_Evrys">
+    <item>2273030003</item>
+    <item>2273033868</item>
+    <item>6981898054</item>
+    <item>6944416858</item>
+    <item>6938775152</item>
+</string-array>
 
 
 

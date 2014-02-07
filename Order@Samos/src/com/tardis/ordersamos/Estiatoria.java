@@ -1,7 +1,11 @@
 package com.tardis.ordersamos;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.Dialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.MenuInflater;
@@ -11,6 +15,7 @@ import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.PopupMenu;
 import android.widget.PopupMenu.OnMenuItemClickListener;
+import android.widget.Toast;
 
 public class Estiatoria extends Activity implements OnClickListener, OnMenuItemClickListener{
 	//Context context = getApplicationContext();
@@ -23,19 +28,19 @@ public class Estiatoria extends Activity implements OnClickListener, OnMenuItemC
 	ImageButton ibtnMegaro;
 	ImageButton ibtnKouzina;
 
+	int array_tilefona;
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_estiatoria);
-		initialize ();
-		
-		
-		// AlertDialog.Builder builder = AlertDialog.Builder(this);
-		
+		initialize ();		
 	}
 
 	public  void initialize () {
+		
+		
+		
 		ibtnFame = (ImageButton) findViewById(R.id.ibtnFame);
 		ibtnFame.setOnClickListener(this);
 		
@@ -61,50 +66,6 @@ public class Estiatoria extends Activity implements OnClickListener, OnMenuItemC
 		ibtnKouzina.setOnClickListener(this);
 	}
 	
-	public void createPopup (View v) {
-	    PopupMenu popup = new PopupMenu(this, v);
-	    MenuInflater inflater = popup.getMenuInflater();
-	    inflater.inflate(R.menu.estiatoria_popup, popup.getMenu());
-	    popup.setOnMenuItemClickListener(this);
-	    popup.show();
-	}
-	
-	@Override
-	public boolean onMenuItemClick(MenuItem item) {
-	    switch (item.getItemId()) {
-	        case R.id.whatsup:
-	            //...
-	        	Intent callEvrysWhatsUp = new Intent(Intent.ACTION_DIAL);
-	        	 String numEvrysWhatsUp = "tel:" + "6981898054";
-	        	 callEvrysWhatsUp.setData(Uri.parse(numEvrysWhatsUp));
-	        	  startActivity( callEvrysWhatsUp ) ;
-	        	return true;
-	        case R.id.vodafone:
-	            //...
-	        	Intent callEvrysVodafone = new Intent(Intent.ACTION_DIAL);
-	        	 String numEvrysVodafone = "tel:" + "6944416858";
-	        	 callEvrysVodafone.setData(Uri.parse(numEvrysVodafone));
-	        	  startActivity( callEvrysVodafone ) ;
-	        	return true;
-	        case R.id.wind:
-	            //...
-	        	Intent callEvrysWind = new Intent(Intent.ACTION_DIAL);
-	        	 String numEvrysWind = "tel:" + "6938775152";
-	        	 callEvrysWind.setData(Uri.parse(numEvrysWind));
-	        	  startActivity( callEvrysWind ) ;
-	        	return true;
-	        case R.id.ban:
-	            //...
-	        	return true;
-	        case R.id.menu:
-	            //...
-	        	return true;
-	        default:
-	        	return false;
-	        
-	    }
-	}
-
 	@Override
 	public void onClick(View v) {
 		//boolean katastasi = Settings.loadSettings(getApplicationContext());
@@ -121,10 +82,11 @@ public class Estiatoria extends Activity implements OnClickListener, OnMenuItemC
 			} */
 				
 			createPopup(v);
-			
+			array_tilefona = R.array.Data_Evrys;
 		}
 		if (v.getId() == R.id.ibtnFame) {
 			createPopup(v);
+			
 		}
 		if (v.getId() == R.id.ibtnKoutala) {
 			createPopup(v);
@@ -147,6 +109,77 @@ public class Estiatoria extends Activity implements OnClickListener, OnMenuItemC
 
 	}
 	
+	
+	//popup menu
+	public void createPopup (View v) {
+	    PopupMenu popup = new PopupMenu(this, v);
+	    MenuInflater inflater = popup.getMenuInflater();
+	    inflater.inflate(R.menu.estiatoria_popup, popup.getMenu());
+	    popup.setOnMenuItemClickListener(this);
+	    popup.show();
+	}
+	
+	@Override
+	public boolean onMenuItemClick(MenuItem item) {
+	    switch (item.getItemId()) {
+	        case R.id.call:
+	            //...
+	        	
+	        	createCallDialog();
+	        	
+	        	
+	        	/*Intent callWhatsUp = new Intent(Intent.ACTION_DIAL);
+	        	 String numWhatsUp = "tel:" + tilefona[0];
+	        	 callWhatsUp.setData(Uri.parse(numWhatsUp));
+	        	  startActivity( callWhatsUp ) ;
+	        	return true;*/
+	        /*case R.id.vodafone:
+	            //...
+	        	Intent callVodafone = new Intent(Intent.ACTION_DIAL);
+	        	 String numVodafone = "tel:" + tilefona[1];
+	        	 callVodafone.setData(Uri.parse(numVodafone));
+	        	  startActivity( callVodafone ) ;
+	        	return true;
+	        case R.id.wind:
+	            //...
+	        	Intent callWind = new Intent(Intent.ACTION_DIAL);
+	        	 String numWind = "tel:" + tilefona[2];
+	        	 callWind.setData(Uri.parse(numWind));
+	        	  startActivity( callWind ) ;
+	        	return true;*/
+	        case R.id.ban:
+	            //...
+	        	return true;
+	        case R.id.menu:
+	            //...
+	        	return true;
+	        default:
+	        	return false;
+	        
+	    }
+	}
 
+	//create dialog
+	public void createCallDialog(){
+		new AlertDialog.Builder(this)
+	    .setTitle("Delete entry")
+        .setItems(array_tilefona, new DialogInterface.OnClickListener() {
+               public void onClick(DialogInterface dialog, int which) {
+            	   Resources res =  getResources();
+            	   String tilefona[] = res.getStringArray(array_tilefona);
+            	   callNumber(tilefona[which]);
+         }
+         })
+	     .show();
+	}
+	
+	
+	//call 
+	public void callNumber(String n){
+		Intent iCall = new Intent(Intent.ACTION_DIAL);
+   	 	String number = "tel:" + n;
+   	 	iCall.setData(Uri.parse(number));
+   	 	startActivity( iCall ) ;
+	}
 
 }
