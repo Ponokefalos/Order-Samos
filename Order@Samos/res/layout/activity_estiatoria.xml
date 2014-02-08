@@ -18,7 +18,7 @@
 
         <RelativeLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" >
+            android:layout_height="1046dp" >
 
             <ImageButton
                 android:id="@+id/ibtnFame"
@@ -89,14 +89,34 @@
                 android:src="@drawable/tick" />
 
             <ImageButton
+                android:id="@+id/ibtnVakxos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/ibtnSweet"
+                android:background="@drawable/vakxos"
+                android:src="@drawable/tick" />
+
+            <ImageButton
                 android:id="@+id/ibtnKouzina"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/ibtnMegaro"
-                android:layout_below="@+id/ibtnMegaro"
-                android:layout_marginTop="48dp"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ibtnSweet"
+                android:layout_marginTop="57dp"
                 android:background="@drawable/kouzina"
                 android:src="@drawable/tick" />
+
+            <ImageButton
+                android:id="@+id/ibtnSweet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_below="@+id/ibtnMegaro"
+                android:layout_marginTop="43dp"
+                android:background="@drawable/sweet"
+                android:src="@drawable/tick" />
+
         </RelativeLayout>
     </ScrollView>
 

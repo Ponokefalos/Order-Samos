@@ -364,17 +364,22 @@
     <item>Wind:6909115422</item>
 </string-array>
 
-<string-array name="Til_Vakxos">
-    <item>Stathero:2273035550</item>
-    <item>Whatsup:6978247166</item>
-    <item>Vodafone:6958497907</item>
-</string-array>
 
 <string-array name="Til_SweetnSalty">
     <item>Whatsup:6975808400</item>
     <item>Vodafone:6947577987</item>
 </string-array>
 
+<string-array name="Til_Sweet">
+    <item >WhatsUp:6975808400</item>
+    <item>VodafoneCU:6947577987</item>   
+   </string-array>
+   
+<string-array name="Til_Vakxos">
+    <item>Stathero:2273035550</item>
+    <item>WhatsUp:6978247166</item>
+    <item>VodafoneCU:695497907</item>
+</string-array>
 
 
 
