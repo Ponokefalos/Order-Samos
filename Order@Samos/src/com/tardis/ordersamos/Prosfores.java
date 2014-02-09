@@ -108,21 +108,21 @@ public class Prosfores extends Activity {
 		
 		// Adding child data
 		List<String> Fame = new ArrayList<String>();
-		Fame.add("The Shawshank Redemption fddgfdgdgjjdfjsdlkfjsdfjds  jsdf jdslfj sklfj sd jdjskfjksdjk f");
+		Fame.add("Παραγγελία από 15€-20€ Δώρο 1 Coca-Cola 0.5lt \n Με 2 οικογενειακές  πίτσες Δώρο 1 Coca-Cola 0.5lt \n Παραγγελία πάνω από 20€ Δώρο 1  Coca-Cola1.5lt ή 1 Σαλάτα του σεφ ή 1Κρέπασοκολάτα");
 		
 
 		List<String> Megaro = new ArrayList<String>();
-		Megaro.add("The Conjuring");
+		Megaro.add("Με αγορά 3 ειδών (πίτσα, πεϊνερλί, καλτσόνε ζυμαρικά ) Δώρο 1  Σαλάτα του σεφ ή  1 αναψυκτικό 1.5lt\n Έκπτωση για ΑΜΕΑ 20%");
 		
 
 		List<String> Taz = new ArrayList<String>();
-		Taz.add("2 Guns");
+		Taz.add("Όλα τα φαγητά (νερό+αναψυκτικό+ψωμί) 6,80");
 
 		List<String> Evrys = new ArrayList<String>();
-		Evrys.add("2 Guns");
+		Evrys.add("not yet");
 		
 		List<String> SweetnSalty = new ArrayList<String>();
-		SweetnSalty.add("2 Guns");
+		SweetnSalty.add("Με 3 αλμυρές κρέπες Δώρο 1 Κρέπα σοκολάτα-μπισκότοή  1  Coca-Cola 500ml \n Με 4 αλμυρές κρέπες Δώρο 1 Coca-Cola 1.5lt");
 		
 
 		listDataChild.put(listDataHeader.get(0), Fame); // Header, Child data
