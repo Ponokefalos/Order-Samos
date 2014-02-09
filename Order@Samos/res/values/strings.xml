@@ -354,6 +354,9 @@
 
 <string-array name="Til_Taz">
     <item>Stathero:2273030555</item>
+    <item>Whatsup:6983650315</item>
+    <item>Vodafone:6940525268</item>
+    <item>CosmoteFrog:6976662671</item>
 
 </string-array>
 
@@ -374,8 +377,32 @@
     <item>Whatsup:6975808400</item>
     <item>Vodafone:6947577987</item>
 </string-array>
-<string name="title_activity_image_viewer">ImageViewer</string>
 <string name="title_curl_view">CurlActivity</string>
+<string-array name="Estiatoria">
+    <item >Evrys</item>
+    <item >Fame</item>
+    <item >Koutala</item>
+    <item >Giro</item>
+    <item >Nostos</item>
+    <item >Megaro</item>
+    <item >Taz</item>
+    <item >Kouzina</item>
+    <item >Vakxos</item>
+    <item >SweetnSalty</item>
+</string-array>
+
+<string-array name="Banvalues">
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+</string-array>
 
 
 

@@ -3,17 +3,15 @@ package com.tardis.ordersamos;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ExpandableListView;
 import android.widget.ExpandableListView.OnChildClickListener;
 import android.widget.ExpandableListView.OnGroupClickListener;
-import android.widget.ExpandableListView.OnGroupCollapseListener;
 import android.widget.ExpandableListView.OnGroupExpandListener;
 import android.widget.Toast;
 
-public class Prosfores extends Activity {
+public class Prosfores extends EstiatoriaPopup {
 
 	ExpandableListAdapter listAdapter;
 	ExpandableListView expListView;
@@ -55,20 +53,8 @@ public class Prosfores extends Activity {
 			@Override
 			public void onGroupExpand(int groupPosition) {
 				Toast.makeText(getApplicationContext(),
-						listDataHeader.get(groupPosition) + " Expanded",
+						listDataHeader.get(groupPosition) + "Click on text to Call",
 						Toast.LENGTH_SHORT).show();
-			}
-		});
-
-		// Listview Group collasped listener
-		expListView.setOnGroupCollapseListener(new OnGroupCollapseListener() {
-
-			@Override
-			public void onGroupCollapse(int groupPosition) {
-				Toast.makeText(getApplicationContext(),
-						listDataHeader.get(groupPosition) + " Collapsed",
-						Toast.LENGTH_SHORT).show();
-
 			}
 		});
 
@@ -79,14 +65,27 @@ public class Prosfores extends Activity {
 			public boolean onChildClick(ExpandableListView parent, View v,
 					int groupPosition, int childPosition, long id) {
 				// TODO Auto-generated method stub
-				Toast.makeText(
-						getApplicationContext(),
-						listDataHeader.get(groupPosition)
-								+ " : "
-								+ listDataChild.get(
-										listDataHeader.get(groupPosition)).get(
-										childPosition), Toast.LENGTH_SHORT)
-						.show();
+				
+				if (childPosition == 0){//Fame
+					setArray_tilefona(R.array.Til_Fame);
+					createCallDialog();
+				}
+				else if (childPosition == 1){//Megaro
+					setArray_tilefona(R.array.Til_Megaro);
+					createCallDialog();
+				}
+				else if (childPosition == 2){//Taz
+					setArray_tilefona(R.array.Til_Taz);
+					createCallDialog();
+				}
+				else if (childPosition == 3){//Evrys
+					setArray_tilefona(R.array.Til_Evrys);
+					createCallDialog();
+				}
+				else if (childPosition == 4){//SweetnSalty
+					setArray_tilefona(R.array.Til_SweetnSalty);
+					createCallDialog();
+				}
 				return false;
 			}
 		});
@@ -108,21 +107,19 @@ public class Prosfores extends Activity {
 		
 		// Adding child data
 		List<String> Fame = new ArrayList<String>();
-		Fame.add("Παραγγελία από 15€-20€ Δώρο 1 Coca-Cola 0.5lt \n Με 2 οικογενειακές  πίτσες Δώρο 1 Coca-Cola 0.5lt \n Παραγγελία πάνω από 20€ Δώρο 1  Coca-Cola1.5lt ή 1 Σαλάτα του σεφ ή 1Κρέπασοκολάτα");
+		Fame.add(getResources().getString(R.string.prosforaFame));
 		
-
 		List<String> Megaro = new ArrayList<String>();
-		Megaro.add("Με αγορά 3 ειδών (πίτσα, πεϊνερλί, καλτσόνε ζυμαρικά ) Δώρο 1  Σαλάτα του σεφ ή  1 αναψυκτικό 1.5lt\n Έκπτωση για ΑΜΕΑ 20%");
+		Megaro.add(getResources().getString(R.string.prosforaMegaro));
 		
-
 		List<String> Taz = new ArrayList<String>();
-		Taz.add("Όλα τα φαγητά (νερό+αναψυκτικό+ψωμί) 6,80");
+		Taz.add(getResources().getString(R.string.prosforaTaz));
 
 		List<String> Evrys = new ArrayList<String>();
-		Evrys.add("not yet");
+		Evrys.add(getResources().getString(R.string.prosforaEvrys));
 		
 		List<String> SweetnSalty = new ArrayList<String>();
-		SweetnSalty.add("Με 3 αλμυρές κρέπες Δώρο 1 Κρέπα σοκολάτα-μπισκότοή  1  Coca-Cola 500ml \n Με 4 αλμυρές κρέπες Δώρο 1 Coca-Cola 1.5lt");
+		SweetnSalty.add(getResources().getString(R.string.prosforaSweet));
 		
 
 		listDataChild.put(listDataHeader.get(0), Fame); // Header, Child data

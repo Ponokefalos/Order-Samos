@@ -9,34 +9,36 @@ package com.tardis.ordersamos;
 
 public final class R {
     public static final class array {
-        public static final int Evrys_burger=0x7f06000c;
-        public static final int Evrys_burger_times=0x7f06000d;
-        public static final int Evrys_omeletes=0x7f060008;
-        public static final int Evrys_omeletes_times=0x7f060009;
-        public static final int Evrys_orektika=0x7f060002;
-        public static final int Evrys_orektika_times=0x7f060003;
-        public static final int Evrys_piata=0x7f060006;
-        public static final int Evrys_piata_times=0x7f060007;
-        public static final int Evrys_pites=0x7f060004;
-        public static final int Evrys_pites_times=0x7f060005;
-        public static final int Evrys_pitses_mikres_megales=0x7f060010;
-        public static final int Evrys_pitses_mikres_megales_times=0x7f060011;
-        public static final int Evrys_salates=0x7f060000;
-        public static final int Evrys_salates_times=0x7f060001;
-        public static final int Evrys_submarine_sandwich=0x7f06000e;
-        public static final int Evrys_submarine_sandwitch_times=0x7f06000f;
-        public static final int Evrys_zumarika=0x7f06000a;
-        public static final int Evrys_zumarika_times=0x7f06000b;
-        public static final int Til_Evrys=0x7f060012;
-        public static final int Til_Fame=0x7f060013;
-        public static final int Til_Giro=0x7f060015;
-        public static final int Til_Koutala=0x7f060014;
-        public static final int Til_Kouzina=0x7f060019;
-        public static final int Til_Megaro=0x7f060017;
-        public static final int Til_Nostos=0x7f060016;
-        public static final int Til_SweetnSalty=0x7f06001b;
-        public static final int Til_Taz=0x7f060018;
-        public static final int Til_Vakxos=0x7f06001a;
+        public static final int Banvalues=0x7f07001d;
+        public static final int Estiatoria=0x7f07001c;
+        public static final int Evrys_burger=0x7f07000c;
+        public static final int Evrys_burger_times=0x7f07000d;
+        public static final int Evrys_omeletes=0x7f070008;
+        public static final int Evrys_omeletes_times=0x7f070009;
+        public static final int Evrys_orektika=0x7f070002;
+        public static final int Evrys_orektika_times=0x7f070003;
+        public static final int Evrys_piata=0x7f070006;
+        public static final int Evrys_piata_times=0x7f070007;
+        public static final int Evrys_pites=0x7f070004;
+        public static final int Evrys_pites_times=0x7f070005;
+        public static final int Evrys_pitses_mikres_megales=0x7f070010;
+        public static final int Evrys_pitses_mikres_megales_times=0x7f070011;
+        public static final int Evrys_salates=0x7f070000;
+        public static final int Evrys_salates_times=0x7f070001;
+        public static final int Evrys_submarine_sandwich=0x7f07000e;
+        public static final int Evrys_submarine_sandwitch_times=0x7f07000f;
+        public static final int Evrys_zumarika=0x7f07000a;
+        public static final int Evrys_zumarika_times=0x7f07000b;
+        public static final int Til_Evrys=0x7f070012;
+        public static final int Til_Fame=0x7f070013;
+        public static final int Til_Giro=0x7f070015;
+        public static final int Til_Koutala=0x7f070014;
+        public static final int Til_Kouzina=0x7f070019;
+        public static final int Til_Megaro=0x7f070017;
+        public static final int Til_Nostos=0x7f070016;
+        public static final int Til_SweetnSalty=0x7f07001b;
+        public static final int Til_Taz=0x7f070018;
+        public static final int Til_Vakxos=0x7f07001a;
     }
     public static final class attr {
     }
@@ -47,8 +49,8 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
         public static final int ban=0x7f020000;
@@ -127,43 +129,43 @@ public final class R {
         public static final int vakxos5=0x7f020049;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f090016;
-        public static final int RelativeLayout1=0x7f090009;
-        public static final int action_settings=0x7f090021;
-        public static final int ban=0x7f090024;
-        public static final int call=0x7f090022;
-        public static final int curl=0x7f09001e;
-        public static final int ibtnBanList=0x7f09000e;
-        public static final int ibtnCall=0x7f090019;
-        public static final int ibtnEstiatoria=0x7f09000a;
-        public static final int ibtnEvris=0x7f090002;
-        public static final int ibtnFame=0x7f090001;
-        public static final int ibtnGiro=0x7f090004;
-        public static final int ibtnKatigories=0x7f09000c;
-        public static final int ibtnKoutala=0x7f090003;
-        public static final int ibtnKouzina=0x7f090008;
-        public static final int ibtnMegaro=0x7f090007;
-        public static final int ibtnNostos=0x7f090005;
-        public static final int ibtnProsfores=0x7f090012;
-        public static final int ibtnRandom=0x7f09001c;
-        public static final int ibtnRandomChoice=0x7f090010;
-        public static final int ibtnRatings=0x7f090014;
-        public static final int ibtnTaz=0x7f090006;
-        public static final int lblListHeader=0x7f09001f;
-        public static final int lblListItem=0x7f090020;
-        public static final int lvExp=0x7f090017;
-        public static final int menu=0x7f090023;
-        public static final int scrollView1=0x7f090000;
-        public static final int tvBan=0x7f09000f;
-        public static final int tvCall=0x7f09001b;
-        public static final int tvEstiatoria=0x7f09000b;
-        public static final int tvFagito=0x7f09001a;
-        public static final int tvKatigories=0x7f09000d;
-        public static final int tvOnomaMagaziou=0x7f09001d;
-        public static final int tvProsfores=0x7f090013;
-        public static final int tvRandom=0x7f090011;
-        public static final int tvRatings=0x7f090015;
-        public static final int tvTitlosProsforas=0x7f090018;
+        public static final int LinearLayout1=0x7f0a0016;
+        public static final int RelativeLayout1=0x7f0a0009;
+        public static final int action_settings=0x7f0a0021;
+        public static final int ban=0x7f0a0024;
+        public static final int call=0x7f0a0022;
+        public static final int curl=0x7f0a001e;
+        public static final int ibtnBanList=0x7f0a000e;
+        public static final int ibtnCall=0x7f0a0019;
+        public static final int ibtnEstiatoria=0x7f0a000a;
+        public static final int ibtnEvris=0x7f0a0002;
+        public static final int ibtnFame=0x7f0a0001;
+        public static final int ibtnGiro=0x7f0a0004;
+        public static final int ibtnKatigories=0x7f0a000c;
+        public static final int ibtnKoutala=0x7f0a0003;
+        public static final int ibtnKouzina=0x7f0a0008;
+        public static final int ibtnMegaro=0x7f0a0007;
+        public static final int ibtnNostos=0x7f0a0005;
+        public static final int ibtnProsfores=0x7f0a0012;
+        public static final int ibtnRandom=0x7f0a001c;
+        public static final int ibtnRandomChoice=0x7f0a0010;
+        public static final int ibtnRatings=0x7f0a0014;
+        public static final int ibtnTaz=0x7f0a0006;
+        public static final int lblListHeader=0x7f0a001f;
+        public static final int lblListItem=0x7f0a0020;
+        public static final int lvExp=0x7f0a0017;
+        public static final int menu=0x7f0a0023;
+        public static final int scrollView1=0x7f0a0000;
+        public static final int tvBan=0x7f0a000f;
+        public static final int tvCall=0x7f0a001b;
+        public static final int tvEstiatoria=0x7f0a000b;
+        public static final int tvFagito=0x7f0a001a;
+        public static final int tvKatigories=0x7f0a000d;
+        public static final int tvOnomaMagaziou=0x7f0a001d;
+        public static final int tvProsfores=0x7f0a0013;
+        public static final int tvRandom=0x7f0a0011;
+        public static final int tvRatings=0x7f0a0015;
+        public static final int tvTitlosProsforas=0x7f0a0018;
     }
     public static final class layout {
         public static final int activity_ban_list=0x7f030000;
@@ -178,36 +180,35 @@ public final class R {
         public static final int list_item=0x7f030009;
     }
     public static final class menu {
-        public static final int ban_list=0x7f080000;
-        public static final int estiatoria=0x7f080001;
-        public static final int estiatoria_popup=0x7f080002;
-        public static final int katigories=0x7f080003;
-        public static final int main_menu=0x7f080004;
-        public static final int prosfores=0x7f080005;
-        public static final int random_choice=0x7f080006;
-        public static final int ratings=0x7f080007;
+        public static final int ban_list=0x7f090000;
+        public static final int estiatoria=0x7f090001;
+        public static final int estiatoria_popup=0x7f090002;
+        public static final int katigories=0x7f090003;
+        public static final int main_menu=0x7f090004;
+        public static final int prosfores=0x7f090005;
+        public static final int random_choice=0x7f090006;
+        public static final int ratings=0x7f090007;
     }
     public static final class string {
-        public static final int action_settings=0x7f050001;
-        public static final int app_name=0x7f050000;
-        public static final int hello_world=0x7f050002;
-        public static final int prosforaEvrys=0x7f050011;
-        public static final int prosforaFame=0x7f05000d;
-        public static final int prosforaMegaro=0x7f05000e;
-        public static final int prosforaSweet=0x7f05000f;
-        public static final int prosforaTaz=0x7f050010;
-        public static final int random_fagito=0x7f05000b;
-        public static final int random_magazi=0x7f05000a;
-        public static final int title_Random_Choice=0x7f050009;
-        public static final int title_activity_ban_list=0x7f050005;
-        public static final int title_activity_estiatoria=0x7f050003;
-        public static final int title_activity_image_viewer=0x7f050012;
-        public static final int title_activity_katigories=0x7f050004;
-        public static final int title_activity_prosfores=0x7f050007;
-        public static final int title_activity_random_choice=0x7f050006;
-        public static final int title_activity_ratings=0x7f050008;
-        public static final int title_curl_view=0x7f050013;
-        public static final int title_prosfores=0x7f05000c;
+        public static final int action_settings=0x7f060001;
+        public static final int app_name=0x7f060000;
+        public static final int hello_world=0x7f060002;
+        public static final int prosforaEvrys=0x7f060011;
+        public static final int prosforaFame=0x7f06000d;
+        public static final int prosforaMegaro=0x7f06000e;
+        public static final int prosforaSweet=0x7f06000f;
+        public static final int prosforaTaz=0x7f060010;
+        public static final int random_fagito=0x7f06000b;
+        public static final int random_magazi=0x7f06000a;
+        public static final int title_Random_Choice=0x7f060009;
+        public static final int title_activity_ban_list=0x7f060005;
+        public static final int title_activity_estiatoria=0x7f060003;
+        public static final int title_activity_katigories=0x7f060004;
+        public static final int title_activity_prosfores=0x7f060007;
+        public static final int title_activity_random_choice=0x7f060006;
+        public static final int title_activity_ratings=0x7f060008;
+        public static final int title_curl_view=0x7f060012;
+        public static final int title_prosfores=0x7f06000c;
     }
     public static final class style {
         /** 
@@ -231,10 +232,13 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f080001;
+    }
+    public static final class xml {
+        public static final int ban=0x7f040000;
     }
 }

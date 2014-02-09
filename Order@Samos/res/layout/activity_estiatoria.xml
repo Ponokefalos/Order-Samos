@@ -1,4 +1,4 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -9,33 +9,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Estiatoria" >
 
+
+
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" >
+         >
 
-        <RelativeLayout
-            android:layout_width="wrap_content"
-            android:layout_height="1063dp" >
+        <LinearLayout
+            android:layout_width="292dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
 
             <ImageButton
                 android:id="@+id/ibtnFame"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
                 android:background="@drawable/fame"
                 android:src="@drawable/tick"
-                />
+                android:tag="Fame" />
 
             <ImageButton
                 android:id="@+id/ibtnEvris"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentTop="true"
+                android:layout_gravity="center"
                 android:background="@drawable/evris"
                 android:src="@drawable/tick" />
 
@@ -43,8 +43,7 @@
                 android:id="@+id/ibtnKoutala"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_below="@+id/ibtnEvris"
+                android:layout_gravity="center"
                 android:layout_marginTop="58dp"
                 android:background="@drawable/koutala"
                 android:src="@drawable/tick" />
@@ -53,8 +52,7 @@
                 android:id="@+id/ibtnGiro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignBottom="@+id/ibtnKoutala"
-                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
                 android:background="@drawable/giro"
                 android:src="@drawable/tick" />
 
@@ -62,8 +60,7 @@
                 android:id="@+id/ibtnNostos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentLeft="true"
-                android:layout_below="@+id/ibtnKoutala"
+                android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="56dp"
                 android:background="@drawable/nostos"
@@ -73,8 +70,7 @@
                 android:id="@+id/ibtnTaz"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_alignTop="@+id/ibtnNostos"
+                android:layout_gravity="center"
                 android:background="@drawable/taz"
                 android:src="@drawable/tick" />
 
@@ -82,8 +78,7 @@
                 android:id="@+id/ibtnMegaro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/ibtnNostos"
-                android:layout_below="@+id/ibtnNostos"
+                android:layout_gravity="center"
                 android:layout_marginTop="46dp"
                 android:background="@drawable/megaro"
                 android:src="@drawable/tick" />
@@ -92,12 +87,11 @@
                 android:id="@+id/ibtnKouzina"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_alignLeft="@+id/ibtnMegaro"
-                android:layout_below="@+id/ibtnMegaro"
+                android:layout_gravity="center"
                 android:layout_marginTop="48dp"
                 android:background="@drawable/kouzina"
                 android:src="@drawable/tick" />
-        </RelativeLayout>
+        </LinearLayout>
     </ScrollView>
 
-</RelativeLayout>
+</LinearLayout>
