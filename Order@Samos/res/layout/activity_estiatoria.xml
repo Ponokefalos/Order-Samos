@@ -9,17 +9,14 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Estiatoria" >
 
-
-
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-         >
+        android:layout_height="wrap_content" >
 
         <LinearLayout
-            android:layout_width="292dp"
-            android:layout_height="wrap_content"
+            android:layout_width="319dp"
+            android:layout_height="1141dp"
             android:orientation="vertical" >
 
             <ImageButton
