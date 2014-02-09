@@ -1,43 +1,134 @@
 package com.tardis.ordersamos;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
 import android.app.Activity;
 import android.os.Bundle;
-import android.widget.TextView;
+import android.view.View;
+import android.widget.ExpandableListView;
+import android.widget.ExpandableListView.OnChildClickListener;
+import android.widget.ExpandableListView.OnGroupClickListener;
+import android.widget.ExpandableListView.OnGroupCollapseListener;
+import android.widget.ExpandableListView.OnGroupExpandListener;
+import android.widget.Toast;
 
 public class Prosfores extends Activity {
 
-	
-	TextView tvTitlosProsfores,tvFameProsfora,tvMegaroProsfora,tvSweetProsfora,tvTazProsfora,tvEvrysProsfora;
-	String titleProsfores,prosfora1,prosfora2,prosfora3,prosfora4,prosfora5;
+	ExpandableListAdapter listAdapter;
+	ExpandableListView expListView;
+	List<String> listDataHeader;
+	HashMap<String, List<String>> listDataChild;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_prosfores);
-		
-		tvTitlosProsfores = (TextView)findViewById(R.id.tvTitlosProsforas);
-		tvFameProsfora= (TextView)findViewById(R.id.tvProsforaFame);
-		tvMegaroProsfora=(TextView) findViewById(R.id.tvMegaroProsfora);
-		tvSweetProsfora=(TextView) findViewById(R.id.tvSweetProsfora);
-		tvTazProsfora=(TextView) findViewById(R.id.tvTazProsfora);
-		tvEvrysProsfora=(TextView)findViewById(R.id.tvEvrysProsfora);
-		
-		//title= getResources().getString(R.string.title_Random_Choice);
-		titleProsfores=getResources().getString(R.string.title_prosfores);
-		prosfora1=getResources().getString(R.string.prosforaFame);
-		prosfora2=getResources().getString(R.string.prosforaMegaro);
-		prosfora3=getResources().getString(R.string.prosforaSweet);
-		prosfora4=getResources().getString(R.string.prosforaTaz);
-		prosfora5=getResources().getString(R.string.prosforaEvrys);//prepei na simplirwsw tin prosfora tou 
-		
-		//tvTitlosProsfores.setText(titleProsfores);
-		tvFameProsfora.setText(prosfora1);
-		tvMegaroProsfora.setText(prosfora2);
-		tvSweetProsfora.setText(prosfora3);
-		tvTazProsfora.setText(prosfora4);
-		
+
+		// get the listview
+		expListView = (ExpandableListView) findViewById(R.id.lvExp);
+
+		// preparing list data
+		prepareListData();
+
+		listAdapter = new ExpandableListAdapter(this, listDataHeader, listDataChild);
+
+		// setting list adapter
+		expListView.setAdapter(listAdapter);
+
+		// Listview Group click listener
+		expListView.setOnGroupClickListener(new OnGroupClickListener() {
+
+			@Override
+			public boolean onGroupClick(ExpandableListView parent, View v,
+					int groupPosition, long id) {
+				// Toast.makeText(getApplicationContext(),
+				// "Group Clicked " + listDataHeader.get(groupPosition),
+				// Toast.LENGTH_SHORT).show();
+				return false;
+			}
+		});
+
+		// Listview Group expanded listener
+		expListView.setOnGroupExpandListener(new OnGroupExpandListener() {
+
+			@Override
+			public void onGroupExpand(int groupPosition) {
+				Toast.makeText(getApplicationContext(),
+						listDataHeader.get(groupPosition) + " Expanded",
+						Toast.LENGTH_SHORT).show();
+			}
+		});
+
+		// Listview Group collasped listener
+		expListView.setOnGroupCollapseListener(new OnGroupCollapseListener() {
+
+			@Override
+			public void onGroupCollapse(int groupPosition) {
+				Toast.makeText(getApplicationContext(),
+						listDataHeader.get(groupPosition) + " Collapsed",
+						Toast.LENGTH_SHORT).show();
+
+			}
+		});
+
+		// Listview on child click listener
+		expListView.setOnChildClickListener(new OnChildClickListener() {
+
+			@Override
+			public boolean onChildClick(ExpandableListView parent, View v,
+					int groupPosition, int childPosition, long id) {
+				// TODO Auto-generated method stub
+				Toast.makeText(
+						getApplicationContext(),
+						listDataHeader.get(groupPosition)
+								+ " : "
+								+ listDataChild.get(
+										listDataHeader.get(groupPosition)).get(
+										childPosition), Toast.LENGTH_SHORT)
+						.show();
+				return false;
+			}
+		});
 	}
 
-	
-	
+	/*
+	 * Preparing the list data
+	 */
+	private void prepareListData() {
+		listDataHeader = new ArrayList<String>();
+		listDataChild = new HashMap<String, List<String>>();
 
+		// Adding child data
+		listDataHeader.add("Fame");
+		listDataHeader.add("Megaro");
+		listDataHeader.add("Taz");
+		listDataHeader.add("Evrys");
+		listDataHeader.add("Sweet & Salty");
+		
+		// Adding child data
+		List<String> Fame = new ArrayList<String>();
+		Fame.add("The Shawshank Redemption fddgfdgdgjjdfjsdlkfjsdfjds  jsdf jdslfj sklfj sd jdjskfjksdjk f");
+		
+
+		List<String> Megaro = new ArrayList<String>();
+		Megaro.add("The Conjuring");
+		
+
+		List<String> Taz = new ArrayList<String>();
+		Taz.add("2 Guns");
+
+		List<String> Evrys = new ArrayList<String>();
+		Evrys.add("2 Guns");
+		
+		List<String> SweetnSalty = new ArrayList<String>();
+		SweetnSalty.add("2 Guns");
+		
+
+		listDataChild.put(listDataHeader.get(0), Fame); // Header, Child data
+		listDataChild.put(listDataHeader.get(1), Megaro);
+		listDataChild.put(listDataHeader.get(2), Taz);
+		listDataChild.put(listDataHeader.get(3), Evrys);
+		listDataChild.put(listDataHeader.get(4), SweetnSalty);
+	}
 }
