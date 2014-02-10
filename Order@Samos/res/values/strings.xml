@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Order@Samos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_estiatoria">Estiatoria</string>
+    <string name="title_activity_katigories">Katigories</string>
+    <string name="title_activity_ban_list">BanList</string>
+    <string name="title_activity_random_choice">RandomChoice</string>
+    <string name="title_activity_prosfores">Prosfores</string>
+    <string name="title_activity_ratings">Ratings</string>
+
+    
+    <string name="title_Random_Choice">Δεν ξερεις τι να παραγγείλεις;\n Πατα το Random και θα σου προτείνουμε εμείς!</string>
+	<string name="random_magazi"> Μαγαζι:</string>
+	<string name="random_fagito"> Φαγητο:</string>
+	
+	<string name="title_prosfores">Οι προσφορές στα εστιτόρια του Καρλοβάσου ειναι:</string>
+	<string name="prosforaFame">FAME: \n Παραγγελία από 15€-20€ Δώρο 1 Coca-Cola 0.5lt \n Με 2 οικογενειακές  πίτσες Δώρο 1 Coca-Cola 0.5lt \n Παραγγελία πάνω από 20€ Δώρο 1  Coca-Cola1.5lt ή 1 Σαλάτα του σεφ ή 1Κρέπασοκολάτα</string>
+    <string name="prosforaMegaro">ΜΕΓΑΡΟ: \n Με αγορά 3 ειδών (πίτσα, πεϊνερλί, καλτσόνε ζυμαρικά ) Δώρο 1  Σαλάτα του σεφ ή  1 αναψυκτικό 1.5lt\n Έκπτωση για ΑΜΕΑ 20%</string>
+    <string name="prosforaSweet">SWEET N SALTY: \n Με 3 αλμυρές κρέπες Δώρο 1 Κρέπα σοκολάτα-μπισκότοή  1  Coca-Cola 500ml \n Με 4 αλμυρές κρέπες Δώρο 1 Coca-Cola 1.5lt</string>
+	<string name="prosforaTaz">TAZ: \n Όλα τα φαγητά (νερό+αναψυκτικό+ψωμί) 6,80</string>
+	<string name="prosforaEvrys"></string>
+
+
+<string-array name="Til_Evrys">
+    <item>Stathero1:2273030003</item>
+    <item>Stathero2:2273033868</item>
+    <item>Whatsup:6981898054</item>
+    <item>Vodafone:6944416858</item>
+    <item>Wind:6938775152</item>
+</string-array>
+
+<string-array name="Til_Fame">
+    <item>Stathero1:2273035660</item>
+    <item>Stathero2:2273032795</item>
+    <item>Whatsup:6986900770</item>
+    <item>Wind:6934626363</item>
+</string-array>
+
+<string-array name="Til_Koutala">
+    <item>Stathero1:2273030990</item>
+    <item>Stathero2:2273030991</item>
+    <item>Whatsup:6971608818</item>
+    <item>Vodafone:6945416222</item>
+    <item>Wind:6934689698</item>
+</string-array>
+
+<string-array name="Til_Giro">
+    <item>Stathero:2273079066</item>
+    <item>Whatsup:6973683233</item>
+    <item>Vodafone:6943251313</item>
+    <item>Wind:6909115454</item>
+</string-array>
+
+<string-array name="Til_Nostos">
+    <item>Stathero:2273035365</item>
+</string-array>
+
+<string-array name="Til_Megaro">
+    <item>Stather1:2273030666</item>
+    <item>Whatsup:6978315170</item>
+    <item>Vodafone:6947554496</item>
+    <item>Wind:6930826536</item>
+</string-array>
+
+<string-array name="Til_Taz">
+    <item>Stathero:2273030555</item>
+    <item>Whatsup:6983650315</item>
+    <item>Vodafone:6940525268</item>
+    <item>CosmoteFrog:6976662671</item>
+
+</string-array>
+
+<string-array name="Til_Kouzina">
+    <item>Stathero:2273079165</item>
+    <item>Whatsup:6982309583</item>
+    <item>Vodafone:6940949484</item>
+    <item>Wind:6909115422</item>
+</string-array>
+
+<string-array name="Til_Vakxos">
+    <item>Stathero:2273035550</item>
+    <item>Whatsup:6978247166</item>
+    <item>Vodafone:6958497907</item>
+</string-array>
+
+<string-array name="Til_SweetnSalty">
+    <item>Whatsup:6975808400</item>
+    <item>Vodafone:6947577987</item>
+</string-array>
+<string name="title_curl_view">CurlActivity</string>
+<string-array name="Estiatoria">
+    <item >Evrys</item>
+    <item >Fame</item>
+    <item >Koutala</item>
+    <item >Giro</item>
+    <item >Nostos</item>
+    <item >Megaro</item>
+    <item >Taz</item>
+    <item >Kouzina</item>
+    <item >Vakxos</item>
+    <item >SweetnSalty</item>
+</string-array>
+
+<string-array name="Banvalues">
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+    <item >false</item>
+</string-array>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+</resources>
