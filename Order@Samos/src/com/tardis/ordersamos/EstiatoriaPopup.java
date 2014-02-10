@@ -76,6 +76,13 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 	        	else if (button_id == R.id.ibtnKouzina){
 	        		checkbuttonid = "Kouzina";
 	        	}
+	        	else if (button_id == R.id.ibtnVakxos){
+	        		checkbuttonid = "Vakxos";
+	        	}
+	        	else if (button_id == R.id.ibtnSweet){
+	        		checkbuttonid = "Sweet";
+	        	}
+
 	   
 	        	
 	        	//8eti tin timi tu sigkekrimenu checkbutton se banned = true

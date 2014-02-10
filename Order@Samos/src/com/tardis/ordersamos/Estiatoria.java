@@ -18,6 +18,8 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 	ImageButton ibtnTaz;
 	ImageButton ibtnMegaro;
 	ImageButton ibtnKouzina;
+	ImageButton ibtnVakxos;
+	ImageButton ibtnSweet;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -82,6 +84,7 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 			View b = findViewById(R.id.ibtnKouzina);
 			b.setVisibility(View.GONE);
 		}
+	
 		
 				
 	}
@@ -113,6 +116,12 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 		
 		ibtnKouzina = (ImageButton) findViewById(R.id.ibtnKouzina);
 		ibtnKouzina.setOnClickListener(this);
+
+		ibtnVakxos = (ImageButton) findViewById(R.id.ibtnVakxos);
+		ibtnVakxos.setOnClickListener(this);
+	
+		ibtnSweet = (ImageButton) findViewById(R.id.ibtnSweet);
+		ibtnSweet.setOnClickListener(this);
 	}
 	
 	@Override
@@ -183,6 +192,21 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 			menu = new int [] {R.drawable.kouzmamas1,R.drawable.kouzmamas2,R.drawable.kouzmamas3,
 					 R.drawable.kouzmamas4,R.drawable.kouzmamas5};
 			button_id =  R.id.ibtnKouzina;
+		}
+		else if (v.getId() == R.id.ibtnVakxos) {
+			createPopup(v);
+			array_tilefona = R.array.Til_Vakxos;
+			menu = new int [] {R.drawable.vakxos1,R.drawable.vakxos2,R.drawable.vakxos3,
+					 R.drawable.vakxos4,R.drawable.vakxos5};
+			button_id =  R.id.ibtnVakxos;
+			
+		}
+		else if (v.getId() == R.id.ibtnSweet) {
+			createPopup(v);
+			array_tilefona = R.array.Til_SweetnSalty;
+			menu = new int [] {R.drawable.sweet1,R.drawable.sweet2,R.drawable.sweet3,
+					 R.drawable.sweet4,R.drawable.sweet5,R.drawable.sweet6};
+			button_id =  R.id.ibtnSweet;
 		}
 
 	}

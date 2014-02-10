@@ -88,6 +88,22 @@
                 android:layout_marginTop="48dp"
                 android:background="@drawable/kouzina"
                 android:src="@drawable/tick" />
+            <ImageButton
+                android:id="@+id/ibtnVakxos"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/vakxos"
+                android:src="@drawable/tick" />
+              <ImageButton
+                android:id="@+id/ibtnSweet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="48dp"
+                android:background="@drawable/sweet"
+                android:src="@drawable/tick" />
         </LinearLayout>
     </ScrollView>
 
