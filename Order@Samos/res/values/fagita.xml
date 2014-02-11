@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- //////////////////////////////// BAKXOS////////////////////// -->
+    <string-array name="Bakxos_orektika">
+	<item>Τζαζίκι$2.50</item>
+	<item>Τυροκαυτερή$2.50</item>
+	<item>Τυροσαλάτα$2.50</item>
+	<item>Σαγανάκι τυρί$2.50</item>
+	<item>Φέτα ελληνική$2.50</item>
+	<item>Πατάτες$2.50</item>
+	<item>Πατάτες με τυρί ή σως$3.00</item>
+</string-array>
+
+<string-array name="Bakxos_salates">
+	<item>Χωριάτικη$4.00</item>
+	<item>Ντομάτα K αγγούρι$3.00</item>
+	<item>Μαρουλοσαλάτα$3.00</item>
+	<item>Λαχανοσαλάτα$3.00</item>
+</string-array>
+
+<string-array name="Bakxos_sandwich">
+	<item>Καλαμάκι κοτόπουλο$2,80</item>
+	<item>Κεμπάπ$2,80</item>
+	<item>Γύρο χοιρινό$2,80</item>
+	<item>Γυρό κοτόπουλο$2,80</item>
+	<item>Μπιφτέκι$2,80</item>
+	<item>Καλαμάκι χοιρινό$2,80</item>
+	<item>Λουκάνικο$2,80</item>
+        <item>Κοντοσούβλι$2,80</item>
+        <item>Κοτομπέικον$2,80</item>
+</string-array>
+
+<string-array name="Bakxos_souvlista">
+	<item>Κοτόπουλο σούβλας 1400γρ$12,00</item>
+	<item>Κοντοσούβλι</item>
+	<item>Κοκορέτσι</item>
+	<item>Εξοχικό</item>
+</string-array>
+
+<string-array name="Bakxos_souvlista_times">
+	<item>12,00</item>
+	<item>7,00</item>
+	<item>8,00</item>
+	<item>8,00</item>
+</string-array>
+
+<string-array name="Bakxos_mageireuta">
+	<item>Μοσχάρι κοκκινιστό</item>
+	<item>Μακαρόνια με κίμα</item>
+	<item>Μακαρόνια με σάλτσα,τυρί</item>
+	<item>Καρμπονάρα</item>
+</string-array>
+
+<string-array name="Bakxos_mageireuta_times">
+	<item>7,80</item>
+	<item>5,50</item>
+	<item>3,50</item>
+	<item>5,50</item>
+</string-array>
+
+<string-array name="Bakxos_merides">
+	<item>Κοτόπουλο σχάρας</item>
+	<item>Φιλέτο Κοτόπουλο</item>
+	<item>Γύρος χοιρινός</item>
+	<item>Γύρος Κοτόπουλο</item>
+	<item>Μπριζόλα χοιρινή</item>
+	<item>Μπιφτέκι</item>
+	<item>Καλαμάκια χοιρινά-4τεμ.</item>
+        <item>Καλαμάκια κοτόπουλο-3τεμ.</item>
+        <item>Κοτομπέικον-3τεμ.</item>
+        <item>Κεμπάπ-3τεμ.</item>
+        <item>Παντσέτα</item>
+        <item>Λουκάνικο χωριάτικο</item>
+        <item>Καλαμάκι χοιρινό-1τεμ.</item>
+        <item>Καλαμάκι κοτόπουλο-1τεμ.</item>
+</string-array>
+
+<string-array name="Bakxos_merides_times">
+	<item>12,00</item>
+	<item>7,00</item>
+	<item>7,00</item>
+	<item>7,00</item>
+	<item>7,00</item>
+	<item>6,00</item>
+	<item>7,00</item>
+        <item>7,00</item>
+        <item>7,00</item>
+        <item>7,00</item>
+	<item>7,00</item>
+        <item>6,00</item>
+        <item>1,50</item>
+        <item>1,50</item>
+</string-array>
+
+<string-array name="Bakxos_pites">
+	<item>Με καλαμάκι χοιρινό</item>
+	<item>Με γύρο χοιρινό</item>
+	<item>Με γύρο κοτόπουλο</item>
+	<item>Με κοντοσούβλι</item>
+	<item>Με μπιφτέκι</item>
+	<item>Με λουκάνικο</item>
+	<item>Με καλαμάκι-κοτόπουλο</item>
+        <item>Με κεμπάπ</item>
+        <item>Με κοτομπέικον</item>
+        <item>Οικολογική</item>
+	<item>Καλαμάκι χοιρινό</item>
+	<item>Καλαμάκι κοτόπουλο</item>
+	<item>Κεμπάπ</item>
+        <item>Κοτομπέικον</item>
+        <item>Σκεπαστή με γύρο χοιρινό</item>
+        <item>Σκεπαστή με γύρο κοτόπουλο</item>
+</string-array>
+
+<string-array name="Bakxos_pites_times">
+	<item>2,20</item>
+	<item>2,20</item>
+	<item>2,20</item>
+	<item>2,20</item>
+	<item>2,20</item>
+	<item>2,20</item>
+	<item>2,20</item>
+        <item>2,20</item>
+        <item>2,20</item>
+        <item>1,50</item>
+	<item>1,50</item>
+	<item>1,50</item>
+	<item>1,70</item>
+        <item>1,70</item>
+        <item>5,50</item>
+        <item>5,50</item>
+</string-array>
+
+<string-array name="Bakxos_burger">
+	<item>Burger κοτόπουλο</item>
+	<item>Burger Βάκχος</item>
+</string-array>
+
+<string-array name="Bakxos_burger_times">
+	<item>5,50</item>
+	<item>5,50</item>
+</string-array>
+
+
+
+
+
+
+
+
+
+    
+    
+    <!-- //////////////////////////////// FAME////////////////////// -->
+    <string-array name="Fame_salates">
+	<item>Σαλάτα του Σεφ</item>
+	<item>Σαλάτα Σίζαρ</item>
+	<item>Καπρικόρνο</item>
+	<item>Χωριάτικη</item>
+	<item>Μαρουλοσαλάτα</item>
+	<item>Αγγουρομαγιονέζα με πίκλες</item>
+	<item>Ο γύρος της πλατείας</item>
+</string-array>
+
+<string-array name="Fame_salates_times">
+	<item>5,00</item>
+	<item>5,50</item>
+	<item>5,50</item>
+	<item>5,00</item>
+	<item>4,50</item>
+	<item>3,00</item>
+	<item>6,50</item>
+</string-array>
+
+<string-array name="Fame_orektika">
+	<item>Πατάτες τηγανητές</item>
+	<item>Πατάτες τηγανητές  με σως</item>
+	<item>Πατάτες τηγανητές με gouda,μπέικον</item>
+	<item>Τζατζίκι</item>
+	<item>Φέτα</item>
+	<item>Τυροσαλάτα</item>
+	<item>Σως</item>
+</string-array>
+
+<string-array name="Fame_orektika_times">
+	<item>2,50</item>
+	<item>3,00</item>
+	<item>3,50</item>
+	<item>2,50</item>
+	<item>2,50</item>
+	<item>2,50</item>
+	<item>1,00</item>
+</string-array>
+
+<string-array name="Fame_omeletes">
+	<item>Αυγά με μπέικον</item>
+	<item>Ομελέτα Νο1</item>
+	<item>Ομελέτα Νο2</item>
+</string-array>
+
+<string-array name="Fame_omeletes_times">
+	<item>4,50</item>
+	<item>5,00</item>
+	<item>6,00</item>
+</string-array>
+
+<string-array name="Fame_burger">
+	<item>Χαμ-μπέργκερ</item>
+	<item>Χαμ-μπέργκερ μερίδα</item>
+	<item>Τσιζμπέργκερ</item>
+	<item>Τσιζμπέργκερ μερίδα</item>
+	<item>Διπλό μπέργκερ</item>
+	<item>Κοτόπουλο μπέργκερ</item>
+</string-array>
+
+<string-array name="Fame_burger_times">
+        <item>3,00</item>	
+        <item>4,20</item>       
+        <item>3,00</item>
+	<item>4,20</item>
+	<item>6,50</item>
+	<item>5,50</item>
+</string-array>
+
+<string-array name="Fame_sandwich">
+	<item>Τοστ</item>
+	<item>Club sandwich</item>
+	<item>Club sandwich κοτόπουλο</item>
+	<item>Μπαγκέτα με τυρί,ζαμπόν,μπέικον</item>
+</string-array>
+
+<string-array name="Fame_sandwich_times">
+	<item>2,50</item>
+	<item>5,00</item>
+	<item>5,50</item>
+	<item>2,50</item>
+</string-array>
+
+<string-array name="Fame_zumarika">
+	<item>Καρμπονάρα</item>
+	<item>Σπαγγέτι φούρνου</item>
+	<item>Σπαγγέτι με κόκκινη σάλτσα</item>
+	<item>Ριγκατόνι</item>
+	<item>Ριγκατόνι σπέσιαλ</item>
+	<item>Πουτανέσκα</item>
+	<item>Πέστο με βασιλικό</item>
+        <item>Πένες αραμπιάτα</item>
+        <item>Αματριτσιάνα</item>
+        <item>Άλιο Όλιο</item>
+</string-array>
+
+<string-array name="Fame_zumarika_times">
+	<item>5,50</item>
+	<item>5,50</item>
+	<item>5,00</item>
+	<item>5,50</item>
+	<item>6,00</item>
+	<item>6,00</item>
+	<item>6,00</item>
+        <item>6,00</item>
+        <item>6,00</item>
+        <item>5,50</item>
+</string-array>
+
+<string-array name="Fame_pitses">
+	<item>Σπέσιαλ μικρή</item>
+	<item>Σπέσιαλ μεσαία</item>
+	<item>Σπέσιαλ οικογενειακή</item>
+	<item>Χωριάτικη μικρή</item>
+	<item>Χωριάτικη μεσαία</item>
+	<item>Χωριάτικη οικογενειακή</item>
+	<item>Μαργαρίτα μικρή</item>
+	<item>Μαργαρίτα μεσαία</item>
+	<item>Μαργαρίτα οικογενειακή</item>
+	<item>Ελληνική μικρή</item>
+	<item>Ελληνική μεσαία</item>
+	<item>Ελληνική οικογενειακή</item>
+	<item>Βεζούβιο μικρή</item>
+	<item>Βεζούβιο μεσαία</item>
+	<item>Βεζούβιο οικογειακή</item>
+	<item>Vegetarian μικρή</item>
+	<item>Vegetarian μεσαία</item>
+	<item>Vegetarian οικογενειακή</item>
+	<item>Τυρόψωμο μικρό</item>
+	<item>Τυρόψωμο μεσαίο</item>
+	<item>Τυρόψωμο οικογενειακό</item>
+</string-array>
+
+<string-array name="Fame_pitses_times">
+	<item>5,00</item>
+        <item>8,00</item>
+        <item>9,00</item>
+	<item>5,00</item>
+        <item>8,00</item>
+        <item>10,00</item>
+	<item>5,00</item>
+        <item>8,00</item>
+        <item>9,00</item>
+	<item>5,00</item>
+        <item>8,00</item>
+        <item>9,50</item>
+	<item>5,00</item>
+        <item>8,00</item>
+        <item>9,50</item>
+	<item>5,00</item>
+        <item>8,00</item>
+        <item>9,00</item>
+	<item>5,00</item>
+        <item>8,00</item>
+        <item>9,00</item>
+</string-array>
+
+<string-array name="Fame_merides">
+	<item>Χοιρινό σουβλάκ</item>
+	<item>Κοτόπουλο σουβλάκι</item>
+	<item>Γύρος χοιρινός</item>
+	<item>Γύρος κοτόπουλο</item>
+	<item>Κοτομπέικον</item>
+	<item>Κεμπάπ</item>
+	<item>Μπιφτέκι</item>
+        <item>Μπιφτέκι γεμιστό με φέτα</item>
+        <item>Λουκάνικο</item>
+</string-array>
+
+<string-array name="Fame_merides_times">
+	<item>6,50</item>
+	<item>7,00</item>
+	<item>6,50</item>
+	<item>7,00</item>
+	<item>7,00</item>
+	<item>6,50</item>
+	<item>6,50</item>
+        <item>7,50</item>
+        <item>6,50</item>
+</string-array>
+
+<string-array name="Fame_spesialite">
+	<item>Σνίτσελ</item>
+	<item>Σνίτσελ αλα κρεμ</item>
+	<item>Κοτόπουλο φιλέτο αλα κρεμ</item>
+	<item>Κοτόπουλο φιλέτο</item>
+	<item>Μπουκιές κοτόπουλου</item>
+</string-array>
+
+<string-array name="Fame_spesialite_times">
+	<item>7,00</item>
+	<item>7,50</item>
+	<item>7,50</item>
+	<item>7,00</item>
+	<item>7,00</item>
+</string-array>
+
+<string-array name="Fame_pites">
+	<item>Καλαμάκι χοιρινό</item>
+	<item>Καλαμάκι κοτόπουλο</item>
+	<item>Γύρος χοιρινός</item>
+	<item>Γύρος κοτόπουλο</item>
+	<item>Μπιφτέκι</item>
+	<item>Κεμπάπ</item>
+	<item>Κοτομπέικον</item>
+        <item>Λουκάνικο</item>
+        <item>Οικολογική</item>
+        <item>Πανσέτα</item>
+</string-array>
+
+<string-array name="Fame_pites_times">
+	<item>2,00</item>
+        <item>4,00</item>
+	<item>2,20</item>
+        <item>4,40</item>
+	<item>2,00</item>
+        <item>4,00</item>
+	<item>2,20</item>
+        <item>4,40</item>
+	<item>2,20</item>
+        <item>4,40</item>
+	<item>2,20</item>
+        <item>5,00</item>
+	<item>2,50</item>
+        <item>5,00</item>
+        <item>2,50</item>
+        <item>4,40</item>
+        <item>1,50</item>
+        <item>3,00</item>
+        <item>2,20</item>
+        <item>4,40</item>
+</string-array>
+
+<string-array name="Fame_xwris_pita">
+	<item>Καλαμάκι χοιρινό</item>
+	<item>Καλαμάκι κοτόπουλο</item>
+	<item>Μπιφτέκι</item>
+	<item>Καλαμάκι κοτομπέικον</item>
+	<item>Λουκάνικο</item>
+</string-array>
+
+
+<string-array name="Fame_xwris_pita_times">
+	<item>1,50</item>
+	<item>1,50</item>
+	<item>1,50</item>
+	<item>1,60</item>
+	<item>1,60</item>
+</string-array>
+
+<string-array name="Fame_yhta">
+	<item>Κοτόπουλο ολόκληρο</item>
+	<item>Κοτόπουλο σχάρας μερίδα</item>
+	<item>Πανσέτες χοιρινές μερίδα</item>
+	<item>Χοιρινή μπριζόλα μερίδα</item>
+	<item>Η ποικιλία της παρέας</item>
+	<item>Πίτα σκεπαστή μικρή</item>
+	<item>Πίτα σκεπαστή γίγας</item>
+</string-array>
+
+<string-array name="Fame_yhta_times">
+	<item>11,00</item>
+	<item>6,50</item>
+	<item>6,50</item>
+	<item>7,00</item>
+	<item>15,00</item>
+	<item>5,50</item>
+        <item>11,00</item>
+</string-array>
+
+<string-array name="Fame_krepes_glukes">
+	<item>Σοκολάτα</item>
+	<item>Λευκή σοκολάτα</item>
+	<item>Σοκολάτα και μπανάνα</item>
+	<item>Σοκολάτα και ανανάς</item>
+	<item>Σοκολάτα και καρύδι</item>
+	<item>Σοκολάτα και μπισκότο</item>
+	<item>Μέλι και καρύδ</item>
+        <item>Ζάχαρη και κανέλα</item>
+        <item>Ροδάκινο</item>
+        <item>Φράουλα</item>
+        <item>Κεράσι</item>
+        <item>Fame special</item>
+        <item>Κρέπα παγωτό</item>
+</string-array>
+
+<string-array name="Fame_krepes_glukes_times">
+	<item>3,00</item>
+	<item>3,50</item>
+	<item>3,50</item>
+	<item>3,50</item>
+	<item>3,50</item>
+	<item>4,00</item>
+	<item>3,50</item>
+        <item>3,50</item>
+        <item>3,50</item>
+        <item>3,50</item>
+        <item>3,50</item>
+        <item>6,00</item>
+        <item>6,00</item>
+</string-array>
+
+<string-array name="Fame_krepes_almures">
+	<item>Τυρί και ζαμπόν</item>
+	<item>Τυρί και μπέικον</item>
+	<item>Τυρί,ζαμπόν,μπέικον </item>
+	<item>Τυρί,σαλάμι,ζαμπόν,μπέικον</item>
+	<item>Fame special</item>
+</string-array>
+
+<string-array name="Fame_krepes_almures_times">
+	<item>4,00</item>
+	<item>4,00</item>
+	<item>4,50</item>
+	<item>5,00</item>
+	<item>6,00</item>
+</string-array>
+
+<string-array name="Fame_vafles">
+	<item>Σοκολάτα</item>
+	<item>Σοκολάτα και μπανάνα</item>
+	<item>Σοκολάτα και μπισκότο</item>
+	<item>Σοκολάτα, μπισκότο και μπανάνα</item>
+	<item>Βάφλα παγωτού</item>
+</string-array>
+
+<string-array name="Fame_vafles_times">
+	<item>3,50</item>
+	<item>4,00</item>
+	<item>4,00</item>
+	<item>4,50</item>
+	<item>5,00</item>
+</string-array>
+
+
+
+
+
+
+    
+    <!-- //////////////////////////////// GIRO GIRO OLOI////////////////////// -->
+    <string-array name="Guro_Guro_oloi_salates">
+	<item>Χωριάτικη</item>
+	<item>Μαρούλι</item>
+	<item>Αγγούρι-ντομάτα</item>
+</string-array>
+
+<string-array name="Guro_Guro_oloi_salates_times">
+	<item>4,00</item>
+	<item>3,00</item>
+	<item>3,00</item>
+</string-array>
+
+<string-array name="Guro_Guro_oloi_orektika">
+	<item>Τζατζίκι</item>
+	<item>Τυροκαυτερή</item>
+	<item>Τυροσαλάτα</item>
+	<item>Σως</item>
+	<item>Πατάτες τηγανητές</item>
+	<item>Πατάτες τηγανητές με σως</item>
+	<item>Φέτα λαδορίγανη</item>
+        <item>Πίτα-τεμάχιο</item>
+</string-array>
+
+<string-array name="Guro_Guro_oloi_orektika_times">
+	<item>2,50</item>
+	<item>2,50</item>
+	<item>2,50</item>
+	<item>2,50</item>
+	<item>2,50</item>
+	<item>3,00</item>
+	<item>2,50</item>
+        <item>0,30</item>
+</string-array>
+
+<string-array name="Guro_Guro_oloi_pites">
+	<item>Πίτα του Φωτάρα</item>
+	<item>Γύρος χοιρινός</item>
+	<item>Γύρος κοτόπουλο</item>
+	<item>Καλαμάκι χοιρινό</item>
+	<item>Καλαμάκι κοτόπουλο</item>
+	<item>Κοτομπέικον</item>
+	<item>Μπιφτέκι</item>
+        <item>Μπιφτέκι γεμιστό</item>
+        <item>Κεμπάπ</item>
+        <item>Λουκάνικο</item>
+        <item>Οικολογικό</item>
+        <item>Κοτομπέικον-τεμάχιο</item>
+        <item>Σάντουιτς</item>
+</string-array>
+
+<string-array name="Guro_Guro_oloi_pites_times">
+	<item>3,00</item>
+	<item>2,20</item>
+	<item>2,20</item>
+	<item>2,20</item>
+	<item>2,20</item>
+	<item>2,40</item>
+	<item>2,20</item>
+        <item>2,20</item>
+        <item>2,20</item>
+        <item>2,20</item>
+        <item>1,70</item>
+        <item>1,70</item>
+        <item>3,00</item>
+</string-array>
+
+<string-array name="Guro_Guro_oloi_souvles">
+	<item>Κοτόπουλο-1400γρ</item>
+	<item>Κοτόπουλο-μερίδα</item>
+</string-array>
+
+<string-array name="Guro_Guro_oloi_souvles_times">
+	<item>10,00</item>
+	<item>5,00</item>
+</string-array>
+
+<string-array name="Guro_Guro_oloi_merides">
+	<item>Μπιφτέκι του χοντρού</item>
+	<item>Φτερούγες κοτόπουλου-4 τεμ.</item>
+	<item>Μπριζόλα χοιρινή</item>
+	<item>Παντσέτα</item>
+	<item>Μπιφτέκι-2 τεμ.</item>
+	<item>Λουκάνικο-3 τεμ.</item>
+	<item>Φιλέτο κοτόπουλο</item>
+        <item>Γύρος χοιρινός</item>
+        <item>Γύρος κοτόπουλο</item>
+        <item>Κεμπάπ-3 τεμ.</item>
+        <item>Καλαμάκι χοιρινό-4 τεμ.</item>
+        <item>Καλαμάκι κοτόπουλο-3 τεμ.</item>
+        <item>Καλαμάκι χοιρινό-1 τεμ.</item>
+        <item>Καλαμάκι κοτόπουλο-τεμ.</item>
+</string-array>
+
+<string-array name="Guro_Guro_oloi_merides_times">
+	<item>7,00</item>
+	<item>6,50</item>
+	<item>6,50</item>
+	<item>6,50</item>
+	<item>6,50</item>
+	<item>6,50</item>
+	<item>6,50</item>
+        <item>6,70</item>
+        <item>6,70</item>
+        <item>6,00</item>
+        <item>6,50</item>
+        <item>6,50</item>
+        <item>1,50</item>
+        <item>1,50</item>
+</string-array>
+
+<string-array name="Guro_Guro_oloi_poikilies">
+	<item>Ποικιλία για 1 άτομο</item>
+</string-array>
+
+<string-array name="Guro_Guro_oloi_poikilies_times">
+	<item>7,00</item>
+</string-array>
+
+    
+    
+    <!-- //////////////////////////////// KOUTALA////////////////////// -->
+    <string-array name="Koutala_salates">
+	<item>Σαμιώτικη σαλάτα</item>
+	<item>Χωριάτικη</item>
+	<item>Σεφ</item>
+	<item>Μαρούλι</item>
+	<item>Χόρτα</item>
+	<item>Πατατοσαλάτα</item>
+</string-array>
+
+<string-array name="Koutala_salates_times">
+	<item>6,40</item>
+	<item>4,60</item>
+	<item>4,60</item>
+	<item>3,95</item>
+	<item>3,95</item>
+	<item>4,60</item>
+</string-array>
+
+<string-array name="Koutala_orektika">
+	<item>Φάβα</item>
+	<item>Σαγανάκι</item>
+	<item>Φέτα φούρνου</item>
+	<item>Πατάτες τηγ.</item>
+	<item>Πατάτες με τυρί,σάλτσα</item>
+	<item>Κατσικίσιο τυρί</item>
+	<item>Τυροκαυτερή</item>
+        <item>Τζατζίκι</item>
+</string-array>
+
+<string-array name="Koutala_orektika_times">
+	<item>1,80</item>
+	<item>4,50</item>
+	<item>4,50</item>
+	<item>2,50</item>
+	<item>3,50</item>
+	<item>4,50</item>
+	<item>4,50</item>
+        <item>2,50</item>
+</string-array>
+
+<string-array name="Koutala_yarika">
+	<item>Χταπόδι</item>
+	<item>Σαρδέλα σε λάδι παστό</item>
+	<item>Μπακαλιαρομπουκιές</item>
+	<item>Καλαμάρι τηγανιτό</item>
+</string-array>
+
+<string-array name="Koutala_yarika_times">
+	<item>4,50</item>
+	<item>4,50</item>
+	<item>4,50</item>
+	<item>4,50</item>
+</string-array>
+
+<string-array name="Koutala_mezedes">
+	<item>Κεφτεδάκια μεζέ</item>
+	<item>Κεφτεδάκια μερίδα</item>
+	<item>Κοτόπουλο μπούτι μεζέ</item>
+	<item>Κοτόπουλο μπούτι μερίδα</item>
+	<item>Μπριζολάκια μεζέ</item>
+	<item>Μπριζολάκια μερίδα</item>
+	<item>Κοτόπουλο vin dux  μερίδα</item>
+        <item>Κοτόπουλο φιλέτο μερίδα</item>
+        <item>Κοτοφτερούγες με σως bbq μεζέ</item>
+        <item>Στήθος σαλτσάτο μεζέ</item>
+        <item>Συκώτι τηγανιτό μεζέ</item>
+        <item>Κοκκινιστό μοσχάρι μεζέ</item>
+        <item>Κοκκινιστό μοσχάρι μερίδα</item>
+        <item>Ποικιλία κρεάτων μερίδα</item>
+        <item>Τηγανιά μεζέ</item>
+        <item>Τηγανιά μερίδα</item>
+</string-array>
+
+<string-array name="Koutala_mezedes_times">
+	<item>3,50</item>
+	<item>7,00</item>
+	<item>3,50</item>
+	<item>7,00</item>
+	<item>3,50</item>
+	<item>7,00</item>
+	<item>8,50</item>
+        <item>6,90</item>
+        <item>2,95</item>
+        <item>3,50</item>
+        <item>3,00</item>
+        <item>3,80</item>
+        <item>7,60</item>
+        <item>9,80</item>
+        <item>3,50</item>
+        <item>7,00</item>
+</string-array>
+
+<string-array name="Koutala_zumarika">
+	<item>Ναπολιτάν</item>
+	<item>Μπολονέζ</item>
+	<item>Μακαρόνια με κοτόπουλο,λαχανικά</item>
+	<item>Καρμπονάρα</item>
+</string-array>
+
+<string-array name="Koutala_zumarika_times">
+	<item>3,95</item>
+	<item>4,95</item>
+	<item>5,50</item>
+	<item>5,10</item>
+</string-array>
+
+<string-array name="Koutala_snitsel">
+	<item>Με κρεμμύδι</item>
+	<item>Καραμελωμένο</item>
+	<item>Σάλτσα κυνηγού</item>
+	<item>Τσιγγάνικο</item>
+	<item>Αλα κρεμ</item>
+</string-array>
+
+<string-array name="Koutala_snitsel_times">
+	<item>6,70</item>
+	<item>6,70</item>
+	<item>6,70</item>
+	<item>6,70</item>
+	<item>6,70</item>
+</string-array>
+
+<string-array name="Koutala_souvlaki">
+	<item>Σουβλάκι</item>
+	<item>Μικρή ελληνική</item>
+	<item>Μεγάλη αραβική</item>
+	<item>Γύρος πιάτο</item>
+	<item>Πίτα κοτόπουλο μικρή</item>
+	<item>Πίτα κοτόπουλο μεγάλη</item>
+	<item>Καλαμάκι μερίδα</item>
+</string-array>
+
+<string-array name="Koutala_souvlaki_times">
+	<item>1,50</item>
+	<item>2,20</item>
+	<item>4,40</item>
+	<item>6,95</item>
+	<item>2,30</item>
+	<item>4,50</item>
+	<item>6,90</item>
+</string-array>
+
+<string-array name="Koutala_club_sandwich">
+	<item>Club Sandwich-ζαμπόν</item>
+	<item>Club Sandwich-κοτόπουλο</item>
+</string-array>
+
+<string-array name="Koutala_club_sandwich_times">
+	<item>5,00</item>
+	<item>5,50</item>
+</string-array>
+
+<string-array name="Koutala_pizza">
+	<item>Μεγάλη ζαμπόν,σάλτσα,τυρί,πιπεριά</item>
+</string-array>
+
+<string-array name="Koutala_pizza_times">
+	<item>6,95</item>
+</string-array>
+
+
+<!-- //////////////////////////////// KOUZINA TIS MAMAS////////////////////// -->
+    <string-array name="Kouzina_ths_mamas_salates">
+	<item>Χωριάτικη</item>
+	<item>Μαρούλι</item>
+	<item>Λάχανο</item>
+	<item>Χρώματα εποχής</item>
+	<item>Χόρτα</item>
+	<item>Σαλάτα του μάγειρα</item>
+	<item>Σαλάτα Caesar</item>
+        <item>Ντάκος</item>
+        <item>Σικάτη Ιταλίδα</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_salates_times">
+	<item>4,20</item>
+	<item>3,50</item>
+	<item>3,50</item>
+	<item>4,00</item>
+	<item>3,20</item>
+	<item>5,00</item>
+	<item>5,50</item>
+        <item>4,50</item>
+        <item>6,00</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_aloifes">
+	<item>Τζατζίκι</item>
+	<item>Τυροσαλάτα</item>
+	<item>Τυροκαυτερή</item>
+	<item>Σως μαγιονέζα</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_aloifes_times">
+	<item>2,50</item>
+	<item>2,80</item>
+	<item>3,00</item>
+	<item>2,00</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_orektika">
+	<item>Μοτσαρέλα sticks</item>
+	<item>Onion rings</item>
+	<item>Κρεατοπιτάκια</item>
+	<item>Πατατοπιτάκια</item>
+	<item>Φέτα</item>
+	<item>Σαγανάκι</item>
+	<item>Πατάτες</item>
+        <item>Κολοκυθοκεφτέδες</item>
+        <item>Ρεβυθοκεφτέδες</item>
+        <item>Ρολλά με κοτόπουλο</item>
+        <item>Ρολλά με χοιρινό</item>
+        <item>Τυροπιτάρια με 3 τυριά</item>
+        <item>Τρίγωνα με σπανάκι</item>
+        <item>Μελιτζάνες με τυρί</item>
+        <item>Κέρατα</item>
+        <item>Κολοκυθάκια τηγανητά</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_orektika_times">
+	<item>4,00</item>
+	<item>3,90</item>
+	<item>4,00</item>
+	<item>3,70</item>
+	<item>2,70</item>
+	<item>3,50</item>
+	<item>2,50</item>
+        <item>3,80</item>
+        <item>3,20</item>
+        <item>4,00</item>
+        <item>4,00</item>
+        <item>4,00</item>
+        <item>4,00</item>
+        <item>4,50</item>
+        <item>3,00</item>
+        <item>3,00</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_zumarika">
+	<item>Μακαρόνια με κιμά</item>
+	<item>Καρμπονάρα</item>
+	<item>Καρμπονάρα με μανιτάρια</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_zumarika_times">
+	<item>4,00</item>
+	<item>5,50</item>
+	<item>6,00</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_mageireuta">
+	<item>Μοσχαράκι κοκκινιστό</item>
+	<item>Σουτζουκάκια</item>
+	<item>Παστίτσιο</item>
+	<item>Χοιρινό</item>
+	<item>Φιλετάκια με λευκή σάλτσα</item>
+	<item>Σνίτσελ αλα κρεμ</item>
+	<item>Σνίτσελ</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_mageireuta_times">
+	<item>6,50</item>
+	<item>5,50</item>
+	<item>5,50</item>
+	<item>5,50</item>
+	<item>6,50</item>
+	<item>7,00</item>
+	<item>7,00</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_thganies">
+	<item>Χοιρινό</item>
+	<item>Κοτόπουλο</item>
+	<item>Απ’όλα</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_thganies_times">
+	<item>7,00</item>
+	<item>7,20</item>
+	<item>7,50</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_yhta">
+	<item>Μπριζόλα χοιρινή</item>
+	<item>Κοψίδια χοιρινά</item>
+	<item>Μπιφτέκι</item>
+	<item>Μπιφτέκι ελληνικό</item>
+	<item>Μπιφτέκι με κίτρινο τυρί</item>
+	<item>Κοτόπουλο φιλέτο</item>
+	<item>Κοτόπουλο παϊδάκια</item>
+        <item>Χοιρινό καλαμάκι</item>
+        <item>Κοτόπουλο καλαμάκι</item>
+        <item>Κοτομπέικον καλαμάκι</item>
+        <item>Λουκάνικο χωριάτικο</item>
+        <item>Χοιρινό καλαμάκι-τεμ.</item>
+        <item>Κοτόπουλο καλαμάκι-τεμ.</item>
+        <item>Λουκάνικο-τεμ.</item>
+        <item>Κοτομπέικον-τεμ.</item>
+        <item>Μπιφτέκι-τεμ.</item>
+        <item>Χοιρινός γύρος</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_yhta_times">
+	<item>6,50</item>
+	<item>7,00</item>
+	<item>6,80</item>
+	<item>7,20</item>
+	<item>7,20</item>
+	<item>7,00</item>
+	<item>6,80</item>
+        <item>6,80</item>
+        <item>7,00</item>
+        <item>7,20</item>
+        <item>6,20</item>
+        <item>1,40</item>
+        <item>1,40</item>
+        <item>1,40</item>
+        <item>1,60</item>
+        <item>1,50</item>
+        <item>6,70</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_souvles">
+	<item>Κοκορέτσι μερακλίδικο</item>
+	<item>Κοτόπουλο σούβλας</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_souvles_times">
+	<item>8,00</item>
+	<item>11,00</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_pites">
+	<item>Φεγγαρόπιτα με γύρο ή κοτόπουλο</item>
+	<item>Πίτα κλαμπ χοιρινό</item>
+	<item>Πίτα κλαμπ κοτόπουλο</item>
+	<item>Πίτα κλαμπ μπιφτέκι</item>
+	<item>Πίτα κλαμπ μπιφτέκι γεμιστό</item>
+	<item>Χοιρινός γύρος</item>
+	<item>Κοτόπουλο καλαμάκι</item>
+        <item>Μπιφτέκι</item>
+        <item>Λουκάνικο</item>
+        <item>Κοτομπέικον</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_pites_times">
+	<item>4,50</item>
+	<item>6,00</item>
+	<item>6,00</item>
+	<item>6,50</item>
+	<item>6,80</item>
+	<item>2,00</item>
+	<item>2,00</item>
+        <item>2,20</item>
+        <item>2,00</item>
+        <item>2,40</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_kupriakes_pites">
+	<item>Γύρος χοιρινός</item>
+	<item>Μπιφτέκι</item>
+	<item>Μπιφτέκι γεμιστό</item>
+	<item>Κοτόπουλο</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_kupriakes_pites_times">
+	<item>2,60</item>
+	<item>2,80</item>
+	<item>3,00</item>
+	<item>3,00</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_ywmakia">
+	<item>Σνίτσελ</item>
+	<item>Χοιρινός γύρος</item>
+	<item>Χοιρινό καλαμάκι</item>
+	<item>Κοτόπουλο καλαμάκι</item>
+	<item>Λουκάνικο</item>
+	<item>Μπιφτέκι</item>
+	<item>Μπιφτέκι γεμιστό</item>
+        <item>Μπιφτέκι ελληνικό</item>
+        <item>Κοτομπέικον</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_ywmakia_times">
+	<item>4,00</item>
+	<item>3,00</item>
+	<item>3,00</item>
+	<item>3,00</item>
+	<item>3,00</item>
+	<item>3,20</item>
+	<item>3,90</item>
+        <item>3,90</item>
+        <item>3,90</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_burger">
+	<item>Burger με bbq sauce</item>
+	<item>Burger με μοσχαρίσιο μπιφτέκι</item>
+	<item>Burger με κοτόπουλο</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_burger_times">
+	<item>4,50</item>
+	<item>3,70</item>
+	<item>3,70</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_pitses">
+	<item>Φεγγαρόπιτσα της μαμάς</item>
+</string-array>
+
+<string-array name="Kouzina_ths_mamas_pitses_times">
+	<item>4,50</item>
+</string-array>
+
+
+    
+    <!-- //////////////////////////////// MEGARO////////////////////// -->
+    
+    <string-array name="Megaro_pitses">
+	<item>Ντι Μάρε μεσαία</item>
+	<item>Ντι Μάρε μεγάλη</item>
+	<item>Βετζετέριαν μεσαία</item>
+	<item>Βετζετέριαν μεγάλη</item>
+	<item>Μαργαρίτα μεσαία</item>
+	<item>Μαργαρίτα μεγάλη</item>
+	<item>Ινφέρνο μεσαία</item>
+        <item>Ινφέρνο μεγάλη</item>
+        <item>Μοντανάρα μεσαία</item>
+        <item>Μοντανάρα μεγάλη</item>
+        <item>Μποργκέζε μεσαία</item>
+        <item>Μποργκέζε μεγάλη</item>
+        <item>Σκερτσόζα μεσαία</item>
+        <item>Σκερτσόζα μεγάλη</item>
+        <item>4 εποχές μεσαία</item>
+        <item>4 εποχές μεγάλη</item>
+        <item>Διάβολα μεσαία</item>
+        <item>Διάβολα μεγάλη</item>
+        <item>Χαβάη μεσαία</item>
+        <item>Χαβάη μεγάλη</item>
+        <item>Μεξικάνα μεσαία</item>
+        <item>Μεξικάνα μεγάλη</item>
+        <item>Halian Oggi μεσαία</item>
+        <item>Halian Oggi μεγάλη</item>
+        <item>Πίτσα Μέγαρο μεσαία</item>
+        <item>Πίτσα Μέγαρο μεγάλη</item>
+        <item>Πίτσα Καρμπονάρα μεσαία</item>
+        <item>Πίτσα Καρμπονάρα μεγάλη</item>
+        <item>Τόνος μεσαία</item>
+        <item>Τόνος μεγάλη</item>
+        <item>Γαρίδες μεσαία</item>
+        <item>Γαρίδες μεγάλη</item>
+        <item>4 τυριά μεσαία</item>
+        <item>4 τυριά μεγάλη</item>
+        <item>Βλάχικη μεσαία</item>
+        <item>Βλάχικη μεγάλη</item>
+        <item>Του Χορτοφάγου μεσαία</item>
+        <item>Του Χορτοφάγου μεγάλη</item>
+        <item>Special μεσαία</item>
+        <item>Special μεγάλη</item>
+        <item>Cappuccino μεσαία</item>
+        <item>Cappuccino μεγάλη</item>
+        <item>Καλτσόνε Σκεπαστή μεσαίο</item>
+        <item>Καλτσόνε Σκεπαστή μεγάλο</item>
+        <item>Με Κιμά μεσαία</item>
+        <item>Με Κιμά μεγάλη</item>
+        <item>Πεϊνερλί ζαμπόν-μπέικον μεσαίο</item>
+        <item>Πεϊνερλί ζαμπόν-μπέικον μεγάλο</item>
+        <item>Πεϊνερλί με κιμά μεσαίο</item>
+        <item>Πεϊνερλί με κιμά μεγάλο</item>
+        <item>Σκορδόψωμο μεσαίο</item>
+        <item>Σκορδόψωμο μεγάλο</item>
+        <item>Τυρόψωμο-Σκεπαστή μεσαίο</item>
+        <item>Τυρόψωμο-Σκεπαστή μεγάλο</item>
+        <item>Turbo μεσαία</item>
+        <item>Turbo μεγάλη</item>
+        <item>Turbo Special μεσαία</item>
+        <item>Turbo Special μεγάλη</item>
+        <item>Διαίτης Light μεσαία</item>
+        <item>Διαίτης Light μεγάλη</item>
+        <item>Philadelphia μεσαία</item>
+        <item>Philadelphia μεγάλη</item>
+        <item>Ελληνική μεσαία</item>
+        <item>Ελληνική μεγάλη</item>
+	<item>Καλαμάρι-Ελιές</item>
+	<item>Καλαμάρι-Κρεμμύδι</item>
+	<item>Γαρίδες</item>
+	<item>Τόνος-Κρεμμύδι</item>
+</string-array>
+
+<string-array name="Megaro_pitses_times">
+	<item>9,00</item>
+	<item>10,00</item>
+	<item>7,50</item>
+	<item>8,50</item>
+	<item>6,50</item>
+	<item>7,00</item>
+	<item>6,50</item>
+        <item>7,50</item>
+        <item>6,50</item>
+        <item>7,50</item>
+        <item>6,50</item>
+        <item>7,50</item>
+        <item>6,50</item>
+        <item>7,50</item>
+        <item>7,50</item>
+        <item>8,50</item>
+        <item>7,50</item>
+        <item>8,50</item>
+        <item>7,00</item>
+        <item>8,00</item>
+        <item>7,00</item>
+        <item>8,00</item>
+        <item>7,00</item>
+        <item>8,00</item>
+        <item>9,00</item>
+        <item>10,00</item>
+        <item>8,50</item>
+        <item>9,50</item>
+        <item>7,00</item>
+        <item>8,00</item>
+        <item>7,00</item>
+        <item>8,00</item>
+        <item>8,00</item>
+        <item>9,00</item>
+        <item>7,50</item>
+        <item>8,50</item>
+        <item>7,50</item>
+        <item>8,50</item>
+        <item>8,00</item>
+        <item>9,00</item>
+        <item>9,00</item>
+        <item>10,00</item>
+        <item>7,50</item>
+        <item>8,50</item>
+        <item>7,50</item>
+        <item>8,50</item>
+        <item>7,50</item>
+        <item>8,50</item>
+        <item>8,00</item>
+        <item>9,00</item>
+        <item>5,00</item>
+        <item>6,00</item>
+        <item>6,00</item>
+        <item>7,00</item>
+        <item>9,00</item>
+        <item>10,00</item>
+        <item>10,00</item>
+        <item>11,00</item>
+        <item>8,50</item>
+        <item>9,50</item>
+        <item>10,00</item>
+        <item>11,00</item>
+        <item>7,50</item>
+        <item>8,50</item>
+	<item>8,50</item>
+	<item>8,50</item>
+	<item>8,50</item>
+	<item>8,50</item>
+</string-array>
+
+<string-array name="Megaro_salates">
+	<item>Σεφ</item>
+	<item>Καίσαρα </item>
+	<item>Ελληνική</item>
+	<item>Αφροδίτη</item>
+	<item>Πυθαγόρας</item>
+	<item>Τόνος</item>
+	<item>Κυπριακή με χαλούμι</item>
+        <item>Waldorf</item>
+        <item>Ανάμεικτη</item>
+</string-array>
+
+<string-array name="Megaro_salates_times">
+	<item>5,00</item>
+	<item>5,20</item>
+	<item>5,00</item>
+	<item>5,30</item>
+	<item>5,50</item>
+	<item>5,50</item>
+	<item>6,00</item>
+        <item>6,00</item>
+        <item>5,50</item>
+</string-array>
+
+<string-array name="Megaro_zumarika">
+	<item>Μπολονέζ με κιμά</item>
+	<item>Ναπολιτέν με σάλτσα</item>
+	<item>Φούρνου special</item>
+	<item>Καρμπονάρα</item>
+	<item>Πουτανέσκα</item>
+	<item>Ριγγατόνι 4 τυριά</item>
+	<item>Ριγγατόνι φούρνου</item>
+        <item>Spaghetti κοτόπουλο</item>
+        <item>Σκάμπι</item>
+	<item>Καλαμάρι-Ελιές</item>
+	<item>Καλαμάρι-Κρεμμύδι</item>
+	<item>Γαρίδες</item>
+	<item>Τόνος-Κρεμμύδι</item>
+	<item>Σπαγγέτι με σως Τόνου</item>
+</string-array>
+
+<string-array name="Megaro_zumarika_times">
+	<item>4,80</item>
+	<item>4,00</item>
+	<item>6,00</item>
+	<item>6,00</item>
+	<item>4,80</item>
+	<item>6,00</item>
+	<item>6,00</item>
+        <item>6,00</item>
+        <item>6,50</item>
+	<item>6,50</item>
+	<item>6,50</item>
+	<item>6,50</item>
+        <item>6,50</item>
+        <item>6,30</item>
+</string-array>
+
+
+    
+    
+    <!-- //////////////////////////////// NOSTOS////////////////////// -->
+    <string-array name="Nostos_orektika">
+	<item>Ψωμί Nostos</item>
+	<item>Σκορδόψωμο</item>
+	<item>Σκορδόψωμο Nostos</item>
+	<item>Τυρόπιτα</item>
+	<item>Γαρίδες σαγανάκι</item>
+	<item>Μανιτάρια αλα κρεμ</item>
+	<item>Τζατζίκι</item>
+        <item>Πατάτες τηγανητές</item>
+</string-array>
+
+<string-array name="Nostos_orektika_times">
+	<item>0,60</item>
+	<item>4,40</item>
+	<item>5,40</item>
+	<item>5,50</item>
+	<item>7,00</item>
+	<item>4,60</item>
+	<item>2,20</item>
+        <item>2,50</item>
+</string-array>
+
+<string-array name="Nostos_omeletes">
+	<item>Αυγά</item>
+	<item>Λαχανικών</item>
+	<item>Φρουνταλια</item>
+	<item>Nostos</item>
+</string-array>
+
+<string-array name="Nostos_omeletes_times">
+	<item>3,00</item>
+	<item>5,00</item>
+	<item>4,50</item>
+	<item>6,00</item>
+</string-array>
+
+<string-array name="Nostos_salates">
+	<item>Αγγούρι-ντομάτα</item>
+	<item>Χωριάτικη</item>
+	<item>Σαλάτα του Σεφ</item>
+	<item>Τονοσαλάτα</item>
+	<item>Κοτοσαλάτα</item>
+	<item>Πολύχρωμη</item>
+</string-array>
+
+<string-array name="Nostos_salates_times">
+	<item>3,60</item>
+	<item>4,00</item>
+	<item>5,00</item>
+	<item>5,50</item>
+	<item>5,50</item>
+	<item>5,00</item>
+</string-array>
+
+<string-array name="Nostos_peinirli">
+	<item>Με λουκάνικο</item>
+	<item>Με ροκφόρ</item>
+	<item>Ζαμπόν-μπέικον</item>
+	<item>Βεζούβιος</item>
+	<item>Πόλο</item>
+	<item>Χωριάτικο</item>
+	<item>Nostos</item>
+</string-array>
+
+<string-array name="Nostos_peinirli_times">
+	<item>5,50</item>
+	<item>5,80</item>
+	<item>5,80</item>
+	<item>5,90</item>
+	<item>6,00</item>
+	<item>5,70</item>
+	<item>6,30</item>
+</string-array>
+
+<string-array name="Nostos_zumarika">
+	<item>Νάπολη</item>
+	<item>Μπολονέζ</item>
+	<item>Καρμπονάρα</item>
+	<item>Νόστος</item>
+	<item>Σεφ</item>
+	<item>Scampi</item>
+	<item>Αλ φρέντο</item>
+        <item>Quarto formagi</item>
+        <item>Πουτανέσκα</item>
+        <item>Καραμπερα</item>
+        <item>Rosso</item>
+        <item>Bianco</item>
+        <item>Τόνος</item>
+        <item>Διαίτης</item>
+</string-array>
+
+<string-array name="Nostos_zumarika_times">
+	<item>4,50</item>
+	<item>5,50</item>
+	<item>5,80</item>
+	<item>6,70</item>
+	<item>6,70</item>
+	<item>6,70</item>
+	<item>5,50</item>
+        <item>6,00</item>
+        <item>5,80</item>
+        <item>6,50</item>
+        <item>6,80</item>
+        <item>6,80</item>
+        <item>6,20</item>
+        <item>6,50</item>
+</string-array>
+
+<string-array name="Nostos_tortelini">
+	<item>Αλα κρεμ</item>
+	<item>Καρμπονάρα</item>
+	<item>Σιτσιλιάνα</item>
+	<item>Nostos</item>
+	<item>Quattro formagi</item>
+	<item>Αλα τοσκάνα</item>
+	<item>Μπολονέζ</item>
+        <item>Νάπολη</item>
+</string-array>
+
+<string-array name="Nostos_tortelini_times">
+	<item>7,30</item>
+	<item>7,90</item>
+	<item>7,60</item>
+	<item>8,50</item>
+	<item>8,20</item>
+	<item>8,90</item>
+	<item>6,20</item>
+        <item>5,50</item>
+</string-array>
+
+<string-array name="Nostos_pitses">
+	<item>Ελληνική</item>
+	<item>Παιδική</item>
+	<item>Μαργαρίτα</item>
+	<item>Άλιο Όλιο</item>
+	<item>Ζαμπονίτα</item>
+	<item>Ζαμπόν-μπέικον</item>
+	<item>Καπνιστό</item>
+        <item>Διαβόλου</item>
+        <item>4 εποχές</item>
+        <item>Βέρντε</item>
+	<item>4 τυριά</item>
+	<item>Ρομάνα</item>
+	<item>Καπριτσιόζα</item>
+	<item>Πόλο</item>
+	<item>Αμαλφι</item>
+	<item>Πιράτα</item>
+	<item>Χαβάη</item>
+        <item>Φούνγκι</item>
+        <item>Τζοβάνι</item>
+        <item>Τρικολόρε</item>
+	<item>Ινφέρνο</item>
+	<item>Κατά Παράδοση</item>
+	<item>Μόνο Λαχανικά</item>
+	<item>Σπέσιαλ Νόστος</item>
+	<item>Γαρίδες</item>
+	<item>Αλα κρεμ</item>
+	<item>Μεξικάνικη</item>
+</string-array>
+
+<string-array name="Nostos_pitses_times">
+	<item>9,20</item>
+	<item>6,50</item>
+	<item>7,40</item>
+	<item>7,00</item>
+	<item>7,70</item>
+	<item>8,20</item>
+	<item>8,20</item>
+        <item>8,50</item>
+        <item>8,50</item>
+        <item>8,00</item>
+	<item>8,00</item>
+	<item>8,20</item>
+	<item>8,80</item>
+	<item>8,30</item>
+	<item>8,30</item>
+	<item>8,00</item>
+	<item>8,20</item>
+        <item>8,00</item>
+        <item>7,80</item>
+        <item>7,90</item>
+	<item>8,00</item>
+	<item>8,00</item>
+	<item>8,80</item>
+	<item>9,20</item>
+	<item>9,20</item>
+	<item>9,00</item>
+	<item>9,00</item>
+</string-array>
+
+<string-array name="Nostos_mageireuta">
+	<item>Κοτόπουλο κοκκινιστό</item>
+	<item>Μοσχάρι κοκκινιστό</item>
+	<item>Αρνάκι κλέφτικο στη γάστρα</item>
+	<item>Χοιρινό σπέσιαλ Νόστος</item>
+</string-array>
+
+<string-array name="Nostos_mageireuta_times">
+	<item>6,70</item>
+	<item>7,00</item>
+	<item>8,00</item>
+	<item>8,00</item>
+</string-array>
+
+<string-array name="Nostos_yhta">
+	<item>Κοτόπουλο φιλέτο</item>
+	<item>Κοτόπουλο φιλέτο αλα Κρεμ</item>
+	<item>Κοτόπουλο φιλέτο αλα Μαδέρα</item>
+	<item>Κοτόπουλο φιλέτο αλα Πέπερ</item>
+	<item>Κοτόπουλο φιλέτο αλα Σεφ</item>
+	<item>Κοτόπουλο φιλέτο Νόστος</item>
+	<item>Κοτόπουλο φιλέτο Διαβόλου</item>
+        <item>Κοτόπουλο φιλέτο με Κρέμα μουστάρδας</item>
+        <item>Κοτόπουλο φιλέτο Μίνιον</item>
+        <item>Χωριάτικο λουκάνικο</item>
+	<item>Χοιρινή μπριζόλα</item>
+	<item>Χοιρινή μπριζόλα διαβόλου</item>
+	<item>Κεμπάπ</item>
+	<item>Μπιφτέκι</item>
+	<item>Μπιφτέκι Νόστος</item>
+	<item>Σνίτσελ</item>
+	<item>Σνίτσελ αλα κρεμ</item>
+        <item>Σνίτσελ 4 τυριά</item>
+        <item>Σνίτσελ Νόστος</item>
+        <item>Σνίτσελ Εσκαλοπ Χόφμαν</item>
+</string-array>
+
+<string-array name="Nostos_yhta_times">
+	<item>6,50</item>
+	<item>7,50</item>
+	<item>7,50</item>
+	<item>7,50</item>
+	<item>8,00</item>
+	<item>8,00</item>
+	<item>8,00</item>
+        <item>8,00</item>
+        <item>8,00</item>
+        <item>6,50</item>
+	<item>6,50</item>
+	<item>7,50</item>
+	<item>6,50</item>
+	<item>7,00</item>
+	<item>8,00</item>
+	<item>6,50</item>
+	<item>7,60</item>
+        <item>7,70</item>
+        <item>7,60</item>
+        <item>7,70</item>
+</string-array>
+
+
+    
+    <!-- //////////////////////////////// SWEET & NASTY////////////////////// -->
+    <string-array name="Sweet_salty_krepes_almures">
+	<item>Κλασσική</item>
+	<item>Special</item>
+	<item>Sweet n salty</item>
+	<item>Vegeterian</item>
+	<item>Χωριάτικη</item>
+	<item>Light</item>
+	<item>Μορταδέλα,πεπερόνι,τυρί,ντομάτα,πιπεριά,μανιτάρια,σάλτσα</item>
+        <item>Κοτόπουλο,τυρί,μπέικον,μανιτάρια,πατάτα,κρέμα γάλακτος</item>
+        <item>Γαλοπούλα πανέ,τυρί,μπέικον,πατάτα,chedar sauce</item>
+        <item>Κοτομπουκιές,τυρί,ντομάτα,καλαμπόκι,λάχανο-καρότο,sauce</item>
+	<item>Onion rings,τυρί,ντομάτα,πατάτα,bbq sauce</item>
+        <item>Λουκάνικο χωριάτικο,τυρί,μπέικον,ντομάτα,πιπεριά,τυροσαλάτα</item>
+        <item>Κιμάς,τυρί,κρέμα γάλακτος,μανιτάρια</item>
+        <item>Μπιφτέκι,τυρί,μπέικον,κέτσαπ,μουστάρδα,πικλοσαλάτα</item>
+</string-array>
+
+<string-array name="Sweet_salty_krepes_almures_times">
+	<item>2,50</item>
+	<item>4,80</item>
+	<item>5,00</item>
+	<item>3,70</item>
+	<item>4,50</item>
+	<item>4,90</item>
+	<item>4,90</item>
+        <item>5,40</item>
+        <item>5,20</item>
+        <item>4,30</item>
+	<item>4,30</item>
+        <item>5,50</item>
+        <item>4,40</item>
+        <item>4,40</item>
+</string-array>
+
+<string-array name="Sweet_salty_hot_dog">
+	<item>Hot Dog</item>
+</string-array>
+
+<string-array name="Sweet_salty_hot_dog_times">
+	<item>1,80</item>
+</string-array>
+
+<string-array name="Sweet_salty_burger">
+	<item>Hamburger</item>
+	<item>Cheeseburger</item>
+	<item>Chicken burger</item>
+	<item>Turkey burger</item>
+	<item>Sweet n salty burger</item>
+</string-array>
+
+<string-array name="Sweet_salty_burger_times">
+	<item>4,00</item>
+	<item>4,50</item>
+	<item>4,80</item>
+	<item>5,00</item>
+	<item>5,00</item>
+</string-array>
+
+<string-array name="Sweet_salty_merides">
+	<item>Κοτομπουκιές</item>
+	<item>Φιλετάκια χοιρινά</item>
+	<item>Φιλετάκια κοτόπουλο</item>
+	<item>Onion rings</item>
+	<item>Λουκάνικα χωριάτικα</item>
+	<item>Πατάτες τηγανητές</item>
+	<item>Πατάτες τηγανητές με sauce</item>
+</string-array>
+
+<string-array name="Sweet_salty_merides_times">
+	<item>6,50</item>
+	<item>6,50</item>
+	<item>6,50</item>
+	<item>5,50</item>
+	<item>5,80</item>
+	<item>2,50</item>
+	<item>3,00</item>
+</string-array>
+
+<string-array name="Sweet_salty_salates">
+	<item>Chef</item>
+	<item>Ceasar</item>
+	<item>Sweet n salty</item>
+	<item>Ντάκος</item>
+</string-array>
+
+
+<string-array name="Sweet_salty_salates_times">
+	<item>4,50</item>
+	<item>4,50</item>
+	<item>5,00</item>
+	<item>3,50</item>
+</string-array>
+
+<string-array name="Sweet_salty_krepes_glukes">
+	<item>Ανάμεικτη,μπανάνα,ξηροί καρποί</item>
+	<item>Μήλο,ζάχαρη,σταφίδα,καρύδι,κανέλα</item>
+	<item>Σοκολάτα υγείας,πορτοκάλι,digestive</item>
+	<item>Ανάμεικτη</item>
+	<item>Λευκή σοκολάτα,βύσσινο</item>
+	<item>Μέλι,καρύδια,κανέλα</item>
+	<item>Κρέμα μπουγάτσας,άχνη ζάχαρη,κανέλα</item>
+        <item>Μέλι,φρούτα,κανέλα</item>
+        <item>Λευκή σοκολάτα,βύσσινο,baileys</item>
+</string-array>
+
+<string-array name="Sweet_salty_krepes_glukes_times">
+	<item>4,70</item>
+	<item>3,00</item>
+	<item>3,80</item>
+	<item>3,50</item>
+	<item>3,50</item>
+	<item>2,70</item>
+	<item>3,00</item>
+        <item>2,90</item>
+        <item>4,00</item>
+</string-array>
+
+<string-array name="Sweet_salty_club_sandwich">
+	<item>Αλλαντικών</item>
+	<item>Κοτόπουλο</item>
+</string-array>
+
+<string-array name="Sweet_salty_club_sandwich_times">
+	<item>5,00</item>
+	<item>5,50</item>
+</string-array>
+
+    
+    <!-- //////////////////////////////// TAZMANIAC////////////////////// -->
+    <string-array name="Tazmaniac_prwina">
+	<item>Ομελέτα 2 αυγά,πατάτες</item>
+	<item>Ομελέτα 2 αυγά,πατάτες,μπέικον</item>
+	<item>Γαλλικό πρωινό</item>
+	<item>2 αυγά,πατάτες,ψωμί,φυσικό χυμό</item>
+	<item>2 αυγά,πατάτες,ψωμί,καφέ ελληνικό ή φραπέ ή νες</item>
+	<item>2 αυγά,πατάτες,καφέ φρέντο Espresso/Cappuccino</item>
+	<item>Τοστ,τυρί,ζαμπόν</item>
+        <item>Τοστ,φυσικός χυμός πορτοκάλι</item>
+        <item>Τοστ,καφές ελληνικός ή Espresso/Cappuccino</item>
+</string-array>
+
+<string-array name="Tazmaniac_prwina_times">
+	<item>2,50</item>
+	<item>3,00</item>
+	<item>3,00</item>
+	<item>5,00</item>
+	<item>4,00</item>
+	<item>4,50</item>
+	<item>2,00</item>
+        <item>3,50</item>
+        <item>4,00</item>
+</string-array>
+
+<string-array name="Tazmaniac_sandwich">
+	<item>Τοστ αλλαντικών</item>
+	<item>Sandwich τόνο</item>
+	<item>Sandwich κοτόπουλο</item>
+	<item>Sandwich ζαμπόν,τυρί,ντομάτα</item>
+	<item>Sandwich γαλοπούλα,τυρί,ντομάτα</item>
+	<item>Club Sandwich αλλαντικών</item>
+	<item>Club Sandwich κοτόπουλο</item>
+        <item>Hot dog</item>
+        <item>Τυρόπιτα</item>
+</string-array>
+
+<string-array name="Tazmaniac_sandwich_times">
+	<item>2,00</item>
+	<item>2,20</item>
+	<item>2,50</item>
+	<item>2,00</item>
+	<item>2,30</item>
+	<item>4,50</item>
+	<item>5,20</item>
+        <item>2,00</item>
+        <item>1,50</item>
+</string-array>
+
+<string-array name="Tazmaniac_krepes_almures">
+	<item>Ζαμπόν,τυρί</item>
+	<item>Ζαμπόν,τυρί,μανιτάρια</item>
+	<item>Γαλοπούλα,τυρί,μανιτάρια,κρέμα γάλακτος </item>
+	<item>Κοτόπουλο,τυρί,μανιτάρια,κρέμα γάλακτος</item>
+	<item>Μπέικον,τυρί,ντομάτα</item>
+	<item>Τόνο,τυρί,ντομάτα,μαγιονέζα</item>
+	<item>Ζαμπόν,τυρί,αυγό,ντομάτα</item>
+        <item>Χωριάτικη,φέτα,γκούντα,ελιές,ντομάτα</item>
+        <item>Κιμάς,τυρί,πατάτες,ντομάτα</item>
+</string-array>
+
+<string-array name="Tazmaniac_krepes_almures_times">
+	<item>2,50</item>
+	<item>3,00</item>
+	<item>4,00</item>
+	<item>4,00</item>
+	<item>3,50</item>
+	<item>4,00</item>
+	<item>4,50</item>
+        <item>4,50</item>
+        <item>4,50</item>
+</string-array>
+
+<string-array name="Tazmaniac_krepes_glukes">
+	<item>Σοκολάτα</item>
+	<item>Σοκολάτα,μπισκότο</item>
+	<item>Σοκολάτα,μπανάνα</item>
+	<item>Σοκολάτα,μπανάνα,μπισκότο</item>
+	<item>Σοκολάτα,φράουλα,σαντιγύ</item>
+	<item>Σοκολάτα,ξηροί καρποί</item>
+	<item>Γιαούρτι,μέλι</item>
+        <item>Μέλι,ξηροί καρποί</item>
+        <item>Σοκολάτα,κανέλα</item>
+        <item>Σοκολάτα,κανέλα,σαντιγύ</item>
+</string-array>
+
+<string-array name="Tazmaniac_krepes_glukes_times">
+	<item>2,00</item>
+	<item>3,00</item>
+	<item>3,50</item>
+	<item>4,00</item>
+	<item>4,50</item>
+	<item>3,50</item>
+	<item>4,00</item>
+        <item>4,00</item>
+        <item>3,00€</item>
+        <item>3,50</item>
+</string-array>
+
+<string-array name="Tazmaniac_burger">
+	<item>Μπιφτέκι,ντομάτα,μαρούλι,κρεμμύδι,σως</item>
+	<item>Cheese burger</item>
+	<item>Chicken burger</item>
+</string-array>
+
+<string-array name="Tazmaniac_burger_times">
+	<item>3,50</item>
+	<item>4,00</item>
+	<item>5,00</item>
+</string-array>
+
+<string-array name="Tazmaniac_steak_sandwich">
+	<item>Κρέας,τυρί,μαρούλι,σως</item>
+	<item>Κρέας,τυρί,πατάτες,ντομάτα</item>
+	<item>Κρέας,τυρί,αυγό,ντομάτα</item>
+	<item>Steak bonb</item>
+</string-array>
+
+<string-array name="Tazmaniac_steak_sandwich_times">
+	<item>2,50</item>
+	<item>3,50</item>
+	<item>4,00</item>
+	<item>5,00</item>
+</string-array>
+
+<string-array name="Tazmaniac_faghta">
+	<item>Μπιφτέκι/πανσέτα/χωρ.λουκάνικο/κοτόπουλο/μπουτάκια κοτόπ.</item>
+	<item>Πιάτο ημέρας</item>
+	<item>Λουκάνικο χωριάτικο</item>
+</string-array>
+
+<string-array name="Tazmaniac_faghta_times">
+	<item>6,00</item>
+	<item>5,00</item>
+	<item>6,00</item>
+</string-array>
+
+<!-- /////////////////////////TELOS FAGITWN/////////////////////// -->
+    
+</resources>
