@@ -28,6 +28,8 @@ public class Katigories extends Activity{
 	ArrayAdapter<String> list_view_adapter;//ti tha deiksei mesa sto list_view
 	ArrayAdapter<String> auto_adapter;//adapter tou auto-complete... ti tha deiksei mes sto auto-complete
 	String search;//einai oti yparxei mesa sto auto-complete kai einai grammeno
+	ArrayList<String> titles;//titloi/separators sto listview
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -40,6 +42,7 @@ public class Katigories extends Activity{
 	//initialize variables
 	
 	private void init(){
+				
 		//auto complete text view
 		actv = (AutoCompleteTextView) findViewById(R.id.atSearch);
 		String[] suggestions = {"souvlaki","burger","salates"};//mporoume na valoume osa key theloume
@@ -62,6 +65,7 @@ public class Katigories extends Activity{
 		    }
 		    public void onTextChanged(CharSequence s, int start, int before, int count) {
 		    	//otan allazi to keimeno kani search 
+		    	titles = new ArrayList<String>();
 		    	search= s.toString();
 		    	list = convertArrayList(getAllStrings(search));
 				//sort list simfona me tin timi
@@ -117,6 +121,8 @@ public class Katigories extends Activity{
 				        // add to list
 				        String[] array =  getResources().getStringArray(id);				        
 				        list.add(array);
+				        //get title
+				        titles.add(field.getName());
 				        
 				      }
 				    } catch (IllegalArgumentException e)
@@ -139,7 +145,8 @@ public class Katigories extends Activity{
 				
 				for (int i=0; i<oldlist.size();i++){
 					olindex = oldlist.get(i);
-					//na
+					//set title/separator
+					newlist.add(titles.get(i));
 					for (String j: olindex){
 						newlist.add(j);
 					}
