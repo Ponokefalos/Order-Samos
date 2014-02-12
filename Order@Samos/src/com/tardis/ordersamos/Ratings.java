@@ -3,35 +3,42 @@ package com.tardis.ordersamos;
 import android.os.Bundle;
 import android.app.Activity;
 import android.graphics.Color;
-import android.view.Menu;
-import android.widget.ImageView;
 
 import com.socialize.ActionBarUtils;
-import com.socialize.EntityUtils;
 import com.socialize.Socialize;
 import com.socialize.entity.Entity;
-import com.socialize.error.SocializeException;
-import com.socialize.listener.entity.EntityAddListener;
+
 import com.socialize.ui.actionbar.ActionBarOptions;
 
 
 public class Ratings extends Activity {
 
-	ImageView evrys;
+	Entity entity;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		
-		evrys = (ImageView) findViewById(R.id.ivRatingsEvrys);
-		
 		// Call Socialize in onCreate
         Socialize.onCreate(this, savedInstanceState);
+        
+		initSocialize();
+		
+		
+		
+        
+	}
+
+    private void initSocialize() {
+    	
         
         // Create an entity object including a name
         // The Entity object is Serializable, so you could also store the whole
         // object in the Intent
-        Entity entity = Entity.newInstance("Rate", "Socialize");
+        
+        entity = Entity.newInstance("RateEvris", "Evris");
+        entity = Entity.newInstance("RateVakxos", "Vakxos");
+        
+        
         
             
         
@@ -54,10 +61,10 @@ public class Ratings extends Activity {
  
         // Now set the view for your activity to be the wrapped view.
         setContentView(actionBarWrapped);
-        
+		
 	}
 
-    @Override
+	@Override
     protected void onPause() {
         super.onPause();
  

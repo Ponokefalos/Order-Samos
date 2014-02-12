@@ -3,6 +3,10 @@
 	<name>Order@Samos</name>
 	<comment></comment>
 	<projects>
+		<project>android-ioc</project>
+		<project>Facebook-SDK</project>
+		<project>Socialize-demo</project>
+		<project>Socialize-SDK</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
