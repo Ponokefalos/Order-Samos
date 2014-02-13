@@ -9,48 +9,424 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".Ratings" >
 
-    <TabHost
-        android:id="@android:id/tabhost"
+    <RelativeLayout
+        android:id="@+id/RelativeLayout1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true" >
+        android:layout_height="wrap_content" >
 
-        <LinearLayout
+        <TabHost
+            android:id="@+id/tabhost"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="vertical" >
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true" >
 
-            <TabWidget
-                android:id="@android:id/tabs"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" >
-            </TabWidget>
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
 
-            <FrameLayout
-                android:id="@android:id/tabcontent"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                <HorizontalScrollView
+                    android:id="@+id/horizontalScrollView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
 
-                <LinearLayout
-                    android:id="@+id/tab1"
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal" >
+
+                        <TabWidget
+                            android:id="@android:id/tabs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" >
+                        </TabWidget>
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent" >
-                </LinearLayout>
 
-                <LinearLayout
-                    android:id="@+id/tab2"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-                </LinearLayout>
+                    <RelativeLayout
+                        android:id="@+id/tab1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
 
-                <LinearLayout
-                    android:id="@+id/tab3"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" >
-                </LinearLayout>
-            </FrameLayout>
-        </LinearLayout>
-    </TabHost>
+                        <ImageView
+                            android:id="@+id/ivRatingsEvrys"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/evris" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsEvrysTitlos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ivRatingsEvrys"
+                            android:layout_marginTop="28dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsEvrysInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignRight="@+id/ivRatingsEvrys"
+                            android:layout_below="@+id/tvRatingsEvrysTitlos"
+                            android:layout_marginRight="34dp"
+                            android:layout_marginTop="38dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/tab2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+
+                       <ImageView
+                            android:id="@+id/ivRatingsFame"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/fame" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsFameTitlos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ivRatingsFame"
+                            android:layout_marginTop="28dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsFameInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignRight="@+id/ivRatingsFame"
+                            android:layout_below="@+id/tvRatingsFameTitlos"
+                            android:layout_marginRight="34dp"
+                            android:layout_marginTop="38dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/tab3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                        
+                         <ImageView
+                            android:id="@+id/ivRatingsSweet"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/sweet" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsSweetTitlos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ivRatingsSweet"
+                            android:layout_marginTop="28dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsSweetInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignRight="@+id/ivRatingsSweet"
+                            android:layout_below="@+id/tvRatingsSweetTitlos"
+                            android:layout_marginRight="34dp"
+                            android:layout_marginTop="38dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/tab4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                        
+                         <ImageView
+                            android:id="@+id/ivRatingsNostos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/nostos" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsNostosTitlos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ivRatingsNostos"
+                            android:layout_marginTop="28dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsNostosInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignRight="@+id/ivRatingsNostos"
+                            android:layout_below="@+id/tvRatingsNostosTitlos"
+                            android:layout_marginRight="34dp"
+                            android:layout_marginTop="38dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </RelativeLayout>
+					
+                    <RelativeLayout
+                        android:id="@+id/tab5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                        
+                         <ImageView
+                            android:id="@+id/ivRatingsKoutala"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/koutala" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsKoutalaTitlos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ivRatingsKoutala"
+                            android:layout_marginTop="28dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsKoutalaInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignRight="@+id/ivRatingsKoutala"
+                            android:layout_below="@+id/tvRatingsKoutalaTitlos"
+                            android:layout_marginRight="34dp"
+                            android:layout_marginTop="38dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/tab6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                        
+                         <ImageView
+                            android:id="@+id/ivRatingsKouzina"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/kouzina" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsKouzinaTitlos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ivRatingsKouzina"
+                            android:layout_marginTop="28dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsKouzinaInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignRight="@+id/ivRatingsKouzina"
+                            android:layout_below="@+id/tvRatingsKouzinaTitlos"
+                            android:layout_marginRight="34dp"
+                            android:layout_marginTop="38dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                    </RelativeLayout>
+                    <RelativeLayout   
+                        android:id="@+id/tab7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                       
+                         <ImageView
+                            android:id="@+id/ivRatingsGiro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/giro" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsGiroTitlos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ivRatingsGiro"
+                            android:layout_marginTop="28dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsGiroInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignRight="@+id/ivRatingsGiro"
+                            android:layout_below="@+id/tvRatingsGiroTitlos"
+                            android:layout_marginRight="34dp"
+                            android:layout_marginTop="38dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        
+                        
+                    </RelativeLayout>
+                    <RelativeLayout 
+                         android:id="@+id/tab8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                        
+                         <ImageView
+                            android:id="@+id/ivRatingsTaz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/taz" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsTazTitlos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ivRatingsTaz"
+                            android:layout_marginTop="28dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsTazInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignRight="@+id/ivRatingsTaz"
+                            android:layout_below="@+id/tvRatingsTazTitlos"
+                            android:layout_marginRight="34dp"
+                            android:layout_marginTop="38dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        
+                        
+                    </RelativeLayout>
+                    <RelativeLayout 
+                          android:id="@+id/tab9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                        
+                         <ImageView
+                            android:id="@+id/ivRatingsMegaro"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/megaro" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsMegaroTitlos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ivRatingsMegaro"
+                            android:layout_marginTop="28dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsMegaroInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignRight="@+id/ivRatingsMegaro"
+                            android:layout_below="@+id/tvRatingsMegaroTitlos"
+                            android:layout_marginRight="34dp"
+                            android:layout_marginTop="38dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        
+                        
+                    </RelativeLayout>
+                    <RelativeLayout
+                         android:id="@+id/tab10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical" >
+                        
+                        <ImageView
+                            android:id="@+id/ivRatingsVakxos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="20dp"
+                            android:src="@drawable/vakxos" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsVakxosTitlos"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentLeft="true"
+                            android:layout_below="@+id/ivRatingsVakxos"
+                            android:layout_marginTop="28dp"
+                            android:text="Large Text"
+                            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+                        <TextView
+                            android:id="@+id/tvRatingsVakxosInfo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignRight="@+id/ivRatingsVakxos"
+                            android:layout_below="@+id/tvRatingsVakxosTitlos"
+                            android:layout_marginRight="34dp"
+                            android:layout_marginTop="38dp"
+                            android:text="Medium Text"
+                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        
+                        
+                    </RelativeLayout>
+                    
+                </FrameLayout>
+            </LinearLayout>
+        </TabHost>
+    </RelativeLayout>
 
 </RelativeLayout>

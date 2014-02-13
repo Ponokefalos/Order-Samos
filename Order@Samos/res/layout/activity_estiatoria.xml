@@ -11,11 +11,11 @@
 
     <ScrollView
         android:id="@+id/scrollView1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <LinearLayout
-            android:layout_width="319dp"
+            android:layout_width="match_parent"
             android:layout_height="1141dp"
             android:orientation="vertical" >
 
@@ -24,8 +24,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/fame"
-                android:src="@drawable/tick"
+                android:background="@null"
+                android:src="@drawable/fame"
                 android:tag="Fame" />
 
             <ImageButton
@@ -33,8 +33,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/evris"
-                android:src="@drawable/tick" />
+                android:background="@null"
+                android:src="@drawable/evris" />
 
             <ImageButton
                 android:id="@+id/ibtnKoutala"
@@ -42,16 +42,16 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="58dp"
-                android:background="@drawable/koutala"
-                android:src="@drawable/tick" />
+                android:background="@null"
+                android:src="@drawable/koutala" />
 
             <ImageButton
                 android:id="@+id/ibtnGiro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/giro"
-                android:src="@drawable/tick" />
+                android:background="@null"
+                android:src="@drawable/giro" />
 
             <ImageButton
                 android:id="@+id/ibtnNostos"
@@ -60,16 +60,16 @@
                 android:layout_gravity="center"
                 android:layout_marginLeft="15dp"
                 android:layout_marginTop="56dp"
-                android:background="@drawable/nostos"
-                android:src="@drawable/tick" />
+                android:background="@null"
+                android:src="@drawable/nostos" />
 
             <ImageButton
                 android:id="@+id/ibtnTaz"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
-                android:background="@drawable/taz"
-                android:src="@drawable/tick" />
+                android:background="@null"
+                android:src="@drawable/taz" />
 
             <ImageButton
                 android:id="@+id/ibtnMegaro"
@@ -77,8 +77,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="46dp"
-                android:background="@drawable/megaro"
-                android:src="@drawable/tick" />
+                android:background="@null"
+                android:src="@drawable/megaro" />
 
             <ImageButton
                 android:id="@+id/ibtnKouzina"
@@ -86,8 +86,8 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="48dp"
-                android:background="@drawable/kouzina"
-                android:src="@drawable/tick" />
+                android:background="@null"
+                android:src="@drawable/kouzina" />
 			
             <ImageButton
                 android:id="@+id/ibtnVakxos"
@@ -95,16 +95,17 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="48dp"
-                android:background="@drawable/vakxos"
-                android:src="@drawable/tick" />
+                android:background="@null"
+                android:src="@drawable/vakxos" />
+
              <ImageButton
-                android:id="@+id/ibtnSweet"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="48dp"
-                android:background="@drawable/sweet"
-                android:src="@drawable/tick" />
+                 android:id="@+id/ibtnSweet"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center"
+                 android:layout_marginTop="48dp"
+                 android:background="@null"
+                 android:src="@drawable/sweet" />
             
         </LinearLayout>
     </ScrollView>

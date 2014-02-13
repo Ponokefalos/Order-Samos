@@ -32,6 +32,11 @@
     <item>Wind:6938775152</item>
 </string-array>
 
+<string-array name="Wres_leitourgias_Evrys">
+    <item></item>
+    
+</string-array>
+
 <string-array name="Til_Fame">
     <item>Stathero1:2273035660</item>
     <item>Stathero2:2273032795</item>
@@ -91,6 +96,7 @@
     <item>Vodafone:6947577987</item>
 </string-array>
 <string name="title_curl_view">CurlActivity</string>
+
 <string-array name="Estiatoria">
     <item >Evrys</item>
     <item >Fame</item>

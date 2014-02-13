@@ -9,189 +9,274 @@ package com.tardis.ordersamos;
 
 public final class R {
     public static final class array {
-        public static final int Bakxos_burger=0x7f06000b;
-        public static final int Bakxos_burger_times=0x7f06000c;
-        public static final int Bakxos_mageireuta=0x7f060005;
-        public static final int Bakxos_mageireuta_times=0x7f060006;
-        public static final int Bakxos_merides=0x7f060007;
-        public static final int Bakxos_merides_times=0x7f060008;
-        /**  //////////////////////////////// BAKXOS////////////////////// 
+        public static final int Bakxos_burger=0x7f0a0007;
+        public static final int Bakxos_mageireuta=0x7f0a0004;
+        public static final int Bakxos_merides=0x7f0a0005;
+        /**  //////////////////////BAKXOS///////////////////////////// 
          */
-        public static final int Bakxos_orektika=0x7f060000;
-        public static final int Bakxos_pites=0x7f060009;
-        public static final int Bakxos_pites_times=0x7f06000a;
-        public static final int Bakxos_salates=0x7f060001;
-        public static final int Bakxos_sandwich=0x7f060002;
-        public static final int Bakxos_souvlista=0x7f060003;
-        public static final int Bakxos_souvlista_times=0x7f060004;
-        public static final int Banvalues=0x7f0600a2;
-        public static final int Estiatoria=0x7f0600a1;
-        public static final int Fame_burger=0x7f060013;
-        public static final int Fame_burger_times=0x7f060014;
-        public static final int Fame_krepes_almures=0x7f060027;
-        public static final int Fame_krepes_almures_times=0x7f060028;
-        public static final int Fame_krepes_glukes=0x7f060025;
-        public static final int Fame_krepes_glukes_times=0x7f060026;
-        public static final int Fame_merides=0x7f06001b;
-        public static final int Fame_merides_times=0x7f06001c;
-        public static final int Fame_omeletes=0x7f060011;
-        public static final int Fame_omeletes_times=0x7f060012;
-        public static final int Fame_orektika=0x7f06000f;
-        public static final int Fame_orektika_times=0x7f060010;
-        public static final int Fame_pites=0x7f06001f;
-        public static final int Fame_pites_times=0x7f060020;
-        public static final int Fame_pitses=0x7f060019;
-        public static final int Fame_pitses_times=0x7f06001a;
-        /**  //////////////////////////////// FAME////////////////////// 
+        public static final int Bakxos_orektika=0x7f0a0000;
+        public static final int Bakxos_pites=0x7f0a0006;
+        public static final int Bakxos_salates=0x7f0a0001;
+        public static final int Bakxos_sandwich=0x7f0a0002;
+        public static final int Bakxos_souvlista=0x7f0a0003;
+        public static final int Banvalues=0x7f0a0062;
+        public static final int Estiatoria=0x7f0a0061;
+        public static final int Evrys_burger=0x7f0a000e;
+        public static final int Evrys_omeletes=0x7f0a000c;
+        public static final int Evrys_orektika=0x7f0a0009;
+        public static final int Evrys_piata=0x7f0a000b;
+        public static final int Evrys_pites=0x7f0a000a;
+        public static final int Evrys_pitses=0x7f0a0010;
+        /**  /////////////////////////////EVRYS//////////////////////////// 
          */
-        public static final int Fame_salates=0x7f06000d;
-        public static final int Fame_salates_times=0x7f06000e;
-        public static final int Fame_sandwich=0x7f060015;
-        public static final int Fame_sandwich_times=0x7f060016;
-        public static final int Fame_spesialite=0x7f06001d;
-        public static final int Fame_spesialite_times=0x7f06001e;
-        public static final int Fame_vafles=0x7f060029;
-        public static final int Fame_vafles_times=0x7f06002a;
-        public static final int Fame_xwris_pita=0x7f060021;
-        public static final int Fame_xwris_pita_times=0x7f060022;
-        public static final int Fame_yhta=0x7f060023;
-        public static final int Fame_yhta_times=0x7f060024;
-        public static final int Fame_zumarika=0x7f060017;
-        public static final int Fame_zumarika_times=0x7f060018;
-        public static final int Guro_Guro_oloi_merides=0x7f060033;
-        public static final int Guro_Guro_oloi_merides_times=0x7f060034;
-        public static final int Guro_Guro_oloi_orektika=0x7f06002d;
-        public static final int Guro_Guro_oloi_orektika_times=0x7f06002e;
-        public static final int Guro_Guro_oloi_pites=0x7f06002f;
-        public static final int Guro_Guro_oloi_pites_times=0x7f060030;
-        public static final int Guro_Guro_oloi_poikilies=0x7f060035;
-        public static final int Guro_Guro_oloi_poikilies_times=0x7f060036;
-        /**  //////////////////////////////// GIRO GIRO OLOI////////////////////// 
+        public static final int Evrys_salates=0x7f0a0008;
+        public static final int Evrys_submarine_sandwich=0x7f0a000f;
+        public static final int Evrys_zumarika=0x7f0a000d;
+        public static final int Fame_burger=0x7f0a0043;
+        public static final int Fame_krepes_almures=0x7f0a004d;
+        public static final int Fame_krepes_glukes=0x7f0a004c;
+        public static final int Fame_merides=0x7f0a0047;
+        public static final int Fame_omeletes=0x7f0a0042;
+        public static final int Fame_orektika=0x7f0a0041;
+        public static final int Fame_pites=0x7f0a0049;
+        public static final int Fame_pitses=0x7f0a0046;
+        /**  ////////////////////////FAME/////////////////////////// 
          */
-        public static final int Guro_Guro_oloi_salates=0x7f06002b;
-        public static final int Guro_Guro_oloi_salates_times=0x7f06002c;
-        public static final int Guro_Guro_oloi_souvles=0x7f060031;
-        public static final int Guro_Guro_oloi_souvles_times=0x7f060032;
-        public static final int Koutala_club_sandwich=0x7f060045;
-        public static final int Koutala_club_sandwich_times=0x7f060046;
-        public static final int Koutala_mezedes=0x7f06003d;
-        public static final int Koutala_mezedes_times=0x7f06003e;
-        public static final int Koutala_orektika=0x7f060039;
-        public static final int Koutala_orektika_times=0x7f06003a;
-        public static final int Koutala_pizza=0x7f060047;
-        public static final int Koutala_pizza_times=0x7f060048;
-        /**  //////////////////////////////// KOUTALA////////////////////// 
+        public static final int Fame_salates=0x7f0a0040;
+        public static final int Fame_sandwich=0x7f0a0044;
+        public static final int Fame_spesialite=0x7f0a0048;
+        public static final int Fame_vafles=0x7f0a004e;
+        public static final int Fame_xwris_pita=0x7f0a004a;
+        public static final int Fame_yhta=0x7f0a004b;
+        public static final int Fame_zumarika=0x7f0a0045;
+        public static final int Guro_Guro_oloi_merides=0x7f0a0015;
+        public static final int Guro_Guro_oloi_orektika=0x7f0a0012;
+        public static final int Guro_Guro_oloi_pites=0x7f0a0013;
+        public static final int Guro_Guro_oloi_poikilies=0x7f0a0016;
+        /**  ///////////////////////////////////////////GIRO GIRO////////////////////// 
          */
-        public static final int Koutala_salates=0x7f060037;
-        public static final int Koutala_salates_times=0x7f060038;
-        public static final int Koutala_snitsel=0x7f060041;
-        public static final int Koutala_snitsel_times=0x7f060042;
-        public static final int Koutala_souvlaki=0x7f060043;
-        public static final int Koutala_souvlaki_times=0x7f060044;
-        public static final int Koutala_yarika=0x7f06003b;
-        public static final int Koutala_yarika_times=0x7f06003c;
-        public static final int Koutala_zumarika=0x7f06003f;
-        public static final int Koutala_zumarika_times=0x7f060040;
-        public static final int Kouzina_ths_mamas_aloifes=0x7f06004b;
-        public static final int Kouzina_ths_mamas_aloifes_times=0x7f06004c;
-        public static final int Kouzina_ths_mamas_burger=0x7f06005f;
-        public static final int Kouzina_ths_mamas_burger_times=0x7f060060;
-        public static final int Kouzina_ths_mamas_kupriakes_pites=0x7f06005b;
-        public static final int Kouzina_ths_mamas_kupriakes_pites_times=0x7f06005c;
-        public static final int Kouzina_ths_mamas_mageireuta=0x7f060051;
-        public static final int Kouzina_ths_mamas_mageireuta_times=0x7f060052;
-        public static final int Kouzina_ths_mamas_orektika=0x7f06004d;
-        public static final int Kouzina_ths_mamas_orektika_times=0x7f06004e;
-        public static final int Kouzina_ths_mamas_pites=0x7f060059;
-        public static final int Kouzina_ths_mamas_pites_times=0x7f06005a;
-        public static final int Kouzina_ths_mamas_pitses=0x7f060061;
-        public static final int Kouzina_ths_mamas_pitses_times=0x7f060062;
-        /**  //////////////////////////////// KOUZINA TIS MAMAS////////////////////// 
+        public static final int Guro_Guro_oloi_salates=0x7f0a0011;
+        public static final int Guro_Guro_oloi_souvles=0x7f0a0014;
+        public static final int Koutala_club_sandwich=0x7f0a001e;
+        public static final int Koutala_mezedes=0x7f0a001a;
+        public static final int Koutala_orektika=0x7f0a0018;
+        public static final int Koutala_pizza=0x7f0a001f;
+        /**  ////////////////////KOUTALA////////////////////// 
          */
-        public static final int Kouzina_ths_mamas_salates=0x7f060049;
-        public static final int Kouzina_ths_mamas_salates_times=0x7f06004a;
-        public static final int Kouzina_ths_mamas_souvles=0x7f060057;
-        public static final int Kouzina_ths_mamas_souvles_times=0x7f060058;
-        public static final int Kouzina_ths_mamas_thganies=0x7f060053;
-        public static final int Kouzina_ths_mamas_thganies_times=0x7f060054;
-        public static final int Kouzina_ths_mamas_yhta=0x7f060055;
-        public static final int Kouzina_ths_mamas_yhta_times=0x7f060056;
-        public static final int Kouzina_ths_mamas_ywmakia=0x7f06005d;
-        public static final int Kouzina_ths_mamas_ywmakia_times=0x7f06005e;
-        public static final int Kouzina_ths_mamas_zumarika=0x7f06004f;
-        public static final int Kouzina_ths_mamas_zumarika_times=0x7f060050;
-        /**  //////////////////////////////// MEGARO////////////////////// 
+        public static final int Koutala_salates=0x7f0a0017;
+        public static final int Koutala_snitsel=0x7f0a001c;
+        public static final int Koutala_souvlaki=0x7f0a001d;
+        public static final int Koutala_yarika=0x7f0a0019;
+        public static final int Koutala_zumarika=0x7f0a001b;
+        public static final int Kouzina_ths_mamas_aloifes=0x7f0a0021;
+        public static final int Kouzina_ths_mamas_burger=0x7f0a002b;
+        public static final int Kouzina_ths_mamas_kupriakes_pites=0x7f0a0029;
+        public static final int Kouzina_ths_mamas_mageireuta=0x7f0a0024;
+        public static final int Kouzina_ths_mamas_orektika=0x7f0a0022;
+        public static final int Kouzina_ths_mamas_pites=0x7f0a0028;
+        public static final int Kouzina_ths_mamas_pitses=0x7f0a002c;
+        /**  ////////////////////////////KOUZINA/////////////////////// 
          */
-        public static final int Megaro_pitses=0x7f060063;
-        public static final int Megaro_pitses_times=0x7f060064;
-        public static final int Megaro_salates=0x7f060065;
-        public static final int Megaro_salates_times=0x7f060066;
-        public static final int Megaro_zumarika=0x7f060067;
-        public static final int Megaro_zumarika_times=0x7f060068;
-        public static final int Nostos_mageireuta=0x7f060077;
-        public static final int Nostos_mageireuta_times=0x7f060078;
-        public static final int Nostos_omeletes=0x7f06006b;
-        public static final int Nostos_omeletes_times=0x7f06006c;
-        /**  //////////////////////////////// NOSTOS////////////////////// 
+        public static final int Kouzina_ths_mamas_salates=0x7f0a0020;
+        public static final int Kouzina_ths_mamas_souvles=0x7f0a0027;
+        public static final int Kouzina_ths_mamas_thganies=0x7f0a0025;
+        public static final int Kouzina_ths_mamas_yhta=0x7f0a0026;
+        public static final int Kouzina_ths_mamas_ywmakia=0x7f0a002a;
+        public static final int Kouzina_ths_mamas_zumarika=0x7f0a0023;
+        /**  /////////////////////MEGARO///////////////////// 
          */
-        public static final int Nostos_orektika=0x7f060069;
-        public static final int Nostos_orektika_times=0x7f06006a;
-        public static final int Nostos_peinirli=0x7f06006f;
-        public static final int Nostos_peinirli_times=0x7f060070;
-        public static final int Nostos_pitses=0x7f060075;
-        public static final int Nostos_pitses_times=0x7f060076;
-        public static final int Nostos_salates=0x7f06006d;
-        public static final int Nostos_salates_times=0x7f06006e;
-        public static final int Nostos_tortelini=0x7f060073;
-        public static final int Nostos_tortelini_times=0x7f060074;
-        public static final int Nostos_yhta=0x7f060079;
-        public static final int Nostos_yhta_times=0x7f06007a;
-        public static final int Nostos_zumarika=0x7f060071;
-        public static final int Nostos_zumarika_times=0x7f060072;
-        public static final int Sweet_salty_burger=0x7f06007f;
-        public static final int Sweet_salty_burger_times=0x7f060080;
-        public static final int Sweet_salty_club_sandwich=0x7f060087;
-        public static final int Sweet_salty_club_sandwich_times=0x7f060088;
-        public static final int Sweet_salty_hot_dog=0x7f06007d;
-        public static final int Sweet_salty_hot_dog_times=0x7f06007e;
-        /**  //////////////////////////////// SWEET & NASTY////////////////////// 
+        public static final int Megaro_pitses=0x7f0a003d;
+        public static final int Megaro_salates=0x7f0a003e;
+        public static final int Megaro_zumarika=0x7f0a003f;
+        public static final int Nostos_mageireuta=0x7f0a003b;
+        public static final int Nostos_omeletes=0x7f0a0035;
+        /**  ////////////////////NOSTOS/////////////////// 
          */
-        public static final int Sweet_salty_krepes_almures=0x7f06007b;
-        public static final int Sweet_salty_krepes_almures_times=0x7f06007c;
-        public static final int Sweet_salty_krepes_glukes=0x7f060085;
-        public static final int Sweet_salty_krepes_glukes_times=0x7f060086;
-        public static final int Sweet_salty_merides=0x7f060081;
-        public static final int Sweet_salty_merides_times=0x7f060082;
-        public static final int Sweet_salty_salates=0x7f060083;
-        public static final int Sweet_salty_salates_times=0x7f060084;
-        public static final int Tazmaniac_burger=0x7f060091;
-        public static final int Tazmaniac_burger_times=0x7f060092;
-        public static final int Tazmaniac_faghta=0x7f060095;
-        public static final int Tazmaniac_faghta_times=0x7f060096;
-        public static final int Tazmaniac_krepes_almures=0x7f06008d;
-        public static final int Tazmaniac_krepes_almures_times=0x7f06008e;
-        public static final int Tazmaniac_krepes_glukes=0x7f06008f;
-        public static final int Tazmaniac_krepes_glukes_times=0x7f060090;
-        /**  //////////////////////////////// TAZMANIAC////////////////////// 
+        public static final int Nostos_orektika=0x7f0a0034;
+        public static final int Nostos_peinirli=0x7f0a0037;
+        public static final int Nostos_pitses=0x7f0a003a;
+        public static final int Nostos_salates=0x7f0a0036;
+        public static final int Nostos_tortelini=0x7f0a0039;
+        public static final int Nostos_yhta=0x7f0a003c;
+        public static final int Nostos_zumarika=0x7f0a0038;
+        public static final int Sweet_salty_burger=0x7f0a002f;
+        public static final int Sweet_salty_club_sandwich=0x7f0a0033;
+        public static final int Sweet_salty_hot_dog=0x7f0a002e;
+        /**  /////////////////////SWEET & SALTY//////////////// 
          */
-        public static final int Tazmaniac_prwina=0x7f060089;
-        public static final int Tazmaniac_prwina_times=0x7f06008a;
-        public static final int Tazmaniac_sandwich=0x7f06008b;
-        public static final int Tazmaniac_sandwich_times=0x7f06008c;
-        public static final int Tazmaniac_steak_sandwich=0x7f060093;
-        public static final int Tazmaniac_steak_sandwich_times=0x7f060094;
-        public static final int Til_Evrys=0x7f060097;
-        public static final int Til_Fame=0x7f060098;
-        public static final int Til_Giro=0x7f06009a;
-        public static final int Til_Koutala=0x7f060099;
-        public static final int Til_Kouzina=0x7f06009e;
-        public static final int Til_Megaro=0x7f06009c;
-        public static final int Til_Nostos=0x7f06009b;
-        public static final int Til_SweetnSalty=0x7f0600a0;
-        public static final int Til_Taz=0x7f06009d;
-        public static final int Til_Vakxos=0x7f06009f;
+        public static final int Sweet_salty_krepes_almures=0x7f0a002d;
+        public static final int Sweet_salty_krepes_glukes=0x7f0a0032;
+        public static final int Sweet_salty_merides=0x7f0a0030;
+        public static final int Sweet_salty_salates=0x7f0a0031;
+        public static final int Tazmaniac_burger=0x7f0a0053;
+        public static final int Tazmaniac_faghta=0x7f0a0055;
+        public static final int Tazmaniac_krepes_almures=0x7f0a0051;
+        public static final int Tazmaniac_krepes_glukes=0x7f0a0052;
+        /**  /////////////////////////////////taz////////////////////////// 
+         */
+        public static final int Tazmaniac_prwina=0x7f0a004f;
+        public static final int Tazmaniac_sandwich=0x7f0a0050;
+        public static final int Tazmaniac_steak_sandwich=0x7f0a0054;
+        public static final int Til_Evrys=0x7f0a0056;
+        public static final int Til_Fame=0x7f0a0058;
+        public static final int Til_Giro=0x7f0a005a;
+        public static final int Til_Koutala=0x7f0a0059;
+        public static final int Til_Kouzina=0x7f0a005e;
+        public static final int Til_Megaro=0x7f0a005c;
+        public static final int Til_Nostos=0x7f0a005b;
+        public static final int Til_SweetnSalty=0x7f0a0060;
+        public static final int Til_Taz=0x7f0a005d;
+        public static final int Til_Vakxos=0x7f0a005f;
+        public static final int Wres_leitourgias_Evrys=0x7f0a0057;
     }
     public static final class attr {
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int confirm_logout=0x7f01000c;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int done_button_background=0x7f010006;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int done_button_text=0x7f010004;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int extra_fields=0x7f010001;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fetch_user_info=0x7f01000d;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int is_cropped=0x7f010011;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int login_text=0x7f01000e;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int logout_text=0x7f01000f;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int multi_select=0x7f010007;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>small</code></td><td>-2</td><td> Keep in sync with constants in ProfilePictureView </td></tr>
+<tr><td><code>normal</code></td><td>-3</td><td></td></tr>
+<tr><td><code>large</code></td><td>-4</td><td></td></tr>
+</table>
+         */
+        public static final int preset_size=0x7f010010;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int radius_in_meters=0x7f010008;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int results_limit=0x7f010009;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int search_text=0x7f01000a;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int show_pictures=0x7f010000;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int show_search_box=0x7f01000b;
+        /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int show_title_bar=0x7f010002;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int title_bar_background=0x7f010005;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int title_text=0x7f010003;
+    }
+    public static final class color {
+        public static final int com_facebook_blue=0x7f070000;
+        public static final int com_facebook_loginview_text_color=0x7f070004;
+        public static final int com_facebook_usersettingsfragment_connected_shadow_color=0x7f070002;
+        public static final int com_facebook_usersettingsfragment_connected_text_color=0x7f070001;
+        public static final int com_facebook_usersettingsfragment_not_connected_text_color=0x7f070003;
     }
     public static final class dimen {
         /**  Default screen margins, per the Android Design guidelines. 
@@ -200,132 +285,274 @@ public final class R {
          screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
     
          */
-        public static final int activity_horizontal_margin=0x7f050000;
-        public static final int activity_vertical_margin=0x7f050001;
+        public static final int activity_horizontal_margin=0x7f08000c;
+        public static final int activity_vertical_margin=0x7f08000d;
+        public static final int com_facebook_loginview_height=0x7f080007;
+        public static final int com_facebook_loginview_padding_bottom=0x7f080005;
+        public static final int com_facebook_loginview_padding_left=0x7f080002;
+        public static final int com_facebook_loginview_padding_right=0x7f080003;
+        public static final int com_facebook_loginview_padding_top=0x7f080004;
+        public static final int com_facebook_loginview_text_size=0x7f080008;
+        public static final int com_facebook_loginview_width=0x7f080006;
+        public static final int com_facebook_profilepictureview_preset_size_large=0x7f08000b;
+        public static final int com_facebook_profilepictureview_preset_size_normal=0x7f08000a;
+        public static final int com_facebook_profilepictureview_preset_size_small=0x7f080009;
+        public static final int com_facebook_usersettingsfragment_profile_picture_height=0x7f080001;
+        public static final int com_facebook_usersettingsfragment_profile_picture_width=0x7f080000;
     }
     public static final class drawable {
-        public static final int ban=0x7f020000;
-        public static final int callbtn=0x7f020001;
-        public static final int dollar_icon=0x7f020002;
-        public static final int evris=0x7f020003;
-        public static final int evris1=0x7f020004;
-        public static final int evris2=0x7f020005;
-        public static final int evris3=0x7f020006;
-        public static final int evris4=0x7f020007;
-        public static final int evris5=0x7f020008;
-        public static final int evris6=0x7f020009;
-        public static final int fame=0x7f02000a;
-        public static final int fame1=0x7f02000b;
-        public static final int fame2=0x7f02000c;
-        public static final int fame3=0x7f02000d;
-        public static final int fame4=0x7f02000e;
-        public static final int fame5=0x7f02000f;
-        public static final int giro=0x7f020010;
-        public static final int giro1=0x7f020011;
-        public static final int giro2=0x7f020012;
-        public static final int giro3=0x7f020013;
-        public static final int giro4=0x7f020014;
-        public static final int giro5=0x7f020015;
-        public static final int giro6=0x7f020016;
-        public static final int katigories=0x7f020017;
-        public static final int koutala=0x7f020018;
-        public static final int koutala1=0x7f020019;
-        public static final int koutala2=0x7f02001a;
-        public static final int koutala3=0x7f02001b;
-        public static final int koutala4=0x7f02001c;
-        public static final int koutala5=0x7f02001d;
-        public static final int koutala6=0x7f02001e;
-        public static final int koutala7=0x7f02001f;
-        public static final int kouzina=0x7f020020;
-        public static final int kouzmamas1=0x7f020021;
-        public static final int kouzmamas2=0x7f020022;
-        public static final int kouzmamas3=0x7f020023;
-        public static final int kouzmamas4=0x7f020024;
-        public static final int kouzmamas5=0x7f020025;
-        public static final int main_ic=0x7f020026;
-        public static final int megaro=0x7f020027;
-        public static final int megaro1=0x7f020028;
-        public static final int megaro2=0x7f020029;
-        public static final int megaro3=0x7f02002a;
-        public static final int megaro4=0x7f02002b;
-        public static final int megaro5=0x7f02002c;
-        public static final int megaro6=0x7f02002d;
-        public static final int nostos=0x7f02002e;
-        public static final int nostos1=0x7f02002f;
-        public static final int nostos2=0x7f020030;
-        public static final int nostos3=0x7f020031;
-        public static final int nostos4=0x7f020032;
-        public static final int nostos5=0x7f020033;
-        public static final int nostos6=0x7f020034;
-        public static final int prosfores=0x7f020035;
-        public static final int radious=0x7f020036;
-        public static final int random=0x7f020037;
-        public static final int ratings=0x7f020038;
-        public static final int red=0x7f020039;
-        public static final int restaurant_blue=0x7f02003a;
-        public static final int sweet=0x7f02003b;
-        public static final int sweet1=0x7f02003c;
-        public static final int sweet2=0x7f02003d;
-        public static final int sweet3=0x7f02003e;
-        public static final int sweet4=0x7f02003f;
-        public static final int sweet5=0x7f020040;
-        public static final int sweet6=0x7f020041;
-        public static final int taz=0x7f020042;
-        public static final int tazmaniac1=0x7f020043;
-        public static final int tazmaniac2=0x7f020044;
-        public static final int tick=0x7f020045;
-        public static final int vakxos=0x7f020046;
-        public static final int vakxos1=0x7f020047;
-        public static final int vakxos2=0x7f020048;
-        public static final int vakxos3=0x7f020049;
-        public static final int vakxos4=0x7f02004a;
-        public static final int vakxos5=0x7f02004b;
+        public static final int action_bar_button=0x7f020000;
+        public static final int arrow=0x7f020001;
+        public static final int auth_badge=0x7f020002;
+        public static final int ban=0x7f020003;
+        public static final int callbtn=0x7f020004;
+        public static final int checkbox_bg=0x7f020005;
+        public static final int com_facebook_button_check=0x7f020006;
+        public static final int com_facebook_button_check_off=0x7f020007;
+        public static final int com_facebook_button_check_on=0x7f020008;
+        public static final int com_facebook_button_grey_focused=0x7f020009;
+        public static final int com_facebook_button_grey_normal=0x7f02000a;
+        public static final int com_facebook_button_grey_pressed=0x7f02000b;
+        public static final int com_facebook_close=0x7f02000c;
+        public static final int com_facebook_icon=0x7f02000d;
+        public static final int com_facebook_list_divider=0x7f02000e;
+        public static final int com_facebook_list_section_header_background=0x7f02000f;
+        public static final int com_facebook_loginbutton_blue=0x7f020010;
+        public static final int com_facebook_loginbutton_blue_focused=0x7f020011;
+        public static final int com_facebook_loginbutton_blue_normal=0x7f020012;
+        public static final int com_facebook_loginbutton_blue_pressed=0x7f020013;
+        public static final int com_facebook_loginbutton_silver=0x7f020014;
+        public static final int com_facebook_logo=0x7f020015;
+        public static final int com_facebook_picker_item_background=0x7f020016;
+        public static final int com_facebook_picker_list_focused=0x7f020017;
+        public static final int com_facebook_picker_list_longpressed=0x7f020018;
+        public static final int com_facebook_picker_list_pressed=0x7f020019;
+        public static final int com_facebook_picker_list_selector=0x7f02001a;
+        public static final int com_facebook_picker_list_selector_background_transition=0x7f02001b;
+        public static final int com_facebook_picker_list_selector_disabled=0x7f02001c;
+        public static final int com_facebook_picker_top_button=0x7f02001d;
+        public static final int com_facebook_place_default_icon=0x7f02001e;
+        public static final int com_facebook_profile_default_icon=0x7f02001f;
+        public static final int com_facebook_profile_picture_blank_portrait=0x7f020020;
+        public static final int com_facebook_profile_picture_blank_square=0x7f020021;
+        public static final int com_facebook_top_background=0x7f020022;
+        public static final int com_facebook_top_button=0x7f020023;
+        public static final int com_facebook_usersettingsfragment_background_gradient=0x7f020024;
+        public static final int crosshatch=0x7f020025;
+        public static final int default_user_icon=0x7f020026;
+        public static final int divider=0x7f020027;
+        public static final int dollar_icon=0x7f020028;
+        public static final int evris=0x7f020029;
+        public static final int evris1=0x7f02002a;
+        public static final int evris2=0x7f02002b;
+        public static final int evris3=0x7f02002c;
+        public static final int evris4=0x7f02002d;
+        public static final int evris5=0x7f02002e;
+        public static final int evris6=0x7f02002f;
+        public static final int fame=0x7f020030;
+        public static final int fame1=0x7f020031;
+        public static final int fame2=0x7f020032;
+        public static final int fame3=0x7f020033;
+        public static final int fame4=0x7f020034;
+        public static final int fame5=0x7f020035;
+        public static final int giro=0x7f020036;
+        public static final int giro1=0x7f020037;
+        public static final int giro2=0x7f020038;
+        public static final int giro3=0x7f020039;
+        public static final int giro4=0x7f02003a;
+        public static final int giro5=0x7f02003b;
+        public static final int giro6=0x7f02003c;
+        public static final int header=0x7f02003d;
+        public static final int ic_menu_preferences=0x7f02003e;
+        public static final int ic_menu_refresh=0x7f02003f;
+        public static final int icon_comment=0x7f020040;
+        public static final int icon_email=0x7f020041;
+        public static final int icon_facebook=0x7f020042;
+        public static final int icon_facebook_disabled=0x7f020043;
+        public static final int icon_googleplus=0x7f020044;
+        public static final int icon_like=0x7f020045;
+        public static final int icon_like_hi=0x7f020046;
+        public static final int icon_location=0x7f020047;
+        public static final int icon_location_disabled=0x7f020048;
+        public static final int icon_location_pin=0x7f020049;
+        public static final int icon_notify=0x7f02004a;
+        public static final int icon_notify_disabled=0x7f02004b;
+        public static final int icon_share=0x7f02004c;
+        public static final int icon_sms=0x7f02004d;
+        public static final int icon_twitter=0x7f02004e;
+        public static final int icon_twitter_disabled=0x7f02004f;
+        public static final int icon_view=0x7f020050;
+        public static final int katigories=0x7f020051;
+        public static final int koutala=0x7f020052;
+        public static final int koutala1=0x7f020053;
+        public static final int koutala2=0x7f020054;
+        public static final int koutala3=0x7f020055;
+        public static final int koutala4=0x7f020056;
+        public static final int koutala5=0x7f020057;
+        public static final int koutala6=0x7f020058;
+        public static final int koutala7=0x7f020059;
+        public static final int kouzina=0x7f02005a;
+        public static final int kouzmamas1=0x7f02005b;
+        public static final int kouzmamas2=0x7f02005c;
+        public static final int kouzmamas3=0x7f02005d;
+        public static final int kouzmamas4=0x7f02005e;
+        public static final int kouzmamas5=0x7f02005f;
+        public static final int main_ic=0x7f020060;
+        public static final int megaro=0x7f020061;
+        public static final int megaro1=0x7f020062;
+        public static final int megaro2=0x7f020063;
+        public static final int megaro3=0x7f020064;
+        public static final int megaro4=0x7f020065;
+        public static final int megaro5=0x7f020066;
+        public static final int megaro6=0x7f020067;
+        public static final int nostos=0x7f020068;
+        public static final int nostos1=0x7f020069;
+        public static final int nostos2=0x7f02006a;
+        public static final int nostos3=0x7f02006b;
+        public static final int nostos4=0x7f02006c;
+        public static final int nostos5=0x7f02006d;
+        public static final int nostos6=0x7f02006e;
+        public static final int notification_banner=0x7f02006f;
+        public static final int prosfores=0x7f020070;
+        public static final int radious=0x7f020071;
+        public static final int random=0x7f020072;
+        public static final int ratings=0x7f020073;
+        public static final int red=0x7f020074;
+        public static final int restaurant_blue=0x7f020075;
+        public static final int share_badge=0x7f020076;
+        public static final int slate=0x7f020077;
+        public static final int socialize_icon_white=0x7f020078;
+        public static final int sweet=0x7f020079;
+        public static final int sweet1=0x7f02007a;
+        public static final int sweet2=0x7f02007b;
+        public static final int sweet3=0x7f02007c;
+        public static final int sweet4=0x7f02007d;
+        public static final int sweet5=0x7f02007e;
+        public static final int sweet6=0x7f02007f;
+        public static final int taz=0x7f020080;
+        public static final int tazmaniac1=0x7f020081;
+        public static final int tazmaniac2=0x7f020082;
+        public static final int tick=0x7f020083;
+        public static final int tick_off=0x7f020084;
+        public static final int tick_on=0x7f020085;
+        public static final int toolbar_bg=0x7f020086;
+        public static final int toolbar_close=0x7f020087;
+        public static final int user_icon=0x7f020088;
+        public static final int vakxos=0x7f020089;
+        public static final int vakxos1=0x7f02008a;
+        public static final int vakxos2=0x7f02008b;
+        public static final int vakxos3=0x7f02008c;
+        public static final int vakxos4=0x7f02008d;
+        public static final int vakxos5=0x7f02008e;
     }
     public static final class id {
-        public static final int LinearLayout1=0x7f0a0019;
-        public static final int RelativeLayout1=0x7f0a001b;
-        public static final int action_settings=0x7f0a0028;
-        public static final int atSearch=0x7f0a000c;
-        public static final int ban=0x7f0a002b;
-        public static final int call=0x7f0a0029;
-        public static final int curl=0x7f0a0025;
-        public static final int ibtnBanList=0x7f0a000e;
-        public static final int ibtnCall=0x7f0a001d;
-        public static final int ibtnEstiatoria=0x7f0a000d;
-        public static final int ibtnEvris=0x7f0a0002;
-        public static final int ibtnFame=0x7f0a0001;
-        public static final int ibtnGiro=0x7f0a0004;
-        public static final int ibtnKatigories=0x7f0a0011;
-        public static final int ibtnKoutala=0x7f0a0003;
-        public static final int ibtnKouzina=0x7f0a0008;
-        public static final int ibtnMegaro=0x7f0a0007;
-        public static final int ibtnNostos=0x7f0a0005;
-        public static final int ibtnProsfores=0x7f0a0012;
-        public static final int ibtnRandom=0x7f0a0020;
-        public static final int ibtnRandomChoice=0x7f0a0010;
-        public static final int ibtnRatings=0x7f0a0017;
-        public static final int ibtnSweet=0x7f0a000a;
-        public static final int ibtnTaz=0x7f0a0006;
-        public static final int ibtnVakxos=0x7f0a0009;
-        public static final int lblListHeader=0x7f0a0026;
-        public static final int lblListItem=0x7f0a0027;
-        public static final int lvExp=0x7f0a001a;
-        public static final int lvKatigories=0x7f0a000b;
-        public static final int menu=0x7f0a002a;
-        public static final int scrollView1=0x7f0a0000;
-        public static final int tab1=0x7f0a0022;
-        public static final int tab2=0x7f0a0023;
-        public static final int tab3=0x7f0a0024;
-        public static final int tvBan=0x7f0a0013;
-        public static final int tvCall=0x7f0a001f;
-        public static final int tvEstiatoria=0x7f0a000f;
-        public static final int tvFagito=0x7f0a001e;
-        public static final int tvKatigories=0x7f0a0016;
-        public static final int tvOnomaMagaziou=0x7f0a0021;
-        public static final int tvProsfores=0x7f0a0015;
-        public static final int tvRandom=0x7f0a0014;
-        public static final int tvRatings=0x7f0a0018;
-        public static final int tvTitlosProsforas=0x7f0a001c;
+        public static final int LinearLayout1=0x7f05001c;
+        public static final int RelativeLayout1=0x7f05001e;
+        public static final int action_settings=0x7f050067;
+        public static final int atSearch=0x7f05000f;
+        public static final int ban=0x7f05006a;
+        public static final int call=0x7f050068;
+        public static final int com_facebook_login_activity_progress_bar=0x7f050051;
+        public static final int com_facebook_picker_activity_circle=0x7f050050;
+        public static final int com_facebook_picker_checkbox=0x7f050053;
+        public static final int com_facebook_picker_checkbox_stub=0x7f050057;
+        public static final int com_facebook_picker_divider=0x7f05005b;
+        public static final int com_facebook_picker_done_button=0x7f05005a;
+        public static final int com_facebook_picker_image=0x7f050054;
+        public static final int com_facebook_picker_list_section_header=0x7f050058;
+        public static final int com_facebook_picker_list_view=0x7f05004f;
+        public static final int com_facebook_picker_profile_pic_stub=0x7f050055;
+        public static final int com_facebook_picker_row_activity_circle=0x7f050052;
+        public static final int com_facebook_picker_title=0x7f050056;
+        public static final int com_facebook_picker_title_bar=0x7f05005d;
+        public static final int com_facebook_picker_title_bar_stub=0x7f05005c;
+        public static final int com_facebook_picker_top_bar=0x7f050059;
+        public static final int com_facebook_placepickerfragment_search_box_stub=0x7f05005e;
+        public static final int com_facebook_usersettingsfragment_login_button=0x7f050063;
+        public static final int com_facebook_usersettingsfragment_logo_image=0x7f050061;
+        public static final int com_facebook_usersettingsfragment_profile_name=0x7f050062;
+        public static final int curl=0x7f050064;
+        public static final int horizontalScrollView1=0x7f050026;
+        public static final int ibtnBanList=0x7f050011;
+        public static final int ibtnCall=0x7f050020;
+        public static final int ibtnEstiatoria=0x7f050010;
+        public static final int ibtnEvris=0x7f050005;
+        public static final int ibtnFame=0x7f050004;
+        public static final int ibtnGiro=0x7f050007;
+        public static final int ibtnKatigories=0x7f050014;
+        public static final int ibtnKoutala=0x7f050006;
+        public static final int ibtnKouzina=0x7f05000b;
+        public static final int ibtnMegaro=0x7f05000a;
+        public static final int ibtnNostos=0x7f050008;
+        public static final int ibtnProsfores=0x7f050015;
+        public static final int ibtnRandom=0x7f050023;
+        public static final int ibtnRandomChoice=0x7f050013;
+        public static final int ibtnRatings=0x7f05001a;
+        public static final int ibtnSweet=0x7f05000d;
+        public static final int ibtnTaz=0x7f050009;
+        public static final int ibtnVakxos=0x7f05000c;
+        public static final int ivRatingsEvrys=0x7f050028;
+        public static final int ivRatingsFame=0x7f05002c;
+        public static final int ivRatingsGiro=0x7f050040;
+        public static final int ivRatingsKoutala=0x7f050038;
+        public static final int ivRatingsKouzina=0x7f05003c;
+        public static final int ivRatingsMegaro=0x7f050048;
+        public static final int ivRatingsNostos=0x7f050034;
+        public static final int ivRatingsSweet=0x7f050030;
+        public static final int ivRatingsTaz=0x7f050044;
+        public static final int ivRatingsVakxos=0x7f05004c;
+        public static final int large=0x7f050002;
+        public static final int lblListHeader=0x7f050065;
+        public static final int lblListItem=0x7f050066;
+        public static final int lvExp=0x7f05001d;
+        public static final int lvKatigories=0x7f05000e;
+        public static final int menu=0x7f050069;
+        public static final int normal=0x7f050001;
+        public static final int picker_subtitle=0x7f050060;
+        public static final int scrollView1=0x7f050003;
+        public static final int search_box=0x7f05005f;
+        public static final int small=0x7f050000;
+        public static final int tab1=0x7f050027;
+        public static final int tab10=0x7f05004b;
+        public static final int tab2=0x7f05002b;
+        public static final int tab3=0x7f05002f;
+        public static final int tab4=0x7f050033;
+        public static final int tab5=0x7f050037;
+        public static final int tab6=0x7f05003b;
+        public static final int tab7=0x7f05003f;
+        public static final int tab8=0x7f050043;
+        public static final int tab9=0x7f050047;
+        public static final int tabhost=0x7f050025;
+        public static final int tvBan=0x7f050016;
+        public static final int tvCall=0x7f050022;
+        public static final int tvEstiatoria=0x7f050012;
+        public static final int tvFagito=0x7f050021;
+        public static final int tvKatigories=0x7f050019;
+        public static final int tvOnomaMagaziou=0x7f050024;
+        public static final int tvProsfores=0x7f050018;
+        public static final int tvRandom=0x7f050017;
+        public static final int tvRatings=0x7f05001b;
+        public static final int tvRatingsEvrysInfo=0x7f05002a;
+        public static final int tvRatingsEvrysTitlos=0x7f050029;
+        public static final int tvRatingsFameInfo=0x7f05002e;
+        public static final int tvRatingsFameTitlos=0x7f05002d;
+        public static final int tvRatingsGiroInfo=0x7f050042;
+        public static final int tvRatingsGiroTitlos=0x7f050041;
+        public static final int tvRatingsKoutalaInfo=0x7f05003a;
+        public static final int tvRatingsKoutalaTitlos=0x7f050039;
+        public static final int tvRatingsKouzinaInfo=0x7f05003e;
+        public static final int tvRatingsKouzinaTitlos=0x7f05003d;
+        public static final int tvRatingsMegaroInfo=0x7f05004a;
+        public static final int tvRatingsMegaroTitlos=0x7f050049;
+        public static final int tvRatingsNostosInfo=0x7f050036;
+        public static final int tvRatingsNostosTitlos=0x7f050035;
+        public static final int tvRatingsSweetInfo=0x7f050032;
+        public static final int tvRatingsSweetTitlos=0x7f050031;
+        public static final int tvRatingsTazInfo=0x7f050046;
+        public static final int tvRatingsTazTitlos=0x7f050045;
+        public static final int tvRatingsVakxosInfo=0x7f05004e;
+        public static final int tvRatingsVakxosTitlos=0x7f05004d;
+        public static final int tvTitlosProsforas=0x7f05001f;
     }
     public static final class layout {
         public static final int activity_ban_list=0x7f030000;
@@ -335,40 +562,78 @@ public final class R {
         public static final int activity_prosfores=0x7f030004;
         public static final int activity_random_choice=0x7f030005;
         public static final int activity_ratings=0x7f030006;
-        public static final int curlview=0x7f030007;
-        public static final int list_group=0x7f030008;
-        public static final int list_item=0x7f030009;
+        public static final int com_facebook_friendpickerfragment=0x7f030007;
+        public static final int com_facebook_login_activity_layout=0x7f030008;
+        public static final int com_facebook_picker_activity_circle_row=0x7f030009;
+        public static final int com_facebook_picker_checkbox=0x7f03000a;
+        public static final int com_facebook_picker_image=0x7f03000b;
+        public static final int com_facebook_picker_list_row=0x7f03000c;
+        public static final int com_facebook_picker_list_section_header=0x7f03000d;
+        public static final int com_facebook_picker_search_box=0x7f03000e;
+        public static final int com_facebook_picker_title_bar=0x7f03000f;
+        public static final int com_facebook_picker_title_bar_stub=0x7f030010;
+        public static final int com_facebook_placepickerfragment=0x7f030011;
+        public static final int com_facebook_placepickerfragment_list_row=0x7f030012;
+        public static final int com_facebook_usersettingsfragment=0x7f030013;
+        public static final int curlview=0x7f030014;
+        public static final int list_group=0x7f030015;
+        public static final int list_item=0x7f030016;
     }
     public static final class menu {
-        public static final int ban_list=0x7f090000;
-        public static final int estiatoria=0x7f090001;
-        public static final int estiatoria_popup=0x7f090002;
-        public static final int katigories=0x7f090003;
-        public static final int main_menu=0x7f090004;
-        public static final int prosfores=0x7f090005;
-        public static final int random_choice=0x7f090006;
-        public static final int ratings=0x7f090007;
+        public static final int ban_list=0x7f0b0000;
+        public static final int estiatoria=0x7f0b0001;
+        public static final int estiatoria_popup=0x7f0b0002;
+        public static final int katigories=0x7f0b0003;
+        public static final int main_menu=0x7f0b0004;
+        public static final int prosfores=0x7f0b0005;
+        public static final int random_choice=0x7f0b0006;
+        public static final int ratings=0x7f0b0007;
     }
     public static final class string {
-        public static final int action_settings=0x7f070001;
-        public static final int app_name=0x7f070000;
-        public static final int hello_world=0x7f070002;
-        public static final int prosforaEvrys=0x7f070011;
-        public static final int prosforaFame=0x7f07000d;
-        public static final int prosforaMegaro=0x7f07000e;
-        public static final int prosforaSweet=0x7f07000f;
-        public static final int prosforaTaz=0x7f070010;
-        public static final int random_fagito=0x7f07000b;
-        public static final int random_magazi=0x7f07000a;
-        public static final int title_Random_Choice=0x7f070009;
-        public static final int title_activity_ban_list=0x7f070005;
-        public static final int title_activity_estiatoria=0x7f070003;
-        public static final int title_activity_katigories=0x7f070004;
-        public static final int title_activity_prosfores=0x7f070007;
-        public static final int title_activity_random_choice=0x7f070006;
-        public static final int title_activity_ratings=0x7f070008;
-        public static final int title_curl_view=0x7f070012;
-        public static final int title_prosfores=0x7f07000c;
+        public static final int action_settings=0x7f06001a;
+        public static final int app_name=0x7f060019;
+        public static final int com_facebook_choose_friends=0x7f06000f;
+        public static final int com_facebook_dialogloginactivity_ok_button=0x7f060000;
+        public static final int com_facebook_internet_permission_error_message=0x7f060013;
+        public static final int com_facebook_internet_permission_error_title=0x7f060012;
+        public static final int com_facebook_loading=0x7f060011;
+        public static final int com_facebook_loginview_cancel_action=0x7f060006;
+        public static final int com_facebook_loginview_log_in_button=0x7f060002;
+        public static final int com_facebook_loginview_log_out_action=0x7f060005;
+        public static final int com_facebook_loginview_log_out_button=0x7f060001;
+        public static final int com_facebook_loginview_logged_in_as=0x7f060003;
+        public static final int com_facebook_loginview_logged_in_using_facebook=0x7f060004;
+        public static final int com_facebook_logo_content_description=0x7f060007;
+        public static final int com_facebook_nearby=0x7f060010;
+        public static final int com_facebook_picker_done_button_text=0x7f06000e;
+        public static final int com_facebook_placepicker_subtitle_catetory_only_format=0x7f06000c;
+        public static final int com_facebook_placepicker_subtitle_format=0x7f06000b;
+        public static final int com_facebook_placepicker_subtitle_were_here_only_format=0x7f06000d;
+        public static final int com_facebook_requesterror_password_changed=0x7f060016;
+        public static final int com_facebook_requesterror_permissions=0x7f060018;
+        public static final int com_facebook_requesterror_reconnect=0x7f060017;
+        public static final int com_facebook_requesterror_relogin=0x7f060015;
+        public static final int com_facebook_requesterror_web_login=0x7f060014;
+        public static final int com_facebook_usersettingsfragment_log_in_button=0x7f060008;
+        public static final int com_facebook_usersettingsfragment_logged_in=0x7f060009;
+        public static final int com_facebook_usersettingsfragment_not_logged_in=0x7f06000a;
+        public static final int hello_world=0x7f06001b;
+        public static final int prosforaEvrys=0x7f06002a;
+        public static final int prosforaFame=0x7f060026;
+        public static final int prosforaMegaro=0x7f060027;
+        public static final int prosforaSweet=0x7f060028;
+        public static final int prosforaTaz=0x7f060029;
+        public static final int random_fagito=0x7f060024;
+        public static final int random_magazi=0x7f060023;
+        public static final int title_Random_Choice=0x7f060022;
+        public static final int title_activity_ban_list=0x7f06001e;
+        public static final int title_activity_estiatoria=0x7f06001c;
+        public static final int title_activity_katigories=0x7f06001d;
+        public static final int title_activity_prosfores=0x7f060020;
+        public static final int title_activity_random_choice=0x7f06001f;
+        public static final int title_activity_ratings=0x7f060021;
+        public static final int title_curl_view=0x7f06002b;
+        public static final int title_prosfores=0x7f060025;
     }
     public static final class style {
         /** 
@@ -392,13 +657,357 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f080000;
+        public static final int AppBaseTheme=0x7f090002;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f080001;
+        public static final int AppTheme=0x7f090003;
+        public static final int com_facebook_loginview_default_style=0x7f090000;
+        public static final int com_facebook_loginview_silver_style=0x7f090001;
     }
     public static final class xml {
         public static final int ban=0x7f040000;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a com_facebook_friend_picker_fragment.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #com_facebook_friend_picker_fragment_multi_select com.tardis.ordersamos:multi_select}</code></td><td></td></tr>
+           </table>
+           @see #com_facebook_friend_picker_fragment_multi_select
+         */
+        public static final int[] com_facebook_friend_picker_fragment = {
+            0x7f010007
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#multi_select}
+          attribute's value can be found in the {@link #com_facebook_friend_picker_fragment} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:multi_select
+        */
+        public static final int com_facebook_friend_picker_fragment_multi_select = 0;
+        /** Attributes that can be used with a com_facebook_login_view.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #com_facebook_login_view_confirm_logout com.tardis.ordersamos:confirm_logout}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_login_view_fetch_user_info com.tardis.ordersamos:fetch_user_info}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_login_view_login_text com.tardis.ordersamos:login_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_login_view_logout_text com.tardis.ordersamos:logout_text}</code></td><td></td></tr>
+           </table>
+           @see #com_facebook_login_view_confirm_logout
+           @see #com_facebook_login_view_fetch_user_info
+           @see #com_facebook_login_view_login_text
+           @see #com_facebook_login_view_logout_text
+         */
+        public static final int[] com_facebook_login_view = {
+            0x7f01000c, 0x7f01000d, 0x7f01000e, 0x7f01000f
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#confirm_logout}
+          attribute's value can be found in the {@link #com_facebook_login_view} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:confirm_logout
+        */
+        public static final int com_facebook_login_view_confirm_logout = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#fetch_user_info}
+          attribute's value can be found in the {@link #com_facebook_login_view} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:fetch_user_info
+        */
+        public static final int com_facebook_login_view_fetch_user_info = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#login_text}
+          attribute's value can be found in the {@link #com_facebook_login_view} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:login_text
+        */
+        public static final int com_facebook_login_view_login_text = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#logout_text}
+          attribute's value can be found in the {@link #com_facebook_login_view} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:logout_text
+        */
+        public static final int com_facebook_login_view_logout_text = 3;
+        /** Attributes that can be used with a com_facebook_picker_fragment.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_done_button_background com.tardis.ordersamos:done_button_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_done_button_text com.tardis.ordersamos:done_button_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_extra_fields com.tardis.ordersamos:extra_fields}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_show_pictures com.tardis.ordersamos:show_pictures}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_show_title_bar com.tardis.ordersamos:show_title_bar}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_title_bar_background com.tardis.ordersamos:title_bar_background}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_picker_fragment_title_text com.tardis.ordersamos:title_text}</code></td><td></td></tr>
+           </table>
+           @see #com_facebook_picker_fragment_done_button_background
+           @see #com_facebook_picker_fragment_done_button_text
+           @see #com_facebook_picker_fragment_extra_fields
+           @see #com_facebook_picker_fragment_show_pictures
+           @see #com_facebook_picker_fragment_show_title_bar
+           @see #com_facebook_picker_fragment_title_bar_background
+           @see #com_facebook_picker_fragment_title_text
+         */
+        public static final int[] com_facebook_picker_fragment = {
+            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
+            0x7f010004, 0x7f010005, 0x7f010006
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#done_button_background}
+          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.tardis.ordersamos:done_button_background
+        */
+        public static final int com_facebook_picker_fragment_done_button_background = 6;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#done_button_text}
+          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:done_button_text
+        */
+        public static final int com_facebook_picker_fragment_done_button_text = 4;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#extra_fields}
+          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:extra_fields
+        */
+        public static final int com_facebook_picker_fragment_extra_fields = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#show_pictures}
+          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:show_pictures
+        */
+        public static final int com_facebook_picker_fragment_show_pictures = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#show_title_bar}
+          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:show_title_bar
+        */
+        public static final int com_facebook_picker_fragment_show_title_bar = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#title_bar_background}
+          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name com.tardis.ordersamos:title_bar_background
+        */
+        public static final int com_facebook_picker_fragment_title_bar_background = 5;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#title_text}
+          attribute's value can be found in the {@link #com_facebook_picker_fragment} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:title_text
+        */
+        public static final int com_facebook_picker_fragment_title_text = 3;
+        /** Attributes that can be used with a com_facebook_place_picker_fragment.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #com_facebook_place_picker_fragment_radius_in_meters com.tardis.ordersamos:radius_in_meters}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_place_picker_fragment_results_limit com.tardis.ordersamos:results_limit}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_place_picker_fragment_search_text com.tardis.ordersamos:search_text}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_place_picker_fragment_show_search_box com.tardis.ordersamos:show_search_box}</code></td><td></td></tr>
+           </table>
+           @see #com_facebook_place_picker_fragment_radius_in_meters
+           @see #com_facebook_place_picker_fragment_results_limit
+           @see #com_facebook_place_picker_fragment_search_text
+           @see #com_facebook_place_picker_fragment_show_search_box
+         */
+        public static final int[] com_facebook_place_picker_fragment = {
+            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#radius_in_meters}
+          attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:radius_in_meters
+        */
+        public static final int com_facebook_place_picker_fragment_radius_in_meters = 0;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#results_limit}
+          attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:results_limit
+        */
+        public static final int com_facebook_place_picker_fragment_results_limit = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#search_text}
+          attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:search_text
+        */
+        public static final int com_facebook_place_picker_fragment_search_text = 2;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#show_search_box}
+          attribute's value can be found in the {@link #com_facebook_place_picker_fragment} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:show_search_box
+        */
+        public static final int com_facebook_place_picker_fragment_show_search_box = 3;
+        /** Attributes that can be used with a com_facebook_profile_picture_view.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #com_facebook_profile_picture_view_is_cropped com.tardis.ordersamos:is_cropped}</code></td><td></td></tr>
+           <tr><td><code>{@link #com_facebook_profile_picture_view_preset_size com.tardis.ordersamos:preset_size}</code></td><td></td></tr>
+           </table>
+           @see #com_facebook_profile_picture_view_is_cropped
+           @see #com_facebook_profile_picture_view_preset_size
+         */
+        public static final int[] com_facebook_profile_picture_view = {
+            0x7f010010, 0x7f010011
+        };
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#is_cropped}
+          attribute's value can be found in the {@link #com_facebook_profile_picture_view} array.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name com.tardis.ordersamos:is_cropped
+        */
+        public static final int com_facebook_profile_picture_view_is_cropped = 1;
+        /**
+          <p>This symbol is the offset where the {@link com.tardis.ordersamos.R.attr#preset_size}
+          attribute's value can be found in the {@link #com_facebook_profile_picture_view} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>small</code></td><td>-2</td><td> Keep in sync with constants in ProfilePictureView </td></tr>
+<tr><td><code>normal</code></td><td>-3</td><td></td></tr>
+<tr><td><code>large</code></td><td>-4</td><td></td></tr>
+</table>
+          @attr name com.tardis.ordersamos:preset_size
+        */
+        public static final int com_facebook_profile_picture_view_preset_size = 0;
+    };
 }
