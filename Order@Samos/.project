@@ -4,9 +4,9 @@
 	<comment></comment>
 	<projects>
 		<project>android-ioc</project>
-		<project>Facebook-SDK</project>
-		<project>Socialize-demo</project>
-		<project>Socialize-SDK</project>
+		<project>FacebookSDK</project>
+		<project>Main</project>
+		<project>sdk</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

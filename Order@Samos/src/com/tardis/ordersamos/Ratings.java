@@ -4,7 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.graphics.Color;
 
-import com.socialize.ActionBarUtils;
+import com.socialize.ActionBanOptions;
 import com.socialize.Socialize;
 import com.socialize.entity.Entity;
 
