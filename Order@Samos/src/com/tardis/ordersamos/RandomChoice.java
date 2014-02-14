@@ -6,177 +6,178 @@ import java.util.Random;
 import android.app.Activity;
 import android.content.res.Resources;
 import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class RandomChoice extends Activity {
+public class RandomChoice extends Activity implements OnClickListener {
 
-	String title,magazi,fagito;
-	TextView tvTitlos,tvOnomaMagaziou,tvFagito;
+	String title, magazi, fagito;
+	TextView tvTitlos, tvOnomaMagaziou, tvFagito,tvProvalomeniTixaiEpilogi;
+	ImageButton ibRandBut, ibCall;
+	ArrayList<String[]> taPantaOla = new ArrayList<String[]>();
+	String emfanisi;
+	
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_random_choice);
-		//pairnw ta dedomena gia kathe var antistoixa ap to string.xml
-		title= getResources().getString(R.string.title_Random_Choice);
-		magazi= getResources().getString(R.string.random_magazi);
-		fagito=getResources().getString(R.string.random_fagito);
-		
-		//arxikopoiw ta textviews antistoixa me to xml layout id
-		tvTitlos=(TextView)findViewById(R.id.tvTitlosProsforas);
-		tvOnomaMagaziou=(TextView)findViewById(R.id.tvOnomaMagaziou);
-		tvFagito=(TextView)findViewById(R.id.tvFagito);
-		
-		//allazw to periexomeno twn textviews me ta periexomena twn metavlitwn pou exw sto string.xml kai dilwsa para panw
+		// pairnw ta dedomena gia kathe var antistoixa ap to string.xml
+		title = getResources().getString(R.string.title_Random_Choice);
+		magazi = getResources().getString(R.string.random_magazi);
+		fagito = getResources().getString(R.string.random_fagito);
+
+		// arxikopoiw ta textviews antistoixa me to xml layout id
+		tvTitlos = (TextView) findViewById(R.id.tvTitlosProsforas);
+		tvOnomaMagaziou = (TextView) findViewById(R.id.tvOnomaMagaziou);
+		tvFagito = (TextView) findViewById(R.id.tvFagito);
+
+		// allazw to periexomeno twn textviews me ta periexomena twn metavlitwn
+		// pou exw sto string.xml kai dilwsa para panw
 		tvTitlos.setText(title);
 		tvOnomaMagaziou.setText(magazi);
 		tvFagito.setText(fagito);
+		// ----------------------------------------------------------------------------------------------
+
+		ibRandBut = (ImageButton) findViewById(R.id.ibtnRandom);
+		ibCall = (ImageButton) findViewById(R.id.ibtnCall);
+		ibRandBut.setOnClickListener(this);
+		ibCall.setOnClickListener(this);
+
+		// -----------------------------------------------------------------------------------------------
 		
-		//-----------------------------------------------------------------------------------------------
 		
+		//arxikopoiisi TextView pou provalei to tixaio fagito 
+		tvProvalomeniTixaiEpilogi = (TextView)findViewById(R.id.tvProvalomeniTixaiaEpilogi);
+		
+		
+		
+		//----------------------------------------------------------------------------------------------------
 		Resources res = getResources();
-		//dimiourgeia tis Listas gia ola ta estiatoria
-		ArrayList<String[]> bakxos=new ArrayList<String[]>();
-		ArrayList<String[]> evrys=new ArrayList<String[]>();
-		ArrayList<String[]> sweet=new ArrayList<String[]>();
-		ArrayList<String[]> koutala=new ArrayList<String[]>();
-		ArrayList<String[]> kouzina=new ArrayList<String[]>();
-		ArrayList<String[]> megaro=new ArrayList<String[]>();
-		ArrayList<String[]> taz=new ArrayList<String[]>();
-		ArrayList<String[]> fame=new ArrayList<String[]>();
-		ArrayList<String[]> giro=new ArrayList<String[]>();
-		ArrayList<String[]> nostos=new ArrayList<String[]>();
+
+		taPantaOla.add(res.getStringArray(R.array.Bakxos_orektika));
+		taPantaOla.add(res.getStringArray(R.array.Bakxos_merides));
+		taPantaOla.add(res.getStringArray(R.array.Bakxos_burger));
+		taPantaOla.add(res.getStringArray(R.array.Bakxos_mageireuta));
+		taPantaOla.add(res.getStringArray(R.array.Bakxos_pites));
+		taPantaOla.add(res.getStringArray(R.array.Bakxos_salates));
+		taPantaOla.add(res.getStringArray(R.array.Bakxos_souvlista));
+		taPantaOla.add(res.getStringArray(R.array.Bakxos_sandwich));
+
+		taPantaOla.add(res.getStringArray(R.array.Evrys_burger));
+		taPantaOla.add(res.getStringArray(R.array.Evrys_omeletes));
+		taPantaOla.add(res.getStringArray(R.array.Evrys_orektika));
+		taPantaOla.add(res.getStringArray(R.array.Evrys_piata));
+		taPantaOla.add(res.getStringArray(R.array.Evrys_pites));
+		taPantaOla.add(res.getStringArray(R.array.Evrys_pitses));
+		taPantaOla.add(res.getStringArray(R.array.Evrys_salates));
+		taPantaOla.add(res.getStringArray(R.array.Evrys_submarine_sandwich));
+		taPantaOla.add(res.getStringArray(R.array.Evrys_zumarika));
+
+		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_burger));
+		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_club_sandwich));
+		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_hot_dog));
+		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_krepes_almures));
+		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_krepes_glukes));
+		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_merides));
+		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_salates));
+
+		taPantaOla.add(res.getStringArray(R.array.Koutala_club_sandwich));
+		taPantaOla.add(res.getStringArray(R.array.Koutala_mezedes));
+		taPantaOla.add(res.getStringArray(R.array.Koutala_orektika));
+		taPantaOla.add(res.getStringArray(R.array.Koutala_pizza));
+		taPantaOla.add(res.getStringArray(R.array.Koutala_salates));
+		taPantaOla.add(res.getStringArray(R.array.Koutala_snitsel));
+		taPantaOla.add(res.getStringArray(R.array.Koutala_souvlaki));
+		taPantaOla.add(res.getStringArray(R.array.Koutala_yarika));
+		taPantaOla.add(res.getStringArray(R.array.Koutala_zumarika));
+
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_aloifes));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_burger));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_kupriakes_pites));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_mageireuta));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_orektika));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_pites));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_pitses));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_salates));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_souvles));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_thganies));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_yhta));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_ywmakia));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_zumarika));
+
+		taPantaOla.add(res.getStringArray(R.array.Megaro_pitses));
+		taPantaOla.add(res.getStringArray(R.array.Megaro_salates));
+		taPantaOla.add(res.getStringArray(R.array.Megaro_zumarika));
+
+		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_burger));
+		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_faghta));
+		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_krepes_almures));
+		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_krepes_glukes));
+		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_prwina));
+		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_sandwich));
+		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_steak_sandwich));
+
+		taPantaOla.add(res.getStringArray(R.array.Fame_burger));
+		taPantaOla.add(res.getStringArray(R.array.Fame_krepes_almures));
+		taPantaOla.add(res.getStringArray(R.array.Fame_krepes_glukes));
+		taPantaOla.add(res.getStringArray(R.array.Fame_merides));
+		taPantaOla.add(res.getStringArray(R.array.Fame_omeletes));
+		taPantaOla.add(res.getStringArray(R.array.Fame_orektika));
+		taPantaOla.add(res.getStringArray(R.array.Fame_pites));
+		taPantaOla.add(res.getStringArray(R.array.Fame_pitses));
+		taPantaOla.add(res.getStringArray(R.array.Fame_salates));
+		taPantaOla.add(res.getStringArray(R.array.Fame_sandwich));
+		taPantaOla.add(res.getStringArray(R.array.Fame_spesialite));
+		taPantaOla.add(res.getStringArray(R.array.Fame_vafles));
+		taPantaOla.add(res.getStringArray(R.array.Fame_xwris_pita));
+		taPantaOla.add(res.getStringArray(R.array.Fame_yhta));
+		taPantaOla.add(res.getStringArray(R.array.Fame_zumarika));
+
+		taPantaOla.add(res.getStringArray(R.array.Nostos_mageireuta));
+		taPantaOla.add(res.getStringArray(R.array.Nostos_omeletes));
+		taPantaOla.add(res.getStringArray(R.array.Nostos_orektika));
+		taPantaOla.add(res.getStringArray(R.array.Nostos_peinirli));
+		taPantaOla.add(res.getStringArray(R.array.Nostos_pitses));
+		taPantaOla.add(res.getStringArray(R.array.Nostos_salates));
+		taPantaOla.add(res.getStringArray(R.array.Nostos_tortelini));
+		taPantaOla.add(res.getStringArray(R.array.Nostos_yhta));
+		taPantaOla.add(res.getStringArray(R.array.Nostos_zumarika));
+
+		taPantaOla.add(res.getStringArray(R.array.Guro_Guro_oloi_merides));
+		taPantaOla.add(res.getStringArray(R.array.Guro_Guro_oloi_orektika));
+		taPantaOla.add(res.getStringArray(R.array.Guro_Guro_oloi_pites));
+		taPantaOla.add(res.getStringArray(R.array.Guro_Guro_oloi_poikilies));
+		taPantaOla.add(res.getStringArray(R.array.Guro_Guro_oloi_salates));
+		taPantaOla.add(res.getStringArray(R.array.Guro_Guro_oloi_souvles));
+
 		
-		 ArrayList<ArrayList> epiloges = new ArrayList<ArrayList>();
-		
-		bakxos.add(res.getStringArray(R.array.Bakxos_orektika));
-		bakxos.add(res.getStringArray(R.array.Bakxos_merides));
-		bakxos.add(res.getStringArray(R.array.Bakxos_burger));
-		bakxos.add(res.getStringArray(R.array.Bakxos_mageireuta));
-		bakxos.add(res.getStringArray(R.array.Bakxos_pites));
-		bakxos.add(res.getStringArray(R.array.Bakxos_salates));
-		bakxos.add(res.getStringArray(R.array.Bakxos_souvlista));
-		bakxos.add(res.getStringArray(R.array.Bakxos_sandwich));
-		
-		evrys.add(res.getStringArray(R.array.Evrys_burger));
-		evrys.add(res.getStringArray(R.array.Evrys_omeletes));
-		evrys.add(res.getStringArray(R.array.Evrys_orektika));
-		evrys.add(res.getStringArray(R.array.Evrys_piata));
-		evrys.add(res.getStringArray(R.array.Evrys_pites));
-		evrys.add(res.getStringArray(R.array.Evrys_pitses));
-		evrys.add(res.getStringArray(R.array.Evrys_salates));
-		evrys.add(res.getStringArray(R.array.Evrys_submarine_sandwich));
-		evrys.add(res.getStringArray(R.array.Evrys_zumarika));
-		
-		sweet.add(res.getStringArray(R.array.Sweet_salty_burger));
-		sweet.add(res.getStringArray(R.array.Sweet_salty_club_sandwich));
-		sweet.add(res.getStringArray(R.array.Sweet_salty_hot_dog));
-		sweet.add(res.getStringArray(R.array.Sweet_salty_krepes_almures));
-		sweet.add(res.getStringArray(R.array.Sweet_salty_krepes_glukes));
-		sweet.add(res.getStringArray(R.array.Sweet_salty_merides));
-		sweet.add(res.getStringArray(R.array.Sweet_salty_salates));
-		
-		koutala.add(res.getStringArray(R.array.Koutala_club_sandwich));
-		koutala.add(res.getStringArray(R.array.Koutala_mezedes));
-		koutala.add(res.getStringArray(R.array.Koutala_orektika));
-		koutala.add(res.getStringArray(R.array.Koutala_pizza));
-		koutala.add(res.getStringArray(R.array.Koutala_salates));
-		koutala.add(res.getStringArray(R.array.Koutala_snitsel));
-		koutala.add(res.getStringArray(R.array.Koutala_souvlaki));
-		koutala.add(res.getStringArray(R.array.Koutala_yarika));
-		koutala.add(res.getStringArray(R.array.Koutala_zumarika));
-		
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_aloifes));
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_burger));
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_kupriakes_pites));
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_mageireuta));
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_orektika));
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_pites));
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_pitses));
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_salates));
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_souvles));
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_thganies));
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_yhta));
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_ywmakia));
-		kouzina.add(res.getStringArray(R.array.Kouzina_ths_mamas_zumarika));
-		
-		megaro.add(res.getStringArray(R.array.Megaro_pitses));
-		megaro.add(res.getStringArray(R.array.Megaro_salates));
-		megaro.add(res.getStringArray(R.array.Megaro_zumarika));
-		
-		taz.add(res.getStringArray(R.array.Tazmaniac_burger));
-		taz.add(res.getStringArray(R.array.Tazmaniac_faghta));
-		taz.add(res.getStringArray(R.array.Tazmaniac_krepes_almures));
-		taz.add(res.getStringArray(R.array.Tazmaniac_krepes_glukes));
-		taz.add(res.getStringArray(R.array.Tazmaniac_prwina));
-		taz.add(res.getStringArray(R.array.Tazmaniac_sandwich));
-		taz.add(res.getStringArray(R.array.Tazmaniac_steak_sandwich));
-		
-		fame.add(res.getStringArray(R.array.Fame_burger));
-		fame.add(res.getStringArray(R.array.Fame_krepes_almures));
-		fame.add(res.getStringArray(R.array.Fame_krepes_glukes));
-		fame.add(res.getStringArray(R.array.Fame_merides));
-		fame.add(res.getStringArray(R.array.Fame_omeletes));
-		fame.add(res.getStringArray(R.array.Fame_orektika));
-		fame.add(res.getStringArray(R.array.Fame_pites));
-		fame.add(res.getStringArray(R.array.Fame_pitses));
-		fame.add(res.getStringArray(R.array.Fame_salates));
-		fame.add(res.getStringArray(R.array.Fame_sandwich));
-		fame.add(res.getStringArray(R.array.Fame_spesialite));
-		fame.add(res.getStringArray(R.array.Fame_vafles));
-		fame.add(res.getStringArray(R.array.Fame_xwris_pita));
-		fame.add(res.getStringArray(R.array.Fame_yhta));
-		fame.add(res.getStringArray(R.array.Fame_zumarika));
-		
-		nostos.add(res.getStringArray(R.array.Nostos_mageireuta));
-		nostos.add(res.getStringArray(R.array.Nostos_omeletes));
-		nostos.add(res.getStringArray(R.array.Nostos_orektika));
-		nostos.add(res.getStringArray(R.array.Nostos_peinirli));
-		nostos.add(res.getStringArray(R.array.Nostos_pitses));
-		nostos.add(res.getStringArray(R.array.Nostos_salates));
-		nostos.add(res.getStringArray(R.array.Nostos_tortelini));
-		nostos.add(res.getStringArray(R.array.Nostos_yhta));
-		nostos.add(res.getStringArray(R.array.Nostos_zumarika));
-		
-		giro.add(res.getStringArray(R.array.Guro_Guro_oloi_merides));
-		giro.add(res.getStringArray(R.array.Guro_Guro_oloi_orektika));
-		giro.add(res.getStringArray(R.array.Guro_Guro_oloi_pites));
-		giro.add(res.getStringArray(R.array.Guro_Guro_oloi_poikilies));
-		giro.add(res.getStringArray(R.array.Guro_Guro_oloi_salates));
-		giro.add(res.getStringArray(R.array.Guro_Guro_oloi_souvles));
-		
-				
-		
-		
-		epiloges.add(bakxos);
-		epiloges.add(nostos);
-		epiloges.add(giro);
-		epiloges.add(fame);
-		epiloges.add(koutala);
-		epiloges.add(kouzina);
-		epiloges.add(megaro);
-		epiloges.add(evrys);
-		epiloges.add(sweet);
-		epiloges.add(taz);
-		//estiatorio=new ArrayList<String[]>();
-		int randEpiloges = (int) (Math.random()*10);
-		int randEstiatorio = (int) (Math.random()*10);
-		
-		
-		
-		
-		
-		String [] Arhs=bakxos.get(1);
-		Toast.makeText(getBaseContext(), Arhs[1],Toast.LENGTH_SHORT ).show();
-		
-			
-		//dimiourgia listas Epilogwn
-		
-		 
-	
-	
 	}
 
-	
+	@Override
+	public void onClick(View v) {
+		
+
+		
+
+		if (v.getId() == R.id.ibtnRandom) {
+
+			int randoma = (int) (Math.random() * (85) + 1);
+			String[] epilegmenospinakas = taPantaOla.get(randoma);
+			int x = epilegmenospinakas.length;
+
+			int randomb = (int) (Math.random() * (x) + 1);
+			emfanisi = epilegmenospinakas[randomb-1];
+			tvProvalomeniTixaiEpilogi.setText(emfanisi);
+			
+		} else if (v.getId() == R.id.ibtnCall) {
+
+		}
+
+	}
 
 }
