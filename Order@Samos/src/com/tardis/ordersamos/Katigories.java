@@ -3,21 +3,17 @@ package com.tardis.ordersamos;
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Comparator;
-import java.util.Hashtable;
-
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.app.Activity;
+import android.content.SharedPreferences;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.view.KeyEvent;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.ListView;
-import android.widget.TextView;
-import android.widget.TextView.OnEditorActionListener;
 import android.widget.Toast;
 
 public class Katigories extends Activity{
@@ -29,6 +25,7 @@ public class Katigories extends Activity{
 	ArrayAdapter<String> auto_adapter;//adapter tou auto-complete... ti tha deiksei mes sto auto-complete
 	String search;//einai oti yparxei mesa sto auto-complete kai einai grammeno
 	ArrayList<String> titles;//titloi/separators sto listview
+	ArrayList<String> banlist;//pia estiatoria ine banned
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +47,7 @@ public class Katigories extends Activity{
 		listview = (ListView) findViewById(R.id.lvKatigories);
 		list = new ArrayList<String>();//arraylist gia na to valei sto adapter tou list view
 				
-		
+		getBanlist();
 		
 		//autocomplete
 		auto_adapter = new ArrayAdapter<String>(this,
@@ -64,7 +61,8 @@ public class Katigories extends Activity{
 		    public void beforeTextChanged(CharSequence s, int start, int count, int after){
 		    }
 		    public void onTextChanged(CharSequence s, int start, int before, int count) {
-		    	//otan allazi to keimeno kani search 
+		    	//otan allazi to keimeno kani search
+
 		    	titles = new ArrayList<String>();
 		    	search= s.toString();
 		    	list = convertArrayList(getAllStrings(search));
@@ -97,6 +95,7 @@ public class Katigories extends Activity{
 				list_view_adapter = new ArrayAdapter<String>(getBaseContext(),
 						android.R.layout.simple_list_item_1, list);//simple_list_item_1 prokathorismenh emfasi tou android
 				listview.setAdapter(list_view_adapter);
+				list = new ArrayList<String>();
 		    }
 		};
 		actv.addTextChangedListener(inputTextWatcher);//einai ena listener sto auto-complete analoga me tin epilogi pou kaname
@@ -104,27 +103,73 @@ public class Katigories extends Activity{
 		
 	}
 	
+	//elexei pia estiatoria ine banned ke dimiurgi to banlist arraylist 
+	private void getBanlist() {
+		
+		SharedPreferences pref =PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+		
+		boolean chkEvrys = pref.getBoolean("Evrys", false);
+		boolean chkFame = pref.getBoolean("Fame", false);
+		boolean chkKoutala = pref.getBoolean("Koutala", false);
+		boolean chkGiro = pref.getBoolean("Giro", false);
+		boolean chkNostos = pref.getBoolean("Nostos", false);
+		boolean chkMegaro = pref.getBoolean("Megaro", false);
+		boolean chkTaz = pref.getBoolean("Taz", false);
+		boolean chkKouzina = pref.getBoolean("Kouzina", false);
+		boolean chkVakxos = pref.getBoolean("Vakxos", false);
+		boolean chkSweetnSalty = pref.getBoolean("SweetnSalty", false);
+		
+		banlist = new ArrayList<String>();
+		
+		if (chkEvrys == true) banlist.add("Evrys");
+		if (chkFame == true) banlist.add("Fame");
+		if (chkKoutala == true) banlist.add("Koutala");
+		if (chkGiro == true) banlist.add("Guro_Guro");
+		if (chkNostos == true) banlist.add("Nostos");
+		if (chkMegaro == true) banlist.add("Megaro");
+		if (chkTaz == true) banlist.add("Tazmaniac");
+		if (chkKouzina == true) banlist.add("Kouzina");
+		if (chkVakxos == true) banlist.add("Bakxos");
+		if (chkSweetnSalty == true) banlist.add("Sweet_salty");
+		
+		
+	}
+
 	//get all strings
 			private ArrayList<String[]> getAllStrings(String search){
 				
 				ArrayList<String[]> list = new ArrayList<String[]>();
-				
+			
 				for (Field field : R.array.class.getDeclaredFields())
 				{
 				  if (Modifier.isStatic(field.getModifiers()) && !Modifier.isPrivate(field.getModifiers()) && field.getType().equals(int.class))
 				  {
 				    try//mpainei se try epeidi mporei na min vrei tpt 
 				    {
-				      if (field.getName().contains(search))
-				      {
-				        int id = field.getInt(null);
-				        // add to list
-				        String[] array =  getResources().getStringArray(id);				        
-				        list.add(array);
-				        //get title
-				        titles.add(field.getName());
+				    	
+				    	String name ;
+				    	
+				    	  	for (String banned : banlist){
+				    	  		 
+				    	  		 name = field.getName();
+				    	  		 	//an grapsume 	!name.contains("Evrys") 8a dulepsi
+				    	  		 //to banned perni tis times kanonika
+				    	  		 //den 3ero gt den dulevi
+				    	  		 //8elo na aftoktoniso
+				    	  		 
+				    	  		if (!name.contains((String)banned) && name.contains(search)){
+				    	  			Toast.makeText(getBaseContext(), banned, Toast.LENGTH_SHORT).show();
+				    	  			int id = field.getInt(null);
+							        // add to list
+							        String[] array =  getResources().getStringArray(id);				        
+							        list.add(array);
+							        //get title
+							        titles.add(field.getName());
+				    	  		}
+				    	  	}
+						        
 				        
-				      }
+				      
 				    } catch (IllegalArgumentException e)
 				    {
 				      // ignore
@@ -135,7 +180,7 @@ public class Katigories extends Activity{
 				  }
 				}
 				return list;
-			}
+			}		
 			
 	//convert list from string-array se simple string
 			private ArrayList<String> convertArrayList (ArrayList<String[]> oldlist){

@@ -1,17 +1,14 @@
 package com.tardis.ordersamos;
 
 import java.util.ArrayList;
-import java.util.Random;
-
 import android.app.Activity;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
+
 
 public class RandomChoice extends Activity implements OnClickListener {
 

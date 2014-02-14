@@ -3,9 +3,6 @@
 	<name>Order@Samos</name>
 	<comment></comment>
 	<projects>
-		<project>android-ioc</project>
-		<project>FacebookSDK</project>
-		<project>Main</project>
 		<project>sdk</project>
 	</projects>
 	<buildSpec>

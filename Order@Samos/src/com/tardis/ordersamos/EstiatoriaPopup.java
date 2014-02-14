@@ -40,60 +40,56 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 	
 	@Override
 	public boolean onMenuItemClick(MenuItem item) {
-	    switch (item.getItemId()) {
-	        case R.id.call:
-	            //...
-	        	createCallDialog();
-	        	return true;
-	        case R.id.ban:
-	            //...
-	        	//e3afanizi to koumpi
-	        	View b = findViewById(button_id);
-	        	b.setVisibility(View.GONE);
-	        	//vriski to check button tu estiatoriu sta preferences
-	        	String checkbuttonid = null;
-	        	
-	        	if (button_id == R.id.ibtnEvris){
-	        		checkbuttonid = "Evrys";
-	        	}
-	        	else if (button_id == R.id.ibtnFame){
-	        		checkbuttonid = "Fame";
-	        	}
-	        	else if (button_id == R.id.ibtnKoutala){
-	        		checkbuttonid = "Koutala";
-	        	}
-	        	else if (button_id == R.id.ibtnGiro){
-	        		checkbuttonid = "Giro";
-	        	}
-	        	else if (button_id == R.id.ibtnNostos){
-	        		checkbuttonid = "Nostos";
-	        	}
-	        	else if (button_id == R.id.ibtnMegaro){
-	        		checkbuttonid = "Megaro";
-	        	}
-	        	else if (button_id == R.id.ibtnTaz){
-	        		checkbuttonid = "Taz";
-	        	}
-	        	else if (button_id == R.id.ibtnKouzina){
-	        		checkbuttonid = "Kouzina";
-	        	}
-	   
-	        	
-	        	//8eti tin timi tu sigkekrimenu checkbutton se banned = true
-	        	SharedPreferences pref =PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-	        	Editor edit = pref.edit();
-	        	edit.putBoolean(checkbuttonid, true);
-	        	edit.commit();
-	        	return true;
-	        case R.id.menu:
-	            //...
-	        	startActivity(new Intent("com.tardis.ordersamos.CurlActivity"));
-	        	CurlActivity.images = menu ;
-	        	return true;
-	        default:
-	        	return false;
-	        
-	    }
+	    int itemId = item.getItemId();
+		if (itemId == R.id.call) {
+			//...
+			createCallDialog();
+			return true;
+		} else if (itemId == R.id.ban) {
+			//...
+			//e3afanizi to koumpi
+			View b = findViewById(button_id);
+			b.setVisibility(View.GONE);
+			//vriski to check button tu estiatoriu sta preferences
+			String checkbuttonid = null;
+			if (button_id == R.id.ibtnEvris){
+				checkbuttonid = "Evrys";
+			}
+			else if (button_id == R.id.ibtnFame){
+				checkbuttonid = "Fame";
+			}
+			else if (button_id == R.id.ibtnKoutala){
+				checkbuttonid = "Koutala";
+			}
+			else if (button_id == R.id.ibtnGiro){
+				checkbuttonid = "Giro";
+			}
+			else if (button_id == R.id.ibtnNostos){
+				checkbuttonid = "Nostos";
+			}
+			else if (button_id == R.id.ibtnMegaro){
+				checkbuttonid = "Megaro";
+			}
+			else if (button_id == R.id.ibtnTaz){
+				checkbuttonid = "Taz";
+			}
+			else if (button_id == R.id.ibtnKouzina){
+				checkbuttonid = "Kouzina";
+			}
+			//8eti tin timi tu sigkekrimenu checkbutton se banned = true
+			SharedPreferences pref =PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+			Editor edit = pref.edit();
+			edit.putBoolean(checkbuttonid, true);
+			edit.commit();
+			return true;
+		} else if (itemId == R.id.menu) {
+			//...
+			startActivity(new Intent("com.tardis.ordersamos.CurlActivity"));
+			CurlActivity.images = menu ;
+			return true;
+		} else {
+			return false;
+		}
 	}
 
 		//create dialog
