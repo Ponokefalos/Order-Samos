@@ -5,6 +5,8 @@ import java.lang.reflect.Modifier;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashSet;
+
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.app.Activity;
@@ -25,7 +27,6 @@ public class Katigories extends Activity{
 	ArrayAdapter<String> auto_adapter;//adapter tou auto-complete... ti tha deiksei mes sto auto-complete
 	String search;//einai oti yparxei mesa sto auto-complete kai einai grammeno
 	ArrayList<String> titles;//titloi/separators sto listview
-	ArrayList<String> banlist;//pia estiatoria ine banned
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -47,7 +48,7 @@ public class Katigories extends Activity{
 		listview = (ListView) findViewById(R.id.lvKatigories);
 		list = new ArrayList<String>();//arraylist gia na to valei sto adapter tou list view
 				
-		getBanlist();
+		
 		
 		//autocomplete
 		auto_adapter = new ArrayAdapter<String>(this,
@@ -103,37 +104,6 @@ public class Katigories extends Activity{
 		
 	}
 	
-	//elexei pia estiatoria ine banned ke dimiurgi to banlist arraylist 
-	private void getBanlist() {
-		
-		SharedPreferences pref =PreferenceManager.getDefaultSharedPreferences(getBaseContext());
-		
-		boolean chkEvrys = pref.getBoolean("Evrys", false);
-		boolean chkFame = pref.getBoolean("Fame", false);
-		boolean chkKoutala = pref.getBoolean("Koutala", false);
-		boolean chkGiro = pref.getBoolean("Giro", false);
-		boolean chkNostos = pref.getBoolean("Nostos", false);
-		boolean chkMegaro = pref.getBoolean("Megaro", false);
-		boolean chkTaz = pref.getBoolean("Taz", false);
-		boolean chkKouzina = pref.getBoolean("Kouzina", false);
-		boolean chkVakxos = pref.getBoolean("Vakxos", false);
-		boolean chkSweetnSalty = pref.getBoolean("SweetnSalty", false);
-		
-		banlist = new ArrayList<String>();
-		
-		if (chkEvrys == true) banlist.add("Evrys");
-		if (chkFame == true) banlist.add("Fame");
-		if (chkKoutala == true) banlist.add("Koutala");
-		if (chkGiro == true) banlist.add("Guro_Guro");
-		if (chkNostos == true) banlist.add("Nostos");
-		if (chkMegaro == true) banlist.add("Megaro");
-		if (chkTaz == true) banlist.add("Tazmaniac");
-		if (chkKouzina == true) banlist.add("Kouzina");
-		if (chkVakxos == true) banlist.add("Bakxos");
-		if (chkSweetnSalty == true) banlist.add("Sweet_salty");
-		
-		
-	}
 
 	//get all strings
 			private ArrayList<String[]> getAllStrings(String search){
@@ -148,8 +118,8 @@ public class Katigories extends Activity{
 				    {
 				    	
 				    	String name ;
-				    	
-				    	  	for (String banned : banlist){
+				    			    	
+				    	  	
 				    	  		 
 				    	  		 name = field.getName();
 				    	  		 	//an grapsume 	!name.contains("Evrys") 8a dulepsi
@@ -157,20 +127,46 @@ public class Katigories extends Activity{
 				    	  		 //den 3ero gt den dulevi
 				    	  		 //8elo na aftoktoniso
 				    	  		 
-				    	  		if (!name.contains((String)banned) && name.contains(search)){
-				    	  			Toast.makeText(getBaseContext(), banned, Toast.LENGTH_SHORT).show();
-				    	  			int id = field.getInt(null);
-							        // add to list
-							        String[] array =  getResources().getStringArray(id);				        
-							        list.add(array);
-							        //get title
-							        titles.add(field.getName());
+				    	  		if (name.contains(search)){
+				    	  			
+				    	  			//check for banned
+				    	  			SharedPreferences pref =PreferenceManager.getDefaultSharedPreferences(getBaseContext());
+				    	  			
+				    	  			boolean chkEvrys = pref.getBoolean("Evrys", false);
+				    	  			boolean chkFame = pref.getBoolean("Fame", false);
+				    	  			boolean chkKoutala = pref.getBoolean("Koutala", false);
+				    	  			boolean chkGiro = pref.getBoolean("Giro", false);
+				    	  			boolean chkNostos = pref.getBoolean("Nostos", false);
+				    	  			boolean chkMegaro = pref.getBoolean("Megaro", false);
+				    	  			boolean chkTaz = pref.getBoolean("Taz", false);
+				    	  			boolean chkKouzina = pref.getBoolean("Kouzina", false);
+				    	  			boolean chkVakxos = pref.getBoolean("Vakxos", false);
+				    	  			boolean chkSweetnSalty = pref.getBoolean("SweetnSalty", false);
+				    	  			
+				    	  			if (chkEvrys == true && name.contains("Evrys")){}
+				    	  			else if (chkFame == true && name.contains("Fame")){}
+				    	  			else if (chkKoutala == true && name.contains("Koutala")){}
+				    	  			else if (chkGiro == true && name.contains("Guro_Guro")){}
+				    	  			else if (chkNostos == true && name.contains("Nostos")){}
+				    	  			else if (chkMegaro == true && name.contains("Megaro")){}
+				    	  			else if (chkTaz == true && name.contains("Tazmaniac")){}
+				    	  			else if (chkKouzina == true && name.contains("Kouzina")){}
+				    	  			else if (chkVakxos == true && name.contains("Bakxos")){}
+				    	  			else if (chkSweetnSalty == true && name.contains("Sweet_salty")){}
+				    	  			else {
+						    	  			int id = field.getInt(null);
+									        // add to list
+									        String[] array =  getResources().getStringArray(id);				        
+									        list.add(array);
+									        //get title
+									        titles.add(field.getName());
+				    	  			}
 				    	  		}
 				    	  	}
 						        
 				        
 				      
-				    } catch (IllegalArgumentException e)
+				     catch (IllegalArgumentException e)
 				    {
 				      // ignore
 				    } catch (IllegalAccessException e)
