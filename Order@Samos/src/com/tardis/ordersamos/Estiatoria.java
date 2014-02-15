@@ -181,26 +181,19 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 
 		if (v.getId() == R.id.ibtnEvris) {
 			
-			/* na paei stin banList meta
-			if (katastasi == true) {
-				ibEvris.setImageResource(R.drawable.ban);
-				Settings.saveSettings("pressed", false, getApplicationContext());
-			} else if(katastasi==false){
-				ibEvris.setImageResource(R.drawable.tick);
-				Settings.saveSettings("pressed", true, getApplicationContext());
-			} */
-				
 			createPopup(v);
 			array_tilefona = R.array.Til_Evrys;
 			menu = new int [] {R.drawable.evris1,R.drawable.evris2,R.drawable.evris3,
 					 R.drawable.evris4,R.drawable.evris5,R.drawable.evris6};
 			button_id = R.id.ibtnEvris;
+			text_id = R.id.tvEstiatoriaEvrys;
 		}
 		if (v.getId() == R.id.ibtnFame) {
 			createPopup(v);
 			array_tilefona = R.array.Til_Fame;
 			menu = new int [] {R.drawable.fame1,R.drawable.fame2,R.drawable.fame3}; 
 			button_id =  R.id.ibtnFame;
+			text_id = R.id.tvEstiatoriaFame;
 			
 		}
 		else if (v.getId() == R.id.ibtnKoutala) {
@@ -209,6 +202,7 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 			menu = new int [] {R.drawable.koutala1,R.drawable.koutala2,R.drawable.koutala3,
 					 R.drawable.koutala4,R.drawable.koutala5,R.drawable.koutala6,R.drawable.koutala7};
 			button_id =  R.id.ibtnKoutala;
+			text_id = R.id.tvEstiatoriaKoutala;
 		}
 		else if (v.getId() == R.id.ibtnGiro) {
 			createPopup(v);
@@ -216,6 +210,7 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 			menu = new int [] {R.drawable.giro1,R.drawable.giro2,R.drawable.giro3,
 					 R.drawable.giro4,R.drawable.giro5,R.drawable.giro6};
 			button_id =  R.id.ibtnGiro;
+			text_id = R.id.tvEstiatoriaGiro;
 		}
 		else if (v.getId() == R.id.ibtnNostos) {
 			createPopup(v);
@@ -223,12 +218,14 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 			menu = new int [] {R.drawable.nostos1,R.drawable.nostos2,R.drawable.nostos3,
 					 R.drawable.nostos4,R.drawable.nostos5,R.drawable.nostos6};
 			button_id =  R.id.ibtnNostos;
+			text_id = R.id.tvEstiatoriaNostos;
 		}
 		else if (v.getId() == R.id.ibtnTaz) {
 			createPopup(v);
 			array_tilefona = R.array.Til_Taz;
 			menu = new int [] {R.drawable.tazmaniac1,R.drawable.tazmaniac2};
 			button_id =  R.id.ibtnTaz;
+			text_id = R.id.tvEstiatoriaTaz;
 		}
 		else if (v.getId() == R.id.ibtnMegaro) {
 			createPopup(v);
@@ -236,6 +233,7 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 			menu = new int [] {R.drawable.megaro1,R.drawable.megaro2,R.drawable.megaro3,
 					 R.drawable.megaro4,R.drawable.megaro5,R.drawable.megaro6};
 			button_id =  R.id.ibtnMegaro;
+			text_id = R.id.tvEstiatoriaMegaro;
 		}
 		else if (v.getId() == R.id.ibtnKouzina) {
 			createPopup(v);
@@ -243,6 +241,7 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 			menu = new int [] {R.drawable.kouzmamas1,R.drawable.kouzmamas2,R.drawable.kouzmamas3,
 					 R.drawable.kouzmamas4,R.drawable.kouzmamas5};
 			button_id =  R.id.ibtnKouzina;
+			text_id = R.id.tvEstiatoriaKouzina;
 		}
 		else if (v.getId() == R.id.ibtnVakxos) {
 			createPopup(v);
@@ -250,6 +249,7 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 			menu = new int [] {R.drawable.vakxos1,R.drawable.vakxos2,R.drawable.vakxos3,
 					 R.drawable.vakxos4,R.drawable.vakxos5};
 			button_id =  R.id.ibtnVakxos;
+			text_id = R.id.tvEstiatoriaVakxos;
 		}
 		else if (v.getId() == R.id.ibtnSweet) {
 			createPopup(v);
@@ -257,6 +257,7 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 			menu = new int [] {R.drawable.sweet1,R.drawable.sweet2,R.drawable.sweet3,
 					 R.drawable.sweet4,R.drawable.sweet5,R.drawable.sweet6};
 			button_id =  R.id.ibtnSweet;
+			text_id = R.id.tvEstiatoriaSweet;
 		}
 
 	}

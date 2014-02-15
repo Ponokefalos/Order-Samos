@@ -8,9 +8,10 @@ import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
-public class RandomChoice extends Activity implements OnClickListener {
+public class RandomChoice extends EstiatoriaPopup implements OnClickListener {
 
 	String title, magazi, fagito;
 	TextView tvTitlos, tvOnomaMagaziou, tvFagito,tvProvalomeniTixaiEpilogi;
@@ -56,6 +57,7 @@ public class RandomChoice extends Activity implements OnClickListener {
 		//----------------------------------------------------------------------------------------------------
 		Resources res = getResources();
 
+		//0-7
 		taPantaOla.add(res.getStringArray(R.array.Bakxos_orektika));
 		taPantaOla.add(res.getStringArray(R.array.Bakxos_merides));
 		taPantaOla.add(res.getStringArray(R.array.Bakxos_burger));
@@ -64,8 +66,7 @@ public class RandomChoice extends Activity implements OnClickListener {
 		taPantaOla.add(res.getStringArray(R.array.Bakxos_salates));
 		taPantaOla.add(res.getStringArray(R.array.Bakxos_souvlista));
 		taPantaOla.add(res.getStringArray(R.array.Bakxos_sandwich));
-
-		taPantaOla.add(res.getStringArray(R.array.Evrys_burger));
+		taPantaOla.add(res.getStringArray(R.array.Evrys_burger));//8-16
 		taPantaOla.add(res.getStringArray(R.array.Evrys_omeletes));
 		taPantaOla.add(res.getStringArray(R.array.Evrys_orektika));
 		taPantaOla.add(res.getStringArray(R.array.Evrys_piata));
@@ -74,16 +75,14 @@ public class RandomChoice extends Activity implements OnClickListener {
 		taPantaOla.add(res.getStringArray(R.array.Evrys_salates));
 		taPantaOla.add(res.getStringArray(R.array.Evrys_submarine_sandwich));
 		taPantaOla.add(res.getStringArray(R.array.Evrys_zumarika));
-
-		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_burger));
+		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_burger));//17-23
 		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_club_sandwich));
 		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_hot_dog));
 		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_krepes_almures));
 		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_krepes_glukes));
 		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_merides));
 		taPantaOla.add(res.getStringArray(R.array.Sweet_salty_salates));
-
-		taPantaOla.add(res.getStringArray(R.array.Koutala_club_sandwich));
+		taPantaOla.add(res.getStringArray(R.array.Koutala_club_sandwich));//24-32
 		taPantaOla.add(res.getStringArray(R.array.Koutala_mezedes));
 		taPantaOla.add(res.getStringArray(R.array.Koutala_orektika));
 		taPantaOla.add(res.getStringArray(R.array.Koutala_pizza));
@@ -92,8 +91,7 @@ public class RandomChoice extends Activity implements OnClickListener {
 		taPantaOla.add(res.getStringArray(R.array.Koutala_souvlaki));
 		taPantaOla.add(res.getStringArray(R.array.Koutala_yarika));
 		taPantaOla.add(res.getStringArray(R.array.Koutala_zumarika));
-
-		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_aloifes));
+		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_aloifes));//33-45
 		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_burger));
 		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_kupriakes_pites));
 		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_mageireuta));
@@ -106,20 +104,17 @@ public class RandomChoice extends Activity implements OnClickListener {
 		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_yhta));
 		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_ywmakia));
 		taPantaOla.add(res.getStringArray(R.array.Kouzina_ths_mamas_zumarika));
-
-		taPantaOla.add(res.getStringArray(R.array.Megaro_pitses));
+		taPantaOla.add(res.getStringArray(R.array.Megaro_pitses));//46-48
 		taPantaOla.add(res.getStringArray(R.array.Megaro_salates));
 		taPantaOla.add(res.getStringArray(R.array.Megaro_zumarika));
-
-		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_burger));
+		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_burger));//49-55
 		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_faghta));
 		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_krepes_almures));
 		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_krepes_glukes));
 		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_prwina));
 		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_sandwich));
 		taPantaOla.add(res.getStringArray(R.array.Tazmaniac_steak_sandwich));
-
-		taPantaOla.add(res.getStringArray(R.array.Fame_burger));
+		taPantaOla.add(res.getStringArray(R.array.Fame_burger));//56-70
 		taPantaOla.add(res.getStringArray(R.array.Fame_krepes_almures));
 		taPantaOla.add(res.getStringArray(R.array.Fame_krepes_glukes));
 		taPantaOla.add(res.getStringArray(R.array.Fame_merides));
@@ -134,8 +129,7 @@ public class RandomChoice extends Activity implements OnClickListener {
 		taPantaOla.add(res.getStringArray(R.array.Fame_xwris_pita));
 		taPantaOla.add(res.getStringArray(R.array.Fame_yhta));
 		taPantaOla.add(res.getStringArray(R.array.Fame_zumarika));
-
-		taPantaOla.add(res.getStringArray(R.array.Nostos_mageireuta));
+		taPantaOla.add(res.getStringArray(R.array.Nostos_mageireuta));//71-79
 		taPantaOla.add(res.getStringArray(R.array.Nostos_omeletes));
 		taPantaOla.add(res.getStringArray(R.array.Nostos_orektika));
 		taPantaOla.add(res.getStringArray(R.array.Nostos_peinirli));
@@ -144,8 +138,7 @@ public class RandomChoice extends Activity implements OnClickListener {
 		taPantaOla.add(res.getStringArray(R.array.Nostos_tortelini));
 		taPantaOla.add(res.getStringArray(R.array.Nostos_yhta));
 		taPantaOla.add(res.getStringArray(R.array.Nostos_zumarika));
-
-		taPantaOla.add(res.getStringArray(R.array.Guro_Guro_oloi_merides));
+		taPantaOla.add(res.getStringArray(R.array.Guro_Guro_oloi_merides));//80-85
 		taPantaOla.add(res.getStringArray(R.array.Guro_Guro_oloi_orektika));
 		taPantaOla.add(res.getStringArray(R.array.Guro_Guro_oloi_pites));
 		taPantaOla.add(res.getStringArray(R.array.Guro_Guro_oloi_poikilies));
@@ -157,22 +150,78 @@ public class RandomChoice extends Activity implements OnClickListener {
 
 	@Override
 	public void onClick(View v) {
-		
+		int randoma = 0;
 
 		
 
 		if (v.getId() == R.id.ibtnRandom) {
 
-			int randoma = (int) (Math.random() * (85) + 1);
+			randoma = (int) (Math.random() * (85) + 1);
 			String[] epilegmenospinakas = taPantaOla.get(randoma);
 			int x = epilegmenospinakas.length;
 
 			int randomb = (int) (Math.random() * (x) + 1);
 			emfanisi = epilegmenospinakas[randomb-1];
+			//diaxorismos onomatos-timis
+							
+					try {
+						String[] d = emfanisi.split("\\$");
+						emfanisi = d[0] + "\t Τιμή €" + d[1];
+					} catch (Exception e) {
+						Toast.makeText(getBaseContext(), "error", Toast.LENGTH_SHORT).show();
+					}
+				
+				
+					
+				
+			
 			tvProvalomeniTixaiEpilogi.setText(emfanisi);
 			
+			//emfanisi onomatos estiatoriu
+			if (randoma>=0 && randoma<=7){
+				tvOnomaMagaziou.setText("Βάκχος");
+				setArray_tilefona(R.array.Til_Vakxos);
+			}
+			else if (randoma>=8 && randoma<=16){
+				tvOnomaMagaziou.setText("Evrys");
+				setArray_tilefona(R.array.Til_Evrys);
+			}
+			else if (randoma>=17 && randoma<=23){
+				tvOnomaMagaziou.setText("Sweet & Salty");
+				setArray_tilefona(R.array.Til_SweetnSalty);
+			}
+			else if (randoma>=24 && randoma<=32){
+				tvOnomaMagaziou.setText("Κουτάλα του μάγειρα");
+				setArray_tilefona(R.array.Til_Koutala);
+			}
+			else if (randoma>=33 && randoma<=45){
+				tvOnomaMagaziou.setText("Κουζίνα της μαμμάς");
+				setArray_tilefona(R.array.Til_Kouzina);
+			}
+			else if (randoma>=46 && randoma<=48){
+				tvOnomaMagaziou.setText("Μέγαρο");
+				setArray_tilefona(R.array.Til_Megaro);
+			}
+			else if (randoma>=49 && randoma<=55){
+				tvOnomaMagaziou.setText("Ταζ");
+				setArray_tilefona(R.array.Til_Taz);
+			}
+			else if (randoma>=56 && randoma<=70){
+				tvOnomaMagaziou.setText("Fame");
+				setArray_tilefona(R.array.Til_Fame);
+			}
+			else if (randoma>=71 && randoma<=79){
+				tvOnomaMagaziou.setText("Nostos");
+				setArray_tilefona(R.array.Til_Nostos);
+			}
+			else if (randoma>=80 && randoma<=85){
+				tvOnomaMagaziou.setText("Γύρο Γύρο");
+				setArray_tilefona(R.array.Til_Giro);
+			}
+			
+			
 		} else if (v.getId() == R.id.ibtnCall) {
-
+			createCallDialog();
 		}
 
 	}

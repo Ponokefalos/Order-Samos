@@ -91,6 +91,20 @@ public class Katigories extends Activity{
 					}
 		    		
 		    	});
+		    	//morfopiisi listas se onoma + "\t Τιμή €" + timi
+		    	
+		    	for (int i=0; i<list.size(); i++){
+		    		
+		    			
+						try {
+							String[] sexy = list.get(i).split("\\$");
+							list.set(i, sexy[0] + "\t Τιμή €" + sexy[1]);
+						} catch (Exception e) {
+							
+						}
+		    		
+		    	}
+		    	
 				//display
 		    	//arxikopoiw ton adapter
 				list_view_adapter = new ArrayAdapter<String>(getBaseContext(),

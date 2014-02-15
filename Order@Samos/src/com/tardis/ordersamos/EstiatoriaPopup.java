@@ -20,6 +20,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 	protected int [] menu;
 	protected int array_tilefona;
 	protected int button_id;
+	protected int text_id;
 	protected int isbanned;
 	//
 	public void createPopup (View v) {
@@ -50,6 +51,8 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 			//e3afanizi to koumpi
 			View b = findViewById(button_id);
 			b.setVisibility(View.GONE);
+			View t = findViewById(text_id);
+			t.setVisibility(View.GONE);
 			//vriski to check button tu estiatoriu sta preferences
 			String checkbuttonid = null;
 			if (button_id == R.id.ibtnEvris){
