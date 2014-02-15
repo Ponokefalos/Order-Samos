@@ -131,17 +131,11 @@ public class Katigories extends Activity{
 				    try//mpainei se try epeidi mporei na min vrei tpt 
 				    {
 				    	
-				    	String name ;
-				    			    	
-				    	  	
+				    			String name ;
+				    	
+				    	  		name = field.getName();
 				    	  		 
-				    	  		 name = field.getName();
-				    	  		 	//an grapsume 	!name.contains("Evrys") 8a dulepsi
-				    	  		 //to banned perni tis times kanonika
-				    	  		 //den 3ero gt den dulevi
-				    	  		 //8elo na aftoktoniso
-				    	  		 
-				    	  		if (name.contains(search)){
+				    	  		if (name.startsWith("f") && name.contains(search)){
 				    	  			
 				    	  			//check for banned
 				    	  			SharedPreferences pref =PreferenceManager.getDefaultSharedPreferences(getBaseContext());

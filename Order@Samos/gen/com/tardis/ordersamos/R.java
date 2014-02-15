@@ -12,6 +12,8 @@ public final class R {
         public static final int Bakxos_burger=0x7f0a0007;
         public static final int Bakxos_mageireuta=0x7f0a0004;
         public static final int Bakxos_merides=0x7f0a0005;
+        /**  //////////////////////BAKXOS///////////////////////////// 
+         */
         public static final int Bakxos_orektika=0x7f0a0000;
         public static final int Bakxos_pites=0x7f0a0006;
         public static final int Bakxos_salates=0x7f0a0001;
@@ -596,10 +598,8 @@ containing a value of this type.
         public static final int ratings=0x7f0b0007;
     }
     public static final class string {
-        /**  //////////////////////BAKXOS///////////////////////////// 
-         */
-        public static final int Evrys=0x7f060019;
-        public static final int Fame=0x7f06002c;
+        public static final int Evrys=0x7f06002c;
+        public static final int Fame=0x7f06002b;
         public static final int Giro=0x7f060034;
         public static final int Koutala=0x7f060032;
         public static final int Kouzina=0x7f060031;
@@ -608,8 +608,8 @@ containing a value of this type.
         public static final int Sweet=0x7f06002e;
         public static final int Taz=0x7f060033;
         public static final int Vakxos=0x7f06002d;
-        public static final int action_settings=0x7f06001b;
-        public static final int app_name=0x7f06001a;
+        public static final int action_settings=0x7f06001a;
+        public static final int app_name=0x7f060019;
         public static final int com_facebook_choose_friends=0x7f06000f;
         public static final int com_facebook_dialogloginactivity_ok_button=0x7f060000;
         public static final int com_facebook_internet_permission_error_message=0x7f060013;
@@ -635,23 +635,23 @@ containing a value of this type.
         public static final int com_facebook_usersettingsfragment_log_in_button=0x7f060008;
         public static final int com_facebook_usersettingsfragment_logged_in=0x7f060009;
         public static final int com_facebook_usersettingsfragment_not_logged_in=0x7f06000a;
-        public static final int hello_world=0x7f06001c;
-        public static final int prosforaEvrys=0x7f06002b;
-        public static final int prosforaFame=0x7f060027;
-        public static final int prosforaMegaro=0x7f060028;
-        public static final int prosforaSweet=0x7f060029;
-        public static final int prosforaTaz=0x7f06002a;
-        public static final int random_fagito=0x7f060025;
-        public static final int random_magazi=0x7f060024;
-        public static final int title_Random_Choice=0x7f060023;
-        public static final int title_activity_ban_list=0x7f06001f;
-        public static final int title_activity_estiatoria=0x7f06001d;
-        public static final int title_activity_katigories=0x7f06001e;
-        public static final int title_activity_prosfores=0x7f060021;
-        public static final int title_activity_random_choice=0x7f060020;
-        public static final int title_activity_ratings=0x7f060022;
+        public static final int hello_world=0x7f06001b;
+        public static final int prosforaEvrys=0x7f06002a;
+        public static final int prosforaFame=0x7f060026;
+        public static final int prosforaMegaro=0x7f060027;
+        public static final int prosforaSweet=0x7f060028;
+        public static final int prosforaTaz=0x7f060029;
+        public static final int random_fagito=0x7f060024;
+        public static final int random_magazi=0x7f060023;
+        public static final int title_Random_Choice=0x7f060022;
+        public static final int title_activity_ban_list=0x7f06001e;
+        public static final int title_activity_estiatoria=0x7f06001c;
+        public static final int title_activity_katigories=0x7f06001d;
+        public static final int title_activity_prosfores=0x7f060020;
+        public static final int title_activity_random_choice=0x7f06001f;
+        public static final int title_activity_ratings=0x7f060021;
         public static final int title_curl_view=0x7f060035;
-        public static final int title_prosfores=0x7f060026;
+        public static final int title_prosfores=0x7f060025;
     }
     public static final class style {
         /** 

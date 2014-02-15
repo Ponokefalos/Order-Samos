@@ -138,7 +138,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 			Time mera = new Time();
 			mera.setToNow();
 			
-			if (button_id == R.id.ibtnEvris){
+			if (array_tilefona == R.array.Til_Evrys){
 				//apo
 				ora1.hour = 13;
 				//mexri
@@ -150,7 +150,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 				
 				mera.weekDay = 1;//deftera
 			}
-			else if (button_id == R.id.ibtnFame){
+			else if (array_tilefona == R.array.Til_Fame){
 				//apo
 				
 				ora1.hour = 12;
@@ -162,7 +162,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 				//mera pu ine klista
 				mera.weekDay = 7;
 			}
-			else if (button_id == R.id.ibtnGiro){
+			else if (array_tilefona == R.array.Til_Giro){
 				//apo
 				
 				ora1.hour = 12;
@@ -175,7 +175,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 				//mera pu ine klista
 				mera.weekDay = 7;
 			}
-			else if (button_id == R.id.ibtnKoutala){
+			else if (array_tilefona == R.array.Til_Koutala){
 				//apo
 				
 				ora1.hour = 13;
@@ -187,7 +187,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 				//mera pu ine klista
 				mera.weekDay = 7;
 			}
-			else if (button_id == R.id.ibtnKouzina){
+			else if (array_tilefona == R.array.Til_Kouzina){
 				//apo
 				
 				ora1.hour = 12;
@@ -199,7 +199,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 				//mera pu ine klista
 				mera.weekDay = 7;
 			}
-			else if (button_id == R.id.ibtnMegaro){
+			else if (array_tilefona == R.array.Til_Megaro){
 				//apo
 				
 				ora1.hour = 13;
@@ -211,7 +211,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 				//mera pu ine klista
 				mera.weekDay = 7;
 			}
-			else if (button_id == R.id.ibtnNostos){
+			else if (array_tilefona == R.array.Til_Nostos){
 				//apo
 				
 				ora1.hour = 14;
@@ -223,7 +223,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 				//mera pu ine klista
 				mera.weekDay = 7;
 			}
-			else if (button_id == R.id.ibtnSweet){
+			else if (array_tilefona == R.array.Til_SweetnSalty){
 				//apo
 				
 				ora1.hour = 16;
@@ -235,7 +235,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 				//mera pu ine klista
 				mera.weekDay = 7;
 			}
-			else if (button_id == R.id.ibtnTaz){
+			else if (array_tilefona == R.array.Til_Taz){
 				//apo
 				
 				ora1.hour = 8;
@@ -247,7 +247,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 				//mera pu ine klista
 				mera.weekDay = 7;
 			}
-			else if (button_id == R.id.ibtnVakxos){
+			else if (array_tilefona == R.array.Til_Vakxos){
 				//apo
 				
 				ora1.hour = 12;

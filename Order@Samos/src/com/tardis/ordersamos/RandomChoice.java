@@ -180,10 +180,12 @@ public class RandomChoice extends EstiatoriaPopup implements OnClickListener {
 			if (randoma>=0 && randoma<=7){
 				tvOnomaMagaziou.setText("Βάκχος");
 				setArray_tilefona(R.array.Til_Vakxos);
+				
 			}
 			else if (randoma>=8 && randoma<=16){
 				tvOnomaMagaziou.setText("Evrys");
 				setArray_tilefona(R.array.Til_Evrys);
+				
 			}
 			else if (randoma>=17 && randoma<=23){
 				tvOnomaMagaziou.setText("Sweet & Salty");
