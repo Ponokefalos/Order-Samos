@@ -1,5 +1,7 @@
 package com.tardis.ordersamos;
 
+import java.util.Calendar;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -9,11 +11,14 @@ import android.content.SharedPreferences.Editor;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.preference.PreferenceManager;
+import android.text.format.Time;
+import android.util.MonthDisplayHelper;
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.PopupMenu;
 import android.widget.PopupMenu.OnMenuItemClickListener;
+import android.widget.Toast;
 
 public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener{
 
@@ -22,7 +27,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 	protected int button_id;
 	protected int text_id;
 	protected int isbanned;
-	//
+		
 	public void createPopup (View v) {
 	    PopupMenu popup = new PopupMenu(this, v);
 	    MenuInflater inflater = popup.getMenuInflater();
@@ -79,6 +84,12 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 			else if (button_id == R.id.ibtnKouzina){
 				checkbuttonid = "Kouzina";
 			}
+			else if (button_id == R.id.ibtnVakxos){
+				checkbuttonid = "Vakxos";
+			}
+			else if (button_id == R.id.ibtnSweet){
+				checkbuttonid = "SweetnSalty";
+			}
 			//8eti tin timi tu sigkekrimenu checkbutton se banned = true
 			SharedPreferences pref =PreferenceManager.getDefaultSharedPreferences(getBaseContext());
 			Editor edit = pref.edit();
@@ -97,6 +108,7 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 
 		//create dialog
 		public void createCallDialog(){
+			
 			new AlertDialog.Builder(this)
 		    .setTitle("Call options")
 	        .setItems(array_tilefona, new DialogInterface.OnClickListener() {
@@ -108,8 +120,154 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 	         }
 	         })
 		     .show();
+			
+			checkIfOpen();
+			
 		}
-		
+		public void checkIfOpen(){
+			//set now
+			Time now = new Time();
+			now.setToNow();
+			
+			Time ora1 = new Time();
+			ora1.setToNow();
+			
+			Time ora2 = new Time();
+			ora2.setToNow();
+			
+			Time mera = new Time();
+			mera.setToNow();
+			
+			if (button_id == R.id.ibtnEvris){
+				//apo
+				ora1.hour = 13;
+				//mexri
+				//nextday
+				
+				ora2.hour = 1;
+				ora2 = allagi_meras(ora2);
+				//mera pu ine klista
+				
+				mera.weekDay = 1;//deftera
+			}
+			else if (button_id == R.id.ibtnFame){
+				//apo
+				
+				ora1.hour = 12;
+				//mexri
+				//nextday
+				
+				ora2.hour = 1;
+				ora2 = allagi_meras(ora2);
+				//mera pu ine klista
+				mera.weekDay = 7;
+			}
+			else if (button_id == R.id.ibtnGiro){
+				//apo
+				
+				ora1.hour = 12;
+				//mexri
+				//nextday
+				
+				ora2.hour = 23;
+				ora2.minute = 30;
+				
+				//mera pu ine klista
+				mera.weekDay = 7;
+			}
+			else if (button_id == R.id.ibtnKoutala){
+				//apo
+				
+				ora1.hour = 13;
+				//mexri
+				//nextday
+				
+				ora2.hour = 0;
+				ora2 = allagi_meras(ora2);
+				//mera pu ine klista
+				mera.weekDay = 7;
+			}
+			else if (button_id == R.id.ibtnKouzina){
+				//apo
+				
+				ora1.hour = 12;
+				//mexri
+				//nextday
+				
+				ora2.hour = 0;
+				ora2 = allagi_meras(ora2);
+				//mera pu ine klista
+				mera.weekDay = 7;
+			}
+			else if (button_id == R.id.ibtnMegaro){
+				//apo
+				
+				ora1.hour = 13;
+				//mexri
+				//nextday
+				
+				ora2.hour = 0;
+				ora2 = allagi_meras(ora2);
+				//mera pu ine klista
+				mera.weekDay = 7;
+			}
+			else if (button_id == R.id.ibtnNostos){
+				//apo
+				
+				ora1.hour = 14;
+				//mexri
+				//nextday
+				
+				ora2.hour = 0;
+				ora2 = allagi_meras(ora2);
+				//mera pu ine klista
+				mera.weekDay = 7;
+			}
+			else if (button_id == R.id.ibtnSweet){
+				//apo
+				
+				ora1.hour = 16;
+				//mexri
+				//nextday
+				
+				ora2.hour = 5;
+				ora2 = allagi_meras(ora2);
+				//mera pu ine klista
+				mera.weekDay = 7;
+			}
+			else if (button_id == R.id.ibtnTaz){
+				//apo
+				
+				ora1.hour = 8;
+				//mexri
+				//nextday
+				
+				ora2.hour = 0;
+				ora2 = allagi_meras(ora2);
+				//mera pu ine klista
+				mera.weekDay = 7;
+			}
+			else if (button_id == R.id.ibtnVakxos){
+				//apo
+				
+				ora1.hour = 12;
+				//mexri				
+				
+				ora2.hour = 23;
+				//mera pu ine klista
+				mera.weekDay = 7;
+			}
+			
+			
+			
+			
+			
+			//emfanizi toast an ine klisto to estiatorio
+			if (Time.compare(now,ora1)<0 || Time.compare(now,ora2)>0 ||now.weekDay==mera.weekDay){
+				Toast.makeText(getBaseContext(), "To estiatorio einai kleisto", Toast.LENGTH_LONG).show();
+			}
+			
+		}
 		
 		//call number
 		public void callNumber(String n){
@@ -117,5 +275,21 @@ public class EstiatoriaPopup extends Activity implements OnMenuItemClickListener
 	   	 	String number = "tel:" + n;
 	   	 	iCall.setData(Uri.parse(number));
 	   	 	startActivity( iCall ) ;
+		}
+		
+		public Time allagi_meras (Time t){
+			if (t.monthDay+1 > t.getActualMaximum(Time.MONTH_DAY)){
+				t.monthDay = 1;
+				//minas++
+				if (t.month+1 > t.getActualMaximum(Time.MONTH)){
+					t.month = 1;
+					t.year++;
+				}else {
+					t.month ++;
+				}
+			}else{
+				t.monthDay++;
+			}
+			return t;
 		}
 }

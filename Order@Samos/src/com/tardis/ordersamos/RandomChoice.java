@@ -19,7 +19,6 @@ public class RandomChoice extends EstiatoriaPopup implements OnClickListener {
 	ArrayList<String[]> taPantaOla = new ArrayList<String[]>();
 	String emfanisi;
 	
-
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);

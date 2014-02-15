@@ -17,8 +17,6 @@ public final class R {
         public static final int Bakxos_salates=0x7f0a0001;
         public static final int Bakxos_sandwich=0x7f0a0002;
         public static final int Bakxos_souvlista=0x7f0a0003;
-        public static final int Banvalues=0x7f0a0062;
-        public static final int Estiatoria=0x7f0a0061;
         public static final int Evrys_burger=0x7f0a000e;
         public static final int Evrys_omeletes=0x7f0a000c;
         public static final int Evrys_orektika=0x7f0a0009;

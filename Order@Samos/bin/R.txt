@@ -6,8 +6,6 @@ int array Bakxos_pites 0x7f0a0006
 int array Bakxos_salates 0x7f0a0001
 int array Bakxos_sandwich 0x7f0a0002
 int array Bakxos_souvlista 0x7f0a0003
-int array Banvalues 0x7f0a0062
-int array Estiatoria 0x7f0a0061
 int array Evrys_burger 0x7f0a000e
 int array Evrys_omeletes 0x7f0a000c
 int array Evrys_orektika 0x7f0a0009

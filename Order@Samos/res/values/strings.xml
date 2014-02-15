@@ -108,32 +108,6 @@
 </string-array>
 <string name="title_curl_view">CurlActivity</string>
 
-<string-array name="Estiatoria">
-    <item >Evrys</item>
-    <item >Fame</item>
-    <item >Koutala</item>
-    <item >Giro</item>
-    <item >Nostos</item>
-    <item >Megaro</item>
-    <item >Taz</item>
-    <item >Kouzina</item>
-    <item >Vakxos</item>
-    <item >SweetnSalty</item>
-</string-array>
-
-<string-array name="Banvalues">
-    <item >false</item>
-    <item >false</item>
-    <item >false</item>
-    <item >false</item>
-    <item >false</item>
-    <item >false</item>
-    <item >false</item>
-    <item >false</item>
-    <item >false</item>
-    <item >false</item>
-</string-array>
-
 
 
 
