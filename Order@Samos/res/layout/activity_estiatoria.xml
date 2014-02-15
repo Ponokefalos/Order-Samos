@@ -19,95 +19,262 @@
             android:layout_height="1141dp"
             android:orientation="vertical" >
 
-            <ImageButton
-                android:id="@+id/ibtnFame"
-                android:layout_width="wrap_content"
+            <RelativeLayout
+                android:id="@+id/RelativeLayout1"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@null"
-                android:src="@drawable/fame"
-                android:tag="Fame" />
+                android:orientation="vertical" >
 
-            <ImageButton
-                android:id="@+id/ibtnEvris"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@null"
-                android:src="@drawable/evris" />
+                <ImageButton
+                    android:id="@+id/ibtnFame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/fame"
+                    />
+                    
+ 				<TextView
+                    android:id="@+id/tvEstiatoriaFame"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="57dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_toRightOf="@+id/ibtnFame"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:text="Fame" />
+               
 
-            <ImageButton
-                android:id="@+id/ibtnKoutala"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="58dp"
-                android:background="@null"
-                android:src="@drawable/koutala" />
+            </RelativeLayout>
 
-            <ImageButton
-                android:id="@+id/ibtnGiro"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@null"
-                android:src="@drawable/giro" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
 
-            <ImageButton
-                android:id="@+id/ibtnNostos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="15dp"
-                android:layout_marginTop="56dp"
-                android:background="@null"
-                android:src="@drawable/nostos" />
+                <ImageButton
+                    android:id="@+id/ibtnEvris"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/evris" />
 
-            <ImageButton
-                android:id="@+id/ibtnTaz"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:background="@null"
-                android:src="@drawable/taz" />
+                <TextView
+                    android:id="@+id/tvEstiatoriaEvrys"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="33dp"
+                    android:layout_marginTop="24dp"
+                    android:layout_toRightOf="@+id/ibtnEvris"
+                    android:gravity="center"
+                    android:text="Evrys"
+                    android:textColor="#ffffff" />
 
-            <ImageButton
-                android:id="@+id/ibtnMegaro"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="46dp"
-                android:background="@null"
-                android:src="@drawable/megaro" />
+            </RelativeLayout>
 
-            <ImageButton
-                android:id="@+id/ibtnKouzina"
-                android:layout_width="wrap_content"
+            <RelativeLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="48dp"
-                android:background="@null"
-                android:src="@drawable/kouzina" />
-			
-            <ImageButton
-                android:id="@+id/ibtnVakxos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginTop="48dp"
-                android:background="@null"
-                android:src="@drawable/vakxos" />
+                android:layout_weight="0.21" >
 
-             <ImageButton
-                 android:id="@+id/ibtnSweet"
-                 android:layout_width="wrap_content"
-                 android:layout_height="wrap_content"
-                 android:layout_gravity="center"
-                 android:layout_marginTop="48dp"
-                 android:background="@null"
-                 android:src="@drawable/sweet" />
-            
+                <ImageButton
+                    android:id="@+id/ibtnKoutala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                 
+                    android:background="@null"
+                    android:src="@drawable/koutala" />
+
+                <TextView
+                    android:id="@+id/tvEstiatoriaKoutala"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="37dp"
+                    android:layout_toRightOf="@+id/ibtnKoutala"
+                    android:gravity="center"
+                    android:text="Η Κουτάλα του Μάγειρα"
+                    android:textColor="#ffffff" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/ibtnGiro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                
+                    android:background="@null"
+                    android:src="@drawable/giro" />
+
+                <TextView
+                    android:id="@+id/tvEstiatoriaGiro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="46dp"
+                    android:layout_marginTop="17dp"
+                    android:layout_toRightOf="@+id/ibtnGiro"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:text="Γύρο Γύρο Όλοι" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/ibtnTaz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                
+                    android:background="@null"
+                    android:src="@drawable/taz" />
+
+                  <TextView
+                      android:id="@+id/tvEstiatoriaTaz"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_alignParentTop="true"
+                      android:layout_marginLeft="50dp"
+                      android:layout_marginTop="30dp"
+                      android:layout_toRightOf="@+id/ibtnTaz"
+                      android:textColor="#ffffff"
+                      android:text="TazManiac" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/ibtnMegaro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="46dp"
+                    android:background="@null"
+                    android:src="@drawable/megaro" />
+
+                  <TextView
+                      android:id="@+id/tvEstiatoriaMegaro"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerVertical="true"
+                      android:layout_marginLeft="27dp"
+                      android:textColor="#ffffff"
+                      android:layout_toRightOf="@+id/ibtnMegaro"
+                      android:text="Μέγαρο" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/ibtnKouzina"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+                    android:background="@null"
+                    android:src="@drawable/kouzina" />
+
+                  <TextView
+                      android:id="@+id/tvEstiatoriaKouzina"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerVertical="true"
+                      android:layout_marginLeft="41dp"
+                      android:textColor="#ffffff"
+                      android:layout_toRightOf="@+id/ibtnKouzina"
+                      android:text="Η Κουζίνα της μαμάς μου" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/ibtnVakxos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+                    android:background="@null"
+                    
+                    android:src="@drawable/vakxos" />
+
+                  <TextView
+                      android:id="@+id/tvEstiatoriaVakxos"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:layout_centerVertical="true"
+                      android:layout_marginLeft="57dp"
+                      android:textColor="#ffffff"
+                      android:layout_toRightOf="@+id/ibtnVakxos"
+                      android:text="Βάκχος" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/ibtnSweet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="48dp"
+                    android:background="@null"
+                    android:src="@drawable/sweet" />
+
+                <TextView
+                    android:id="@+id/tvEstiatoriaSweet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/ibtnSweet"
+                    android:layout_marginLeft="53dp"
+                    android:textColor="#ffffff"
+                    android:layout_toRightOf="@+id/ibtnSweet"
+                    android:text="Sweet N Salty" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageButton
+                    android:id="@+id/ibtnNostos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="14dp"
+                    android:background="@null"
+                    android:src="@drawable/nostos" />
+
+                <TextView
+                    android:id="@+id/tvEstiatoriaNostos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="60dp"
+                    android:layout_marginTop="30dp"
+                    android:textColor="#ffffff"
+                    android:layout_toRightOf="@+id/ibtnNostos"
+                    android:text="Νόστος" />
+            </RelativeLayout>
         </LinearLayout>
+
     </ScrollView>
 
 </LinearLayout>

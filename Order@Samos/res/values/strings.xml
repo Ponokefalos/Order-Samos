@@ -23,6 +23,17 @@
 	<string name="prosforaTaz">TAZ: \n Όλα τα φαγητά (νερό+αναψυκτικό+ψωμί) 6,80</string>
 	<string name="prosforaEvrys"></string>
 
+	
+	<string name="Fame">Fame</string>
+	<string name="Evrys">Evrys</string>
+	<string name="Vakxos">Βακχος</string>
+	<string name="Sweet">Sweet N Salty</string>
+	<string name="Megaro">Μεγαρο</string>
+	<string name="Nostos">Νοστος</string>
+	<string name="Kouzina">Η Κουζίνα της μαμάς μου</string>
+	<string name="Koutala">Η Κουτάλα του μάγειρα</string>
+	<string name="Taz">Tazmaniac</string>
+	<string name="Giro">Γύρο Γύρο Όλοι</string>
 
 <string-array name="Til_Evrys">
     <item>Stathero1:2273030003</item>
@@ -122,6 +133,8 @@
     <item >false</item>
     <item >false</item>
 </string-array>
+
+
 
 
 

@@ -1,12 +1,14 @@
 package com.tardis.ordersamos;
 
 import android.content.SharedPreferences;
+import android.content.res.Resources;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.ImageButton;
 import android.widget.PopupMenu.OnMenuItemClickListener;
+import android.widget.TextView;
 
 public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMenuItemClickListener{
 	//Context context = getApplicationContext();
@@ -21,12 +23,42 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 	ImageButton ibtnVakxos;
 	ImageButton ibtnSweet;
 	
+	/*TextView tvEvrys;
+	TextView tvFame;
+	TextView tvVakxos;
+	TextView tvKouzina;
+	TextView tvSweet;
+	TextView tvMegaro;
+	TextView tvTaz;
+	TextView tvKoutala;
+	TextView tvGiro;
+	TextView tvNostos;
+	
+	String titlosEvrys;
+	String titlosFame;
+	String titlosVakxos;
+	String titlosKouzina;
+	String titlosSweet;
+	String titlosMegaro;
+	String titlosTaz;
+	String titlosKoutala;
+	String titlosGiro;
+	String titlosNostos;*/
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_estiatoria);
 		initialize ();	
 		hideBanned();
+		
+		
+	}
+	
+	
+	public void initializeTextViews(){
+		
+		
 	}
 
 	private void hideBanned() {
@@ -46,43 +78,63 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 		
 		if (chkEvrys){
 			View b = findViewById(R.id.ibtnEvris);
+			View c = findViewById(R.id.tvEstiatoriaEvrys);
 			b.setVisibility(View.GONE);
+			c.setVisibility(View.GONE);
 		}
 		if (chkFame){
 			View b = findViewById(R.id.ibtnFame);
+			View c = findViewById(R.id.tvEstiatoriaFame);
 			b.setVisibility(View.GONE);
+			c.setVisibility(View.GONE);
 		}
 		if (chkKoutala){
 			View b = findViewById(R.id.ibtnKoutala);
+			View c = findViewById(R.id.tvEstiatoriaKoutala);
 			b.setVisibility(View.GONE);
+			c.setVisibility(View.GONE);
 		}
 		if (chkGiro){
 			View b = findViewById(R.id.ibtnGiro);
+			View c = findViewById(R.id.tvEstiatoriaGiro);
 			b.setVisibility(View.GONE);
+			c.setVisibility(View.GONE);
 		}
 		if (chkNostos){
 			View b = findViewById(R.id.ibtnNostos);
+			View c = findViewById(R.id.tvEstiatoriaNostos);
 			b.setVisibility(View.GONE);
+			c.setVisibility(View.GONE);
 		}
 		if (chkMegaro){
 			View b = findViewById(R.id.ibtnMegaro);
+			View c = findViewById(R.id.tvEstiatoriaMegaro);
 			b.setVisibility(View.GONE);
+			c.setVisibility(View.GONE);
 		}
 		if (chkTaz){
 			View b = findViewById(R.id.ibtnTaz);
+			View c = findViewById(R.id.tvEstiatoriaTaz);
 			b.setVisibility(View.GONE);
+			c.setVisibility(View.GONE);
 		}
 		if (chkKouzina){
 			View b = findViewById(R.id.ibtnKouzina);
+			View c = findViewById(R.id.tvEstiatoriaKouzina);
 			b.setVisibility(View.GONE);
+			c.setVisibility(View.GONE);
 		}
 		if (chkVakxos){
 			View b = findViewById(R.id.ibtnVakxos);
+			View c = findViewById(R.id.tvEstiatoriaVakxos);
 			b.setVisibility(View.GONE);
+			c.setVisibility(View.GONE);
 		}
 		if (chkSweetnSalty){
 			View b = findViewById(R.id.ibtnSweet);
+			View c = findViewById(R.id.tvEstiatoriaSweet);
 			b.setVisibility(View.GONE);
+			c.setVisibility(View.GONE);
 		}
 		
 				

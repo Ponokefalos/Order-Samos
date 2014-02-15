@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 <!-- //////////////////////BAKXOS///////////////////////////// -->
-
+<string name="Evrys">Evrys</string>
 <string-array name="Bakxos_orektika">
 	<item>Τζαζίκι$2,50</item>
 	<item>Τυροκαυτερή$2,50</item>

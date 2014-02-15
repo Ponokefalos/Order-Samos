@@ -26,8 +26,7 @@ public class RandomChoice extends Activity implements OnClickListener {
 		// pairnw ta dedomena gia kathe var antistoixa ap to string.xml
 		title = getResources().getString(R.string.title_Random_Choice);
 		magazi = getResources().getString(R.string.random_magazi);
-		fagito = getResources().getString(R.string.random_fagito);
-
+		fagito= getResources().getString(R.string.random_fagito);
 		// arxikopoiw ta textviews antistoixa me to xml layout id
 		tvTitlos = (TextView) findViewById(R.id.tvTitlosProsforas);
 		tvOnomaMagaziou = (TextView) findViewById(R.id.tvOnomaMagaziou);
@@ -41,8 +40,9 @@ public class RandomChoice extends Activity implements OnClickListener {
 		// ----------------------------------------------------------------------------------------------
 
 		ibRandBut = (ImageButton) findViewById(R.id.ibtnRandom);
-		ibCall = (ImageButton) findViewById(R.id.ibtnCall);
 		ibRandBut.setOnClickListener(this);
+		
+		ibCall = (ImageButton) findViewById(R.id.ibtnCall);
 		ibCall.setOnClickListener(this);
 
 		// -----------------------------------------------------------------------------------------------
