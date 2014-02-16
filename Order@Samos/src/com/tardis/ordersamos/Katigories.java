@@ -135,7 +135,7 @@ public class Katigories extends Activity{
 				    	
 				    	  		name = field.getName();
 				    	  		 
-				    	  		if (name.startsWith("f") && name.contains(search)){
+				    	  		if (!name.startsWith("Til_") && name.contains(search)){
 				    	  			
 				    	  			//check for banned
 				    	  			SharedPreferences pref =PreferenceManager.getDefaultSharedPreferences(getBaseContext());

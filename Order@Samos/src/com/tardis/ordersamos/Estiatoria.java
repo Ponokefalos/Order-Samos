@@ -11,7 +11,7 @@ import android.widget.PopupMenu.OnMenuItemClickListener;
 import android.widget.TextView;
 
 public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMenuItemClickListener{
-	//Context context = getApplicationContext();
+	
 	ImageButton ibtnFame;
 	ImageButton ibtnEvris;
 	ImageButton ibtnKoutala;
@@ -23,27 +23,7 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 	ImageButton ibtnVakxos;
 	ImageButton ibtnSweet;
 	
-	/*TextView tvEvrys;
-	TextView tvFame;
-	TextView tvVakxos;
-	TextView tvKouzina;
-	TextView tvSweet;
-	TextView tvMegaro;
-	TextView tvTaz;
-	TextView tvKoutala;
-	TextView tvGiro;
-	TextView tvNostos;
 	
-	String titlosEvrys;
-	String titlosFame;
-	String titlosVakxos;
-	String titlosKouzina;
-	String titlosSweet;
-	String titlosMegaro;
-	String titlosTaz;
-	String titlosKoutala;
-	String titlosGiro;
-	String titlosNostos;*/
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {

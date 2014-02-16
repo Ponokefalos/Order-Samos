@@ -144,6 +144,16 @@
                 android:textAppearance="?android:attr/textAppearanceMedium"
                 android:textSize="15sp" />
 
+            <ImageButton
+                android:id="@+id/ibtnInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/ibtnBanList"
+                android:layout_alignTop="@+id/ibtnBanList"
+                android:adjustViewBounds="false"
+                android:scaleType="fitStart"
+                android:src="@drawable/info" />
+
         </RelativeLayout>
 
     </ScrollView>

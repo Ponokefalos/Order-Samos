@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 
 public class MainMenu extends Activity implements OnClickListener {
 	//dilwsi antikeimenwn twn antistoixwn ImageButtons sto xml
-	ImageButton ibEstiatoria , ibKatigories, ibBanList, ibRandomChoice, ibProsfores, ibRatings;
+	ImageButton ibInfo, ibEstiatoria , ibKatigories, ibBanList, ibRandomChoice, ibProsfores, ibRatings;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +22,7 @@ public class MainMenu extends Activity implements OnClickListener {
 		ibRandomChoice = (ImageButton)findViewById(R.id.ibtnRandomChoice);
 		ibProsfores = (ImageButton)findViewById(R.id.ibtnProsfores);
 		ibRatings = (ImageButton)findViewById(R.id.ibtnRatings);
+		ibInfo = (ImageButton) findViewById(R.id.ibtnInfo);
 		
 		ibEstiatoria.setOnClickListener(this);
 		ibBanList.setOnClickListener(this);
@@ -29,8 +30,8 @@ public class MainMenu extends Activity implements OnClickListener {
 		ibRatings.setOnClickListener(this);
 		ibProsfores.setOnClickListener(this);
 		ibRandomChoice.setOnClickListener(this);
+		ibInfo.setOnClickListener(this);
 		
-		//Settings.saveSettings("pressed", true, getApplicationContext());
 	}
 	
 
@@ -54,6 +55,9 @@ public class MainMenu extends Activity implements OnClickListener {
 		}
 		else if (v.getId()==R.id.ibtnRatings){
 			startActivity(new Intent("com.tardis.ordersamos.Ratings"));
+		}
+		else if (v.getId()==R.id.ibtnInfo){
+			startActivity(new Intent("com.tardis.ordersamos.Info"));
 		}
 	}
 
