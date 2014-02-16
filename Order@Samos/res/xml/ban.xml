@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
     <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
-        <CheckBoxPreference android:key="Evrys" android:defaultValue="false" android:title="Ban Evrys"/>
+        <CheckBoxPreference android:key="Evrys" android:defaultValue="false" android:title="Ban Evrys" android:background="#9c1616"/>
         <CheckBoxPreference android:key="Fame" android:defaultValue="false" android:title="Ban Fame"/>
         <CheckBoxPreference android:key="Koutala" android:defaultValue="false" android:title="Ban Koutala"/>
         <CheckBoxPreference android:key="Giro" android:defaultValue="false" android:title="Ban Giro"/>
