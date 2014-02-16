@@ -354,7 +354,6 @@ int id tab7 0x7f05004b
 int id tab8 0x7f05004f
 int id tab9 0x7f050053
 int id tabhost 0x7f050031
-int id textView1 0x7f05001b
 int id tvBan 0x7f050022
 int id tvCall 0x7f05002d
 int id tvEstiatoria 0x7f05001e
@@ -370,6 +369,7 @@ int id tvEstiatoriaTaz 0x7f05000e
 int id tvEstiatoriaVakxos 0x7f050014
 int id tvFagito 0x7f05002c
 int id tvKatigories 0x7f050025
+int id tvKatigoriesTitlos 0x7f05001b
 int id tvOnomaMagaziou 0x7f05002f
 int id tvProsfores 0x7f050024
 int id tvProvalomeniTixaiaEpilogi 0x7f050030

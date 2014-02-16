@@ -523,7 +523,6 @@ containing a value of this type.
         public static final int tab8=0x7f05004f;
         public static final int tab9=0x7f050053;
         public static final int tabhost=0x7f050031;
-        public static final int textView1=0x7f05001b;
         public static final int tvBan=0x7f050022;
         public static final int tvCall=0x7f05002d;
         public static final int tvEstiatoria=0x7f05001e;
@@ -539,6 +538,7 @@ containing a value of this type.
         public static final int tvEstiatoriaVakxos=0x7f050014;
         public static final int tvFagito=0x7f05002c;
         public static final int tvKatigories=0x7f050025;
+        public static final int tvKatigoriesTitlos=0x7f05001b;
         public static final int tvOnomaMagaziou=0x7f05002f;
         public static final int tvProsfores=0x7f050024;
         public static final int tvProvalomeniTixaiaEpilogi=0x7f050030;
