@@ -68,22 +68,11 @@
                             android:id="@+id/tvRatingsEvrysTitlos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_below="@+id/ivRatingsEvrys"
-                            android:layout_marginTop="28dp"
-                            android:text="Large Text"
+                            android:layout_alignLeft="@+id/ivRatingsEvrys"
+                            android:layout_centerVertical="true"
+                            android:text="Evrys"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
 
-                        <TextView
-                            android:id="@+id/tvRatingsEvrysInfo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignRight="@+id/ivRatingsEvrys"
-                            android:layout_below="@+id/tvRatingsEvrysTitlos"
-                            android:layout_marginRight="34dp"
-                            android:layout_marginTop="38dp"
-                            android:text="Medium Text"
-                            android:textAppearance="?android:attr/textAppearanceMedium" />
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -105,22 +94,12 @@
                             android:id="@+id/tvRatingsFameTitlos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_below="@+id/ivRatingsFame"
-                            android:layout_marginTop="28dp"
-                            android:text="Large Text"
+                            android:layout_alignLeft="@+id/ivRatingsFame"
+                            android:layout_centerVertical="true"
+                            android:text="Fame"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
 
-                        <TextView
-                            android:id="@+id/tvRatingsFameInfo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignRight="@+id/ivRatingsFame"
-                            android:layout_below="@+id/tvRatingsFameTitlos"
-                            android:layout_marginRight="34dp"
-                            android:layout_marginTop="38dp"
-                            android:text="Medium Text"
-                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                        
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -142,22 +121,10 @@
                             android:id="@+id/tvRatingsSweetTitlos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_below="@+id/ivRatingsSweet"
-                            android:layout_marginTop="28dp"
-                            android:text="Large Text"
+                            android:layout_alignLeft="@+id/ivRatingsSweet"
+                            android:layout_centerVertical="true"
+                            android:text="Sweet and Salty"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
-
-                        <TextView
-                            android:id="@+id/tvRatingsSweetInfo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignRight="@+id/ivRatingsSweet"
-                            android:layout_below="@+id/tvRatingsSweetTitlos"
-                            android:layout_marginRight="34dp"
-                            android:layout_marginTop="38dp"
-                            android:text="Medium Text"
-                            android:textAppearance="?android:attr/textAppearanceMedium" />
                         
                     </RelativeLayout>
 
@@ -180,22 +147,11 @@
                             android:id="@+id/tvRatingsNostosTitlos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_below="@+id/ivRatingsNostos"
-                            android:layout_marginTop="28dp"
-                            android:text="Large Text"
+                            android:layout_alignLeft="@+id/ivRatingsNostos"
+                            android:layout_centerVertical="true"
+                            android:text="Nostos"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
-
-                        <TextView
-                            android:id="@+id/tvRatingsNostosInfo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignRight="@+id/ivRatingsNostos"
-                            android:layout_below="@+id/tvRatingsNostosTitlos"
-                            android:layout_marginRight="34dp"
-                            android:layout_marginTop="38dp"
-                            android:text="Medium Text"
-                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                            
                     </RelativeLayout>
 					
                     <RelativeLayout
@@ -217,22 +173,10 @@
                             android:id="@+id/tvRatingsKoutalaTitlos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_below="@+id/ivRatingsKoutala"
-                            android:layout_marginTop="28dp"
-                            android:text="Large Text"
+                            android:layout_alignLeft="@+id/ivRatingsKoutala"
+                            android:layout_centerVertical="true"
+                            android:text="Κουτάλα του Μάγειρα"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
-
-                        <TextView
-                            android:id="@+id/tvRatingsKoutalaInfo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignRight="@+id/ivRatingsKoutala"
-                            android:layout_below="@+id/tvRatingsKoutalaTitlos"
-                            android:layout_marginRight="34dp"
-                            android:layout_marginTop="38dp"
-                            android:text="Medium Text"
-                            android:textAppearance="?android:attr/textAppearanceMedium" />
                     </RelativeLayout>
 
                     <RelativeLayout
@@ -254,22 +198,11 @@
                             android:id="@+id/tvRatingsKouzinaTitlos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_below="@+id/ivRatingsKouzina"
-                            android:layout_marginTop="28dp"
-                            android:text="Large Text"
+                            android:layout_alignLeft="@+id/ivRatingsKouzina"
+                            android:layout_centerVertical="true"
+                            android:text="Κουζίνα της Μαμμάς"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
-
-                        <TextView
-                            android:id="@+id/tvRatingsKouzinaInfo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignRight="@+id/ivRatingsKouzina"
-                            android:layout_below="@+id/tvRatingsKouzinaTitlos"
-                            android:layout_marginRight="34dp"
-                            android:layout_marginTop="38dp"
-                            android:text="Medium Text"
-                            android:textAppearance="?android:attr/textAppearanceMedium" />
+                            
                     </RelativeLayout>
                     <RelativeLayout   
                         android:id="@+id/tab7"
@@ -290,22 +223,10 @@
                             android:id="@+id/tvRatingsGiroTitlos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_below="@+id/ivRatingsGiro"
-                            android:layout_marginTop="28dp"
-                            android:text="Large Text"
+                            android:layout_alignLeft="@+id/ivRatingsGiro"
+                            android:layout_centerVertical="true"
+                            android:text="Γύρο Γύρο"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
-
-                        <TextView
-                            android:id="@+id/tvRatingsGiroInfo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignRight="@+id/ivRatingsGiro"
-                            android:layout_below="@+id/tvRatingsGiroTitlos"
-                            android:layout_marginRight="34dp"
-                            android:layout_marginTop="38dp"
-                            android:text="Medium Text"
-                            android:textAppearance="?android:attr/textAppearanceMedium" />
                         
                         
                     </RelativeLayout>
@@ -328,22 +249,10 @@
                             android:id="@+id/tvRatingsTazTitlos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_below="@+id/ivRatingsTaz"
-                            android:layout_marginTop="28dp"
-                            android:text="Large Text"
+                            android:layout_alignLeft="@+id/ivRatingsTaz"
+                            android:layout_centerVertical="true"
+                            android:text="Taz"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
-
-                        <TextView
-                            android:id="@+id/tvRatingsTazInfo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignRight="@+id/ivRatingsTaz"
-                            android:layout_below="@+id/tvRatingsTazTitlos"
-                            android:layout_marginRight="34dp"
-                            android:layout_marginTop="38dp"
-                            android:text="Medium Text"
-                            android:textAppearance="?android:attr/textAppearanceMedium" />
                         
                         
                     </RelativeLayout>
@@ -366,22 +275,10 @@
                             android:id="@+id/tvRatingsMegaroTitlos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_below="@+id/ivRatingsMegaro"
-                            android:layout_marginTop="28dp"
-                            android:text="Large Text"
+                            android:layout_alignLeft="@+id/ivRatingsMegaro"
+                            android:layout_centerVertical="true"
+                            android:text="Μέγαρο"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
-
-                        <TextView
-                            android:id="@+id/tvRatingsMegaroInfo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignRight="@+id/ivRatingsMegaro"
-                            android:layout_below="@+id/tvRatingsMegaroTitlos"
-                            android:layout_marginRight="34dp"
-                            android:layout_marginTop="38dp"
-                            android:text="Medium Text"
-                            android:textAppearance="?android:attr/textAppearanceMedium" />
                         
                         
                     </RelativeLayout>
@@ -404,22 +301,10 @@
                             android:id="@+id/tvRatingsVakxosTitlos"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:layout_alignParentLeft="true"
-                            android:layout_below="@+id/ivRatingsVakxos"
-                            android:layout_marginTop="28dp"
-                            android:text="Large Text"
+                            android:layout_alignLeft="@+id/ivRatingsVakxos"
+                            android:layout_centerVertical="true"
+                            android:text="Βάκχος"
                             android:textAppearance="?android:attr/textAppearanceLarge" />
-
-                        <TextView
-                            android:id="@+id/tvRatingsVakxosInfo"
-                            android:layout_width="wrap_content"
-                            android:layout_height="wrap_content"
-                            android:layout_alignRight="@+id/ivRatingsVakxos"
-                            android:layout_below="@+id/tvRatingsVakxosTitlos"
-                            android:layout_marginRight="34dp"
-                            android:layout_marginTop="38dp"
-                            android:text="Medium Text"
-                            android:textAppearance="?android:attr/textAppearanceMedium" />
                         
                         
                     </RelativeLayout>

@@ -12,7 +12,7 @@
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
-        android:layout_height="358dp" >
+        android:layout_height="match_parent" >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,7 +25,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="0.60"
                 android:text="@string/Info"
-                android:textColor="#ffffff" />
+                android:textColor="#ffffff"
+                android:textSize="20dp" />
+
         </LinearLayout>
 
     </ScrollView>

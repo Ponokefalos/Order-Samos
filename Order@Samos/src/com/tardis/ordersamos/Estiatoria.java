@@ -171,7 +171,7 @@ public class Estiatoria extends EstiatoriaPopup implements OnClickListener, OnMe
 		if (v.getId() == R.id.ibtnFame) {
 			createPopup(v);
 			array_tilefona = R.array.Til_Fame;
-			menu = new int [] {R.drawable.fame1,R.drawable.fame2,R.drawable.fame3}; 
+			menu = new int [] {R.drawable.fame1,R.drawable.fame2,R.drawable.fame3,R.drawable.fame4,R.drawable.fame5,R.drawable.fame6,R.drawable.fame7,R.drawable.fame8,R.drawable.fame9}; 
 			button_id =  R.id.ibtnFame;
 			text_id = R.id.tvEstiatoriaFame;
 			
