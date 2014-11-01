@@ -22,7 +22,11 @@
     <string name="prosforaMegaro">ΜΕΓΑΡΟ: \n Με αγορά 3 ειδών (πίτσα, πεϊνερλί, καλτσόνε ζυμαρικά ) Δώρο 1  Σαλάτα του σεφ ή  1 αναψυκτικό 1.5lt\n Έκπτωση για ΑΜΕΑ 20%</string>
     <string name="prosforaSweet">SWEET N SALTY: \n Με 3 αλμυρές κρέπες Δώρο 1 Κρέπα σοκολάτα-μπισκότοή  1  Coca-Cola 500ml \n Με 4 αλμυρές κρέπες Δώρο 1 Coca-Cola 1.5lt</string>
 	<string name="prosforaTaz">TAZ: \n Όλα τα φαγητά (νερό+αναψυκτικό+ψωμί) 6,80</string>
+<<<<<<< HEAD
 	<string name="prosforaEvrys">EVRYS: \n Τετάρτη:\n Όλες οι μακαρονάδες 4 euro \n Πεμπτη:\n Με κάθε burger δώρο ένα αναψυκτικό \n Παρασκευή: \n Μεγάλες Πίτες 3,80 euro</string>
+=======
+	<string name="prosforaEvrys">Evrys:\n Κάθε Σάββατο και Κυριακή 16:00-19:00 ισχύουν οι ακόλουθες προσφορές.\nΚάθε Τρίτη:\n Όλες οι μακαρονάδες 4€\nΚάθε Τετάρτη:\nΌλες οι πίτσες -20%\nΚάθε Πέμπτη:\nΜε κάθε burger δώρο το αναψυκτικό\nΚάθε Παρασκευή:\nΟι μεγάλες πίτες 3,70€</string>
+>>>>>>> origin/master
 
 	
 	<string name="Fame">Fame</string>
@@ -126,8 +130,20 @@ Random Choice:\n
 Επιλέξτε εστιατόριο για να δείτε τις προσφορές. Πατήστε πάνω στο κείμενο της προσφοράς για να καλέσετε το εστιατόριο που έχει την προσφορά.\n
 \n
 Ratings:\n
+<<<<<<< HEAD
 Επιλέξτε εστιατόριο για να κάνετε like/share/comment.\ntitle_Info
 
+=======
+Επιλέξτε εστιατόριο για να κάνετε like/share/comment.\n
+\n
+Δημιουργοί:\n
+Κυριάκος Βογιατζής - icsd11019\n
+Μελίνα Γιαλιά - icsd11027\n
+Αριστείδης Κοτζιάς - icsd11186\n
+\n
+Recommended Apps:\n
+-Karlovasi Points
+>>>>>>> origin/master
 </string>
 <string name="title_activity_Info">Info</string>
 

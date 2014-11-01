@@ -108,7 +108,7 @@ public class Katigories extends Activity{
 				//display
 		    	//arxikopoiw ton adapter
 				list_view_adapter = new ArrayAdapter<String>(getBaseContext(),
-						android.R.layout.simple_list_item_1, list);//simple_list_item_1 prokathorismenh emfasi tou android
+						R.layout.customlistviewitem, list);//simple_list_item_1 prokathorismenh emfasi tou android
 				listview.setAdapter(list_view_adapter);
 				list = new ArrayList<String>();
 		    }

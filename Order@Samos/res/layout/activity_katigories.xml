@@ -24,7 +24,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
+<<<<<<< HEAD
         android:ems="5" />
+=======
+        android:ems="10"
+        android:textColor="#ffffff" />
+>>>>>>> origin/master
 
     <ListView
         android:id="@+id/lvKatigories"
