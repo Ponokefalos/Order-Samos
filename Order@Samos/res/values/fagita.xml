@@ -15,21 +15,21 @@
 
 <string-array name="Bakxos_salates">
 	<item>Χωριάτικη$4,00</item>
-	<item>ΝτομάταKαγγούρι$3,00</item>
+	<item>Ντομάτα Kαι αγγούρι$3,00</item>
 	<item>Μαρουλοσαλάτα$3,00</item>
 	<item>Λαχανοσαλάτα3$3,00</item>
 </string-array>
 
 <string-array name="Bakxos_sandwich">
-	<item>Καλαμάκι κοτόπουλο$2,80</item>
-	<item>Κεμπάπ$2,80</item>
-	<item>Γύρο χοιρινό$2,80</item>
-	<item>Γυρό κοτόπουλο$2,80</item>
-	<item>Μπιφτέκι$2,80</item>
-	<item>Καλαμάκι χοιρινό$2,80</item>
-	<item>Λουκάνικο$2,80</item>
-        <item>Κοντοσούβλι$2,80</item>
-        <item>Κοτομπέικον$2,80</item>
+	<item>sandwich Καλαμάκι κοτόπουλο$2,80</item>
+	<item>sandwich Κεμπάπ$2,80</item>
+	<item>sandwich Γύρο χοιρινό$2,80</item>
+	<item>sandwich Γυρό κοτόπουλο$2,80</item>
+	<item>sandwich Μπιφτέκι$2,80</item>
+	<item>sandwich Καλαμάκι χοιρινό$2,80</item>
+	<item>sandwich Λουκάνικο$2,80</item>
+        <item>sandwich Κοντοσούβλι$2,80</item>
+        <item>sandwich Κοτομπέικον$2,80</item>
 </string-array>
 
 
@@ -66,16 +66,16 @@
 </string-array>
 
 <string-array name="Bakxos_pites">
-	<item>Με καλαμάκι χοιρινό$2,20</item>
-	<item>Με γύρο χοιρινό$2,20</item>
-	<item>Με γύρο κοτόπουλο$2,20</item>
-	<item>Με κοντοσούβλι$2,20</item>
-	<item>Με μπιφτέκι$2,20</item>
-	<item>Με λουκάνικο$2,20</item>
-	<item>Με καλαμάκι-κοτόπουλο$2,20</item>
-        <item>Με κεμπάπ$2,20</item>
-        <item>Με κοτομπέικον$$2,20</item>
-        <item>Οικολογική$1,50</item>
+	<item> Πιτα Με καλαμάκι χοιρινό$2,20</item>
+	<item>Πιτα Με γύρο χοιρινό$2,20</item>
+	<item>Πιτα Με γύρο κοτόπουλο$2,20</item>
+	<item>Πιτα Με κοντοσούβλι$2,20</item>
+	<item>Πιτα Με μπιφτέκι$2,20</item>
+	<item>Πιτα Με λουκάνικο$2,20</item>
+	<item>Πιτα Με καλαμάκι-κοτόπουλο$2,20</item>
+        <item>Πιτα Με κεμπάπ$2,20</item>
+        <item>Πιτα Με κοτομπέικον$$2,20</item>
+        <item>Πιτα Οικολογική$1,50</item>
 	<item>Καλαμάκι χοιρινό$1,50</item>
 	<item>Καλαμάκι κοτόπουλο$1,50</item>
 	<item>Κεμπάπ$1,70</item>
@@ -93,7 +93,7 @@
 <!-- /////////////////////////////EVRYS//////////////////////////// -->
 
 <string-array name="Evrys_salates">
-	<item>Σεφ$4,60</item>
+	<item>Σαλάτα Σεφ$4,60</item>
 	<item>Αγγουροντομάτα$4,10</item>
 	<item>Μαρούλι$3,80</item>
 	<item>Χωριάτικη4,60</item>
@@ -197,34 +197,34 @@
 
 
 <string-array name="Evrys_submarine_sandwich">
-	<item>Κλασικό$4,60</item>
-	<item>Ελληνικό$4,60</item>
-	<item>Φάρμας$4,60</item>
-	<item>Evry’s$5,10</item>
-	<item>Γύρος$4,90</item>
-	<item>Κοτόπουλο$5,20</item>
-	<item>Σεφ$4,90</item>
-        <item>Meatballs sub$5,00</item>
+	<item>submarine sandwich Κλασικό$4,60</item>
+	<item>submarine sandwich Ελληνικό$4,60</item>
+	<item>submarine sandwich Φάρμας$4,60</item>
+	<item>submarine sandwich Evry’s$5,10</item>
+	<item>submarine sandwich Γύρος$4,90</item>
+	<item>submarine sandwich Κοτόπουλο$5,20</item>
+	<item>submarine sandwich Σεφ$4,90</item>
+        <item>submarine sandwich Meatballs sub$5,00</item>
 </string-array>
 
 
 <string-array name="Evrys_pitses">
-	<item>Απλή$6,10</item>
-	<item>Απλη +μπέικον$6,10</item>
-	<item>Απλή +πεπερόνι$6,10</item>
-	<item>Μαργαρίτα$6,10</item>
-	<item>Σπέσιαλ-μπέικον$6,90</item>
-	<item>Σπέσιαλ-μανιτάρια$6,90</item>
-	<item>Σπέσιαλ-πεπερόνι$6,90</item>
-        <item>Σπέσιαλ-μπέικον,μανιτάρια$6,90</item>
-        <item>Σπέσιαλ-μπέικον,πεπερόνι$6,90</item>
-        <item>Σπέσιαλ-μανιτάρια,πεπερόν$6,90</item>
-        <item>Σπέσιαλ-ζαμπόν,μπέικον,μανιτάρια$7,70</item>
-        <item>Σπέσιαλ-ζαμπόν,μπέικον,πεπερόνι$7,70</item>
-        <item>Γύρος$7,70</item>
-        <item>Τόνος$7,40</item>
-        <item>Vegetarian$7,40</item>
-        <item>Special$8,10</item>
+	<item>Πίτσα Απλή$6,10</item>
+	<item>Πίτσα Απλη +μπέικον$6,10</item>
+	<item>Πίτσα Απλή +πεπερόνι$6,10</item>
+	<item>Πίτσα Μαργαρίτα$6,10</item>
+	<item>Πίτσα Σπέσιαλ-μπέικον$6,90</item>
+	<item>Πίτσα Σπέσιαλ-μανιτάρια$6,90</item>
+	<item>Πίτσα Σπέσιαλ-πεπερόνι$6,90</item>
+        <item>Πίτσα Σπέσιαλ-μπέικον,μανιτάρια$6,90</item>
+        <item>Πίτσα Σπέσιαλ-μπέικον,πεπερόνι$6,90</item>
+        <item>Πίτσα Σπέσιαλ-μανιτάρια,πεπερόν$6,90</item>
+        <item>Πίτσα Σπέσιαλ-ζαμπόν,μπέικον,μανιτάρια$7,70</item>
+        <item>Πίτσα Σπέσιαλ-ζαμπόν,μπέικον,πεπερόνι$7,70</item>
+        <item>Πίτσα Γύρος$7,70</item>
+        <item>Πίτσα Τόνος$7,40</item>
+        <item>Πίτσα Vegetarian$7,40</item>
+        <item>Πίτσα Special$8,10</item>
         <item>Πεινερλι απλό$4,20</item>
         <item>Πεινερλι σπέσιαλ$4,90</item>
 </string-array>
@@ -232,7 +232,7 @@
 <!-- ///////////////////////////////////////////GIRO GIRO////////////////////// -->
 
 <string-array name="Guro_Guro_oloi_salates">
-	<item>Χωριάτικη$4,00</item>
+	<item>Σαλάτα Χωριάτικη$4,00</item>
 	<item>Μαρούλι$3,00</item>
 	<item>Αγγούρι-ντομάτα$3,00</item>
 </string-array>
@@ -242,7 +242,7 @@
 	<item>Τζατζίκι$2,50</item>
 	<item>Τυροκαυτερή$2,50</item>
 	<item>Τυροσαλάτα$2,50</item>
-	<item>Σως$2,50</item>
+	<item>Σαλάτα με Σως$2,50</item>
 	<item>Πατάτες τηγανητές$2,50</item>
 	<item>Πατάτες τηγανητές με σως$3,00</item>
 	<item>Φέτα λαδορίγανη$2,50</item>
@@ -252,18 +252,18 @@
 
 <string-array name="Guro_Guro_oloi_pites">
 	<item>Πίτα του Φωτάρα$3,00</item>
-	<item>Γύρος χοιρινός$2,20</item>
-	<item>Γύρος κοτόπουλο$2,20</item>
-	<item>Καλαμάκι χοιρινό$2,20</item>
-	<item>Καλαμάκι κοτόπουλο$2,20</item>
-	<item>Κοτομπέικον$2,40</item>
-	<item>Μπιφτέκι$2,20</item>
-        <item>Μπιφτέκι γεμιστό$2,20</item>
-        <item>Κεμπάπ$2,20</item>
-        <item>Λουκάνικο$2,20</item>
-        <item>Οικολογικό$1,70</item>
-        <item>Κοτομπέικον-τεμάχιο$1,70</item>
-        <item>Σάντουιτς$3,00</item>
+	<item>Πίτα με γύρο χοιρινό$2,20</item>
+	<item>Πίτα γύρο κοτόπουλο$2,20</item>
+	<item>Πίτα με Καλαμάκι χοιρινό$2,20</item>
+	<item>Πίτα με Καλαμάκι κοτόπουλο$2,20</item>
+	<item>Πίτα με Κοτομπέικον$2,40</item>
+	<item>Πίτα με Μπιφτέκι$2,20</item>
+        <item>Πίτα με Μπιφτέκι γεμιστό$2,20</item>
+        <item>Πίτα με Κεμπάπ$2,20</item>
+        <item>Πίτα με Λουκάνικο$2,20</item>
+        <item>Πίτα Οικολογική$1,70</item>
+        <item>Πίτα με Κοτομπέικον-τεμάχιο$1,70</item>
+        <item>Σάντουιτς-ψωμί$3,00</item>
 </string-array>
 
 
@@ -302,7 +302,7 @@
 <string-array name="Koutala_salates">
 	<item>Σαμιώτικη σαλάτα$6,40</item>
 	<item>Χωριάτικη$4,60</item>
-	<item>Σεφ$4,60</item>
+	<item>Σαλάτα του Σεφ$4,60</item>
 	<item>Μαρούλι$3,95</item>
 	<item>Χόρτα$3,95</item>
 	<item>Πατατοσαλάτα$4,60</item>
@@ -351,26 +351,26 @@
 
 
 <string-array name="Koutala_zumarika">
-	<item>Ναπολιτάν$3,95</item>
-	<item>Μπολονέζ$4,95</item>
+	<item>Spaghetti Ναπολιτάν$3,95</item>
+	<item>Spaghetti Μπολονέζ$4,95</item>
 	<item>Μακαρόνια με κοτόπουλο,λαχανικά$5,50</item>
 	<item>Καρμπονάρα$5,10</item>
 </string-array>
 
 
 <string-array name="Koutala_snitsel">
-	<item>Με κρεμμύδι$6,70</item>
-	<item>Καραμελωμένο$6,70</item>
-	<item>Σάλτσα κυνηγού$6,70</item>
-	<item>Τσιγγάνικο$6,70</item>
-	<item>Αλα κρεμ$6,70</item>
+	<item>Σνίτσελ Με κρεμμύδι$6,70</item>
+	<item>Σνίτσελ Καραμελωμένο$6,70</item>
+	<item>Σνίτσελ με Σάλτσα κυνηγού$6,70</item>
+	<item>Σνίτσελ Τσιγγάνικο$6,70</item>
+	<item>Σνίτσελ Αλα κρεμ$6,70</item>
 </string-array>
 
 
 <string-array name="Koutala_souvlaki">
-	<item>Σουβλάκι$1,50</item>
-	<item>Μικρή ελληνική$2,20</item>
-	<item>Μεγάλη αραβική$4,40</item>
+	<item>Σουβλάκι τεμ $1,50</item>
+	<item>Πίτα Μικρή ελληνική$2,20</item>
+	<item>Πίτα Μεγάλη αραβική$4,40</item>
 	<item>Γύρος πιάτο$6,95</item>
 	<item>Πίτα κοτόπουλο μικρή$2,30</item>
 	<item>Πίτα κοτόπουλο μεγάλη$4,50</item>
@@ -387,7 +387,7 @@
 
 
 <string-array name="Koutala_pizza">
-	<item>Μεγάλη ζαμπόν,σάλτσα,τυρί,πιπεριά$6,95</item>
+	<item>Πίτσα Μεγάλη ζαμπόν,σάλτσα,τυρί,πιπεριά$6,95</item>
 </string-array>
 
 
@@ -436,7 +436,7 @@
 
 <string-array name="Kouzina_ths_mamas_zumarika">
 	<item>Μακαρόνια με κιμά$4,00</item>
-	<item>Καρμπονάρα$5,50</item>
+	<item>Spaghetti Καρμπονάρα$5,50</item>
 	<item>Καρμπονάρα με μανιτάρια$6,00</item>
 </string-array>
 
@@ -455,9 +455,9 @@
 
 
 <string-array name="Kouzina_ths_mamas_thganies">
-	<item>Χοιρινό$7,00</item>
-	<item>Κοτόπουλο$7,20</item>
-	<item>Απ’όλα$7,50</item>
+	<item>Τηγανιά Χοιρινό$7,00</item>
+	<item>Τηγανιά Κοτόπουλο$7,20</item>
+	<item>Τηγανιά Απ’όλα$7,50</item>
 </string-array>
 
 
@@ -496,34 +496,34 @@
 	<item>Πίτα κλαμπ κοτόπουλο$6,00</item>
 	<item>Πίτα κλαμπ μπιφτέκι$6,50</item>
 	<item>Πίτα κλαμπ μπιφτέκι γεμιστό$6,80</item>
-	<item>Χοιρινός γύρος$2,00</item>
-	<item>Κοτόπουλο καλαμάκι$2,00</item>
-        <item>Μπιφτέκι$2,20</item>
-        <item>Λουκάνικο$2,00</item>
-        <item>Κοτομπέικον$2,40</item>
+	<item>Πίτα Χοιρινός γύρος$2,00</item>
+	<item>Πίτα Κοτόπουλο καλαμάκι$2,00</item>
+        <item>Πίτα Μπιφτέκι$2,20</item>
+        <item> Πίτα Λουκάνικο$2,00</item>
+        <item>Πίτα Κοτομπέικον$2,40</item>
 </string-array>
 
 
 
 <string-array name="Kouzina_ths_mamas_kupriakes_pites">
-	<item>Γύρος χοιρινός$2,60</item>
-	<item>Μπιφτέκι$2,80</item>
-	<item>Μπιφτέκι γεμιστό$3,00</item>
-	<item>Κοτόπουλο$3,00</item>
+	<item>Κυπριακή Πίτα Γύρος χοιρινός$2,60</item>
+	<item>Κυπριακή Πίτα Μπιφτέκι$2,80</item>
+	<item>Κυπριακή Πίτα Μπιφτέκι γεμιστό$3,00</item>
+	<item>Κυπριακή Πίτα Κοτόπουλο$3,00</item>
 </string-array>
 
 
 
 <string-array name="Kouzina_ths_mamas_ywmakia">
-	<item>Σνίτσελ$4,00</item>
-	<item>Χοιρινός γύρος$3,00</item>
-	<item>Χοιρινό καλαμάκι$3,00</item>
-	<item>Κοτόπουλο καλαμάκι$3,00</item>
-	<item>Λουκάνικο$3,00</item>
-	<item>Μπιφτέκι$3,20</item>
-	<item>Μπιφτέκι γεμιστό$3,90</item>
-        <item>Μπιφτέκι ελληνικό$3,90</item>
-        <item>Κοτομπέικον$3,90</item>
+	<item>Ψωμάκι Σνίτσελ$4,00</item>
+	<item>Ψωμάκι με Χοιρινό γύρο$3,00</item>
+	<item>Ψωμάκι με Χοιρινό καλαμάκι$3,00</item>
+	<item>Ψωμάκι με Κοτόπουλο καλαμάκι$3,00</item>
+	<item>Ψωμάκι με Λουκάνικο$3,00</item>
+	<item>Ψωμάκι με Μπιφτέκι$3,20</item>
+	<item>Ψωμάκι με Μπιφτέκι γεμιστό$3,90</item>
+        <item>Ψωμάκι με Μπιφτέκι ελληνικό$3,90</item>
+        <item>Ψωμάκι με Κοτομπέικον$3,90</item>
 </string-array>
 
 
@@ -544,20 +544,20 @@
 
 <!-- /////////////////////SWEET & SALTY//////////////// -->
 <string-array name="Sweet_salty_krepes_almures">
-	<item>Κλασσική$2,50</item>
-	<item>Special$4,80</item>
-	<item>Sweet n salty$5,00</item>
-	<item>Vegeterian$3,70</item>
-	<item>Χωριάτικη$4,50</item>
-	<item>Light$4,90</item>
-	<item>Μορταδέλα,πεπερόνι,τυρί,ντομάτα,πιπεριά,μανιτάρια,σάλτσα$4,90</item>
-        <item>Κοτόπουλο,τυρί,μπέικον,μανιτάρια,πατάτα,κρέμα γάλακτος$5,40</item>
-        <item>Γαλοπούλα πανέ,τυρί,μπέικον,πατάτα,chedar sauce$5,20</item>
-        <item>Κοτομπουκιές,τυρί,ντομάτα,καλαμπόκι,λάχανο-καρότο,sauce$4,30</item>
-	<item>Onion rings,τυρί,ντομάτα,πατάτα,bbq sauce$4,30</item>
-        <item>Λουκάνικο χωριάτικο,τυρί,μπέικον,ντομάτα,πιπεριά,τυροσαλάτα$5,50</item>
-        <item>Κιμάς,τυρί,κρέμα γάλακτος,μανιτάρια$4,40</item>
-        <item>Μπιφτέκι,τυρί,μπέικον,κέτσαπ,μουστάρδα,πικλοσαλάτα$4,40</item>
+	<item>Κρέπα Κλασσική$2,50</item>
+	<item>Κρέπα Special$4,80</item>
+	<item>Κρέπα Sweet n salty$5,00</item>
+	<item>Κρέπα Vegeterian$3,70</item>
+	<item>Κρέπα Χωριάτικη$4,50</item>
+	<item>Κρέπα Light$4,90</item>
+	<item>Κρέπα Μορταδέλα,πεπερόνι,τυρί,ντομάτα,πιπεριά,μανιτάρια,σάλτσα$4,90</item>
+        <item>Κρέπα Κοτόπουλο,τυρί,μπέικον,μανιτάρια,πατάτα,κρέμα γάλακτος$5,40</item>
+        <item>Κρέπα Γαλοπούλα πανέ,τυρί,μπέικον,πατάτα,chedar sauce$5,20</item>
+        <item>Κρέπα Κοτομπουκιές,τυρί,ντομάτα,καλαμπόκι,λάχανο-καρότο,sauce$4,30</item>
+	<item>Κρέπα Onion rings,τυρί,ντομάτα,πατάτα,bbq sauce$4,30</item>
+        <item>Κρέπα Λουκάνικο χωριάτικο,τυρί,μπέικον,ντομάτα,πιπεριά,τυροσαλάτα$5,50</item>
+        <item>Κρέπα Κιμάς,τυρί,κρέμα γάλακτος,μανιτάρια$4,40</item>
+        <item>Κρέπα Μπιφτέκι,τυρί,μπέικον,κέτσαπ,μουστάρδα,πικλοσαλάτα$4,40</item>
 </string-array>
 
 <string-array name="Sweet_salty_hot_dog">
@@ -583,27 +583,27 @@
 </string-array>
 
 <string-array name="Sweet_salty_salates">
-	<item>Chef$4,50</item>
-	<item>Ceasar$4,50</item>
-	<item>Sweet n salty$5,00</item>
-	<item>Ντάκος$3,50</item>
+	<item>Σαλάτα Chef$4,50</item>
+	<item>Σαλάτα Ceasar$4,50</item>
+	<item>Σαλάτα Sweet n salty$5,00</item>
+	<item>Σαλάτα Ντάκος$3,50</item>
 </string-array>
 
 <string-array name="Sweet_salty_krepes_glukes">
-	<item>Ανάμεικτη,μπανάνα,ξηροί καρποί$4,70</item>
-	<item>Μήλο,ζάχαρη,σταφίδα,καρύδι,κανέλα$3,00</item>
-	<item>Σοκολάτα υγείας,πορτοκάλι,digestive$3,80</item>
-	<item>Ανάμεικτη$3,50</item>
-	<item>Λευκή σοκολάτα,βύσσινο$3,50</item>
-	<item>Μέλι,καρύδια,κανέλα$2,70</item>
-	<item>Κρέμα μπουγάτσας,άχνη ζάχαρη,κανέλα$3,00</item>
-        <item>Μέλι,φρούτα,κανέλα$2,90</item>
-        <item>Λευκή σοκολάτα,βύσσινο,baileys$4,00</item>
+	<item>Κρέπα Ανάμεικτη,μπανάνα,ξηροί καρποί$4,70</item>
+	<item>Κρέπα Μήλο,ζάχαρη,σταφίδα,καρύδι,κανέλα$3,00</item>
+	<item>Κρέπα Σοκολάτα υγείας,πορτοκάλι,digestive$3,80</item>
+	<item>Κρέπα νάμεικτη$3,50</item>
+	<item>Κρέπα Λευκή σοκολάτα,βύσσινο$3,50</item>
+	<item>Κρέπα Μέλι,καρύδια,κανέλα$2,70</item>
+	<item>Κρέπα Κρέμα μπουγάτσας,άχνη ζάχαρη,κανέλα$3,00</item>
+        <item>Κρέπα Μέλι,φρούτα,κανέλα$2,90</item>
+        <item>Κρέπα Λευκή σοκολάτα,βύσσινο,baileys$4,00</item>
 </string-array>
 
 <string-array name="Sweet_salty_club_sandwich">
-	<item>Αλλαντικών$5,00</item>
-	<item>Κοτόπουλο$5,50</item>
+	<item>sandwich Αλλαντικών$5,00</item>
+	<item>sandwich Κοτόπουλο$5,50</item>
 </string-array>
 
 
@@ -620,87 +620,87 @@
 </string-array>
 
 <string-array name="Nostos_omeletes">
-	<item>Αυγά$3,00</item>
-	<item>Λαχανικών$5,00</item>
-	<item>Φρουνταλια$4,50</item>
-	<item>Nostos$6,00</item>
+	<item>Ομελέτα Αυγά$3,00</item>
+	<item>Ομελέτα Λαχανικών$5,00</item>
+	<item>Ομελέτα Φρουνταλια$4,50</item>
+	<item>Ομελέτα Nostos$6,00</item>
 </string-array>
 
 <string-array name="Nostos_salates">
-	<item>Αγγούρι-ντομάτα$3,60</item>
-	<item>Χωριάτικη$4,00</item>
+	<item>Σαλάτα Αγγούρι-ντομάτα$3,60</item>
+	<item>Σαλάτα Χωριάτικη$4,00</item>
 	<item>Σαλάτα του Σεφ$5,00</item>
 	<item>Τονοσαλάτα$5,50</item>
 	<item>Κοτοσαλάτα$5,50</item>
-	<item>Πολύχρωμη$5,00</item>
+	<item>Σαλάτα Πολύχρωμη$5,00</item>
 </string-array>
 
 <string-array name="Nostos_peinirli">
-	<item>Με λουκάνικο$5,50</item>
-	<item>Με ροκφόρ$5,80</item>
-	<item>Ζαμπόν-μπέικον$5,80</item>
-	<item>Βεζούβιος$5,90</item>
-	<item>Πόλο$6,00</item>
-	<item>Χωριάτικο$5,70</item>
-	<item>Nostos$6,30</item>
+	<item>Πενιρλί Με λουκάνικο$5,50</item>
+	<item>Πενιρλί Με ροκφόρ$5,80</item>
+	<item>Πενιρλί Ζαμπόν-μπέικον$5,80</item>
+	<item>Πενιρλί Βεζούβιος$5,90</item>
+	<item>Πενιρλί Πόλο$6,00</item>
+	<item>Πενιρλί Χωριάτικο$5,70</item>
+	<item>Πενιρλί Nostos$6,30</item>
 </string-array>
 
 <string-array name="Nostos_zumarika">
-	<item>Νάπολη$4,50</item>
-	<item>Μπολονέζ$5,50</item>
+	<item>Spaghetti Νάπολη$4,50</item>
+	<item>Spaghetti Μπολονέζ$5,50</item>
 	<item>Καρμπονάρα$5,80</item>
-	<item>Νόστος$6,70</item>
-	<item>Σεφ$6,70</item>
-	<item>Scampi$6,70</item>
-	<item>Αλ φρέντο$5,50</item>
-        <item>Quarto formagi$6,00</item>
+	<item>Spaghetti Νόστος$6,70</item>
+	<item>Spaghetti Σεφ$6,70</item>
+	<item>Spaghetti Scampi$6,70</item>
+	<item>Spaghetti Αλ φρέντο$5,50</item>
+        <item>Spaghetti Quarto formagi$6,00</item>
         <item>Πουτανέσκα$5,80</item>
-        <item>Καραμπερα$6,50</item>
-        <item>Rosso$6,80</item>
-        <item>Bianco$6,80</item>
-        <item>Τόνος$6,20</item>
-        <item>Διαίτης$6,50</item>
+        <item>Spaghetti Καραμπερα$6,50</item>
+        <item>Spaghetti Rosso$6,80</item>
+        <item>Spaghetti Bianco$6,80</item>
+        <item>Spaghetti Τόνος$6,20</item>
+        <item>Spaghetti Διαίτης$6,50</item>
 </string-array>
 
 <string-array name="Nostos_tortelini">
-	<item>Αλα κρεμ$7,30</item>
-	<item>Καρμπονάρα$7,90</item>
-	<item>Σιτσιλιάνα$7,60</item>
-	<item>Nostos$8,50</item>
-	<item>Quattro formagi$8,20</item>
-	<item>Αλα τοσκάνα$8,90</item>
-	<item>Μπολονέζ$6,20</item>
-        <item>Νάπολη$5,50</item>
+	<item>Τορτελίνι Αλα κρεμ$7,30</item>
+	<item>Τορτελίνι Καρμπονάρα$7,90</item>
+	<item>Τορτελίνι Σιτσιλιάνα$7,60</item>
+	<item>Τορτελίνι Nostos$8,50</item>
+	<item>Τορτελίνι Quattro formagi$8,20</item>
+	<item>Τορτελίνι Αλα τοσκάνα$8,90</item>
+	<item>Τορτελίνι Μπολονέζ$6,20</item>
+        <item>Τορτελίνι Νάπολη$5,50</item>
 </string-array>
 
 <string-array name="Nostos_pitses">
-	<item>Ελληνική$9,20</item>
-	<item>Παιδική$6,50</item>
-	<item>Μαργαρίτα$7,40</item>
-	<item>Άλιο Όλιο$7,00</item>
-	<item>Ζαμπονίτα$7,70</item>
-	<item>Ζαμπόν-μπέικον$8,20</item>
-	<item>Καπνιστό$8,20</item>
-        <item>Διαβόλου$8,50</item>
-        <item>4 εποχές$8,50</item>
-        <item>Βέρντε$8,00</item>
-	<item>4 τυριά$8,00</item>
-	<item>Ρομάνα$8,20</item>
-	<item>Καπριτσιόζα$8,80</item>
-	<item>Πόλο$8,30</item>
-	<item>Αμαλφι$8,30</item>
-	<item>Πιράτα$8,00</item>
-	<item>Χαβάη$8,20</item>
-        <item>Φούνγκι$8,00</item>
-        <item>Τζοβάνι$7,80</item>
-        <item>Τρικολόρε$7,90</item>
-	<item>Ινφέρνο$8,00</item>
-	<item>Κατά Παράδοση$8,00</item>
-	<item>Μόνο Λαχανικά$8,80</item>
-	<item>Σπέσιαλ Νόστος$9,20</item>
-	<item>Γαρίδες$9,20</item>
-	<item>Αλα κρεμ$9,00</item>
-	<item>Μεξικάνικη$9,00</item>
+	<item>Πίτσα Ελληνική$9,20</item>
+	<item>Πίτσα Παιδική$6,50</item>
+	<item>Πίτσα Μαργαρίτα$7,40</item>
+	<item>Πίτσα Άλιο Όλιο$7,00</item>
+	<item>Πίτσα Ζαμπονίτα$7,70</item>
+	<item>Πίτσα Ζαμπόν-μπέικον$8,20</item>
+	<item>Πίτσα Καπνιστό$8,20</item>
+        <item>Πίτσα Διαβόλου$8,50</item>
+        <item>Πίτσα 4 εποχές$8,50</item>
+        <item>Πίτσα Βέρντε$8,00</item>
+	<item>Πίτσα 4 τυριά$8,00</item>
+	<item>Πίτσα Ρομάνα$8,20</item>
+	<item>Πίτσα Καπριτσιόζα$8,80</item>
+	<item>Πίτσα Πόλο$8,30</item>
+	<item>Πίτσα Αμαλφι$8,30</item>
+	<item>Πίτσα Πιράτα$8,00</item>
+	<item>Πίτσα Χαβάη$8,20</item>
+        <item>Πίτσα Φούνγκι$8,00</item>
+        <item>Πίτσα Τζοβάνι$7,80</item>
+        <item>Πίτσα Τρικολόρε$7,90</item>
+	<item>Πίτσα Ινφέρνο$8,00</item>
+	<item>Πίτσα Κατά Παράδοση$8,00</item>
+	<item>Πίτσα Μόνο Λαχανικά$8,80</item>
+	<item>Πίτσα Σπέσιαλ Νόστος$9,20</item>
+	<item>Πίτσα Γαρίδες$9,20</item>
+	<item>Πίτσα Αλα κρεμ$9,00</item>
+	<item>Πίτσα Μεξικάνικη$9,00</item>
 </string-array>
 
 <string-array name="Nostos_mageireuta">
@@ -737,52 +737,52 @@
 
 <!-- /////////////////////MEGARO///////////////////// -->
 <string-array name="Megaro_pitses">
-	<item>Ντι Μάρε μεσαία$9,00</item>
-	<item>Ντι Μάρε μεγάλη$10,00</item>
-	<item>Βετζετέριαν μεσαία$7,50</item>
-	<item>Βετζετέριαν μεγάλη$8,50</item>
-	<item>Μαργαρίτα μεσαία$6,50</item>
-	<item>Μαργαρίτα μεγάλη$7,00</item>
-	<item>Ινφέρνο μεσαία$6,50</item>
-        <item>Ινφέρνο μεγάλη$7,50</item>
-        <item>Μοντανάρα μεσαία$6,50</item>
-        <item>Μοντανάρα μεγάλη$7,50</item>
-        <item>Μποργκέζε μεσαία$6,50</item>
-        <item>Μποργκέζε μεγάλη$7,50</item>
-        <item>Σκερτσόζα μεσαία$6,50</item>
-        <item>Σκερτσόζα μεγάλη$7,50</item>
-        <item>4 εποχές μεσαία$7,50</item>
-        <item>4 εποχές μεγάλη$8,50</item>
-        <item>Διάβολα μεσαία$7,50</item>
-        <item>Διάβολα μεγάλη$8,50</item>
-        <item>Χαβάη μεσαία$7,00</item>
-        <item>Χαβάη μεγάλη$8,00</item>
-        <item>Μεξικάνα μεσαία$7,00</item>
-        <item>Μεξικάνα μεγάλη$8,00</item>
-        <item>Halian Oggi μεσαία$7,00</item>
-        <item>Halian Oggi μεγάλη$8,00</item>
-        <item>Πίτσα Μέγαρο μεσαία$9,00</item>
+	<item>Πίτσα Ντι Μάρε μεσαία$9,00</item>
+	<item>Πίτσα Ντι Μάρε μεγάλη$10,00</item>
+	<item>Πίτσα Βετζετέριαν μεσαία$7,50</item>
+	<item>Πίτσα Βετζετέριαν μεγάλη$8,50</item>
+	<item>Πίτσα Μαργαρίτα μεσαία$6,50</item>
+	<item>Πίτσα Μαργαρίτα μεγάλη$7,00</item>
+	<item>Πίτσα Ινφέρνο μεσαία$6,50</item>
+        <item>Πίτσα Ινφέρνο μεγάλη$7,50</item>
+        <item>Πίτσα Μοντανάρα μεσαία$6,50</item>
+        <item>Πίτσα Μοντανάρα μεγάλη$7,50</item>
+        <item>Πίτσα Μποργκέζε μεσαία$6,50</item>
+        <item>Πίτσα Μποργκέζε μεγάλη$7,50</item>
+        <item>Πίτσα Σκερτσόζα μεσαία$6,50</item>
+        <item>Πίτσα Σκερτσόζα μεγάλη$7,50</item>
+        <item>Πίτσα 4 εποχές μεσαία$7,50</item>
+        <item>Πίτσα 4 εποχές μεγάλη$8,50</item>
+        <item>Πίτσα Διάβολα μεσαία$7,50</item>
+        <item>Πίτσα Διάβολα μεγάλη$8,50</item>
+        <item>Πίτσα Χαβάη μεσαία$7,00</item>
+        <item>Πίτσα Χαβάη μεγάλη$8,00</item>
+        <item>Πίτσα Μεξικάνα μεσαία$7,00</item>
+        <item>Πίτσα Μεξικάνα μεγάλη$8,00</item>
+        <item>Πίτσα Halian Oggi μεσαία$7,00</item>
+        <item>Πίτσα Halian Oggi μεγάλη$8,00</item>
+        <item>Πίτσα Πίτσα Μέγαρο μεσαία$9,00</item>
         <item>Πίτσα Μέγαρο μεγάλη$10,00</item>
         <item>Πίτσα Καρμπονάρα μεσαία$8,50</item>
         <item>Πίτσα Καρμπονάρα μεγάλη$9,50</item>
-        <item>Τόνος μεσαία$7,00</item>
-        <item>Τόνος μεγάλη$8,00</item>
-        <item>Γαρίδες μεσαία$7,00</item>
-        <item>Γαρίδες μεγάλη$8,00</item>
-        <item>4 τυριά μεσαία$8,00</item>
-        <item>4 τυριά μεγάλη$9,00</item>
-        <item>Βλάχικη μεσαία$7,50</item>
-        <item>Βλάχικη μεγάλη$8,50</item>
-        <item>Του Χορτοφάγου μεσαία$7,50</item>
-        <item>Του Χορτοφάγου μεσαία$8,50</item>
-        <item>Special μεσαία$8,00</item>
-        <item>Special μεγάλη$9,00</item>
-        <item>Cappuccino μεσαία$9,00</item>
-        <item>Cappuccino μεγάλη$10,00</item>
-        <item>Καλτσόνε Σκεπαστή μεσαίο$7,50</item>
-        <item>Καλτσόνε Σκεπαστή μεγάλο$8,50</item>
-        <item>Με Κιμά μεσαία$7,50</item>
-        <item>Με Κιμά μεγάλη$8,50</item>
+        <item>Πίτσα Τόνος μεσαία$7,00</item>
+        <item>Πίτσα Τόνος μεγάλη$8,00</item>
+        <item>Πίτσα Γαρίδες μεσαία$7,00</item>
+        <item>Πίτσα Γαρίδες μεγάλη$8,00</item>
+        <item>Πίτσα 4 τυριά μεσαία$8,00</item>
+        <item>Πίτσα 4 τυριά μεγάλη$9,00</item>
+        <item>Πίτσα Βλάχικη μεσαία$7,50</item>
+        <item>Πίτσα Βλάχικη μεγάλη$8,50</item>
+        <item>Πίτσα Του Χορτοφάγου μεσαία$7,50</item>
+        <item>Πίτσα Του Χορτοφάγου μεσαία$8,50</item>
+        <item>Πίτσα Special μεσαία$8,00</item>
+        <item>Πίτσα Special μεγάλη$9,00</item>
+        <item>Πίτσα Cappuccino μεσαία$9,00</item>
+        <item>Πίτσα Cappuccino μεγάλη$10,00</item>
+        <item>Πίτσα Καλτσόνε Σκεπαστή μεσαίο$7,50</item>
+        <item>Πίτσα Καλτσόνε Σκεπαστή μεγάλο$8,50</item>
+        <item>Πίτσα Με Κιμά μεσαία$7,50</item>
+        <item>Πίτσα Με Κιμά μεγάλη$8,50</item>
         <item>Πεϊνερλί ζαμπόν-μπέικον μεσαίο$7,50</item>
         <item>Πεϊνερλί ζαμπόν-μπέικον μεγάλο$8,50</item>
         <item>Πεϊνερλί με κιμά μεσαίο$8,00</item>
@@ -791,46 +791,46 @@
         <item>Σκορδόψωμο μεγάλο$6,00</item>
         <item>Τυρόψωμο-Σκεπαστή μεσαίο$6,00</item>
         <item>Τυρόψωμο-Σκεπαστή μεγάλο$7,00</item>
-        <item>Turbo μεσαία$9,00</item>
-        <item>Turbo μεγάλη$10,00</item>
-        <item>Turbo Special μεσαία$10,00</item>
-        <item>Turbo Special μεγάλη$11,00</item>
-        <item>Διαίτης Light μεσαία$8,50</item>
-        <item>Διαίτης Light μεγάλη$9,50</item>
-        <item>Philadelphia μεσαία$10,00</item>
-        <item>Philadelphia μεγάλη$11,00</item>
-        <item>Ελληνική μεσαία$7,50</item>
-        <item>Ελληνική μεγάλη$8,50</item>
-	<item>Καλαμάρι-Ελιές$8,50</item>
-	<item>Καλαμάρι-Κρεμμύδι$8,50</item>
-	<item>Γαρίδες$8,50</item>
-	<item>Τόνος-Κρεμμύδι$8,50</item>
+        <item>Πίτσα Turbo μεσαία$9,00</item>
+        <item>Πίτσα Turbo μεγάλη$10,00</item>
+        <item>Πίτσα Turbo Special μεσαία$10,00</item>
+        <item>Πίτσα Turbo Special μεγάλη$11,00</item>
+        <item>Πίτσα Διαίτης Light μεσαία$8,50</item>
+        <item>Πίτσα Διαίτης Light μεγάλη$9,50</item>
+        <item>Πίτσα Philadelphia μεσαία$10,00</item>
+        <item>Πίτσα Philadelphia μεγάλη$11,00</item>
+        <item>Πίτσα Ελληνική μεσαία$7,50</item>
+        <item>Πίτσα Ελληνική μεγάλη$8,50</item>
+	<item>Πίτσα Καλαμάρι-Ελιές$8,50</item>
+	<item>Πίτσα Καλαμάρι-Κρεμμύδι$8,50</item>
+	<item>Πίτσα Γαρίδες$8,50</item>
+	<item>Πίτσα Τόνος-Κρεμμύδι$8,50</item>
 </string-array>
 
 <string-array name="Megaro_salates">
-	<item>Σεφ$5,00</item>
-	<item>Καίσαρα$5,20</item>
-	<item>Ελληνική$5,00</item>
-	<item>Αφροδίτη$5,30</item>
-	<item>Πυθαγόρας$5,50</item>
-	<item>Τόνος$5,50</item>
-	<item>Κυπριακή με χαλούμι$6,00</item>
-        <item>Waldorf$6,00</item>
-        <item>Ανάμεικτη$5,50</item>
+	<item>Σαλάτα Σεφ$5,00</item>
+	<item>Σαλάτα Καίσαρα$5,20</item>
+	<item>Σαλάτα Ελληνική$5,00</item>
+	<item>Σαλάτα Αφροδίτη$5,30</item>
+	<item>Σαλάτα Πυθαγόρας$5,50</item>
+	<item>Σαλάτα Τόνος$5,50</item>
+	<item>Σαλάτα Κυπριακή με χαλούμι$6,00</item>
+        <item>Σαλάτα Waldorf$6,00</item>
+        <item>Σαλάτα Ανάμεικτη$5,50</item>
 </string-array>
 
 <string-array name="Megaro_zumarika">
-	<item>Μπολονέζ με κιμά$4,80</item>
-	<item>Ναπολιτέν με σάλτσα$4,00</item>
-	<item>Φούρνου special$6,00</item>
+	<item>Spaghetti Μπολονέζ με κιμά$4,80</item>
+	<item>Spaghetti Ναπολιτέν με σάλτσα$4,00</item>
+	<item>Spaghetti Φούρνου special$6,00</item>
 	<item>Καρμπονάρα$6,00</item>
 	<item>Πουτανέσκα$4,80</item>
 	<item>Ριγγατόνι 4 τυριά$6,00</item>
 	<item>Ριγγατόνι φούρνου$6,00</item>
         <item>Spaghetti κοτόπουλο$6,00</item>
         <item>Σκάμπι$6,50</item>
-	<item>Καλαμάρι-Ελιές$6,50</item>
-	<item>Καλαμάρι-Κρεμμύδι$6,50</item>
+	<item>Spaghetti Καλαμάρι-Ελιές$6,50</item>
+	<item>Spaghetti Καλαμάρι-Κρεμμύδι$6,50</item>
 	<item>Γαρίδες$6,50</item>
 	<item>Τόνος-Κρεμμύδι$6,50</item>
 	<item>Σπαγγέτι με σως Τόνου$6,30</item>
@@ -856,11 +856,11 @@
 	<item>Τζατζίκι$2,50</item>
 	<item>Φέτα$2,50</item>
 	<item>Τυροσαλάτα$2,50</item>
-	<item>Σως$1,00</item>
+	
 </string-array>
 
 <string-array name="Fame_omeletes">
-	<item>Αυγά με μπέικον$4,50</item>
+	<item>Ομελέτα Αυγά με μπέικον$4,50</item>
 	<item>Ομελέτα Νο1$5,00</item>
 	<item>Ομελέτα Νο2$6,00</item>
 </string-array>
@@ -895,39 +895,39 @@
 </string-array>
 
 <string-array name="Fame_pitses">
-	<item>Σπέσιαλ μικρή$5,00</item>
-	<item>Σπέσιαλ μεσαία$8,00</item>
-	<item>Σπέσιαλ οικογενειακή$9,00</item>
-	<item>Χωριάτικη μικρή$5,00</item>
-	<item>Χωριάτικη μεσαία$8,00</item>
-	<item>Χωριάτικη οικογενειακή$10,00</item>
-	<item>Μαργαρίτα μικρή$5,00</item>
-	<item>Μαργαρίτα μεσαία$8,00</item>
-	<item>Μαργαρίτα οικογενειακή$9,00</item>
-	<item>Ελληνική μικρή$5,00</item>
-	<item>Ελληνική μεσαία$8,00</item>
-	<item>Ελληνική οικογενειακή$9,50</item>
-	<item>Βεζούβιο μικρή$5,00</item>
-	<item>Βεζούβιο μεσαία$8,00</item>
-	<item>Βεζούβιο οικογειακή$9,50</item>
-	<item>Vegetarian μικρή$5,00</item>
-	<item>Vegetarian μεσαία$8,00</item>
-	<item>Vegetarian οικογενειακή$9,00</item>
+	<item>Πίτσα Σπέσιαλ μικρή$5,00</item>
+	<item>Πίτσα Σπέσιαλ μεσαία$8,00</item>
+	<item>Πίτσα Σπέσιαλ οικογενειακή$9,00</item>
+	<item>Πίτσα Χωριάτικη μικρή$5,00</item>
+	<item>Πίτσα Χωριάτικη μεσαία$8,00</item>
+	<item>Πίτσα Χωριάτικη οικογενειακή$10,00</item>
+	<item>Πίτσα Μαργαρίτα μικρή$5,00</item>
+	<item>Πίτσα Μαργαρίτα μεσαία$8,00</item>
+	<item>Πίτσα Μαργαρίτα οικογενειακή$9,00</item>
+	<item>Πίτσα Ελληνική μικρή$5,00</item>
+	<item>Πίτσα Ελληνική μεσαία$8,00</item>
+	<item>Πίτσα Ελληνική οικογενειακή$9,50</item>
+	<item>Πίτσα Βεζούβιο μικρή$5,00</item>
+	<item>Πίτσα Βεζούβιο μεσαία$8,00</item>
+	<item>Πίτσα Βεζούβιο οικογειακή$9,50</item>
+	<item>Πίτσα Vegetarian μικρή$5,00</item>
+	<item>Πίτσα Vegetarian μεσαία$8,00</item>
+	<item>Πίτσα Vegetarian οικογενειακή$9,00</item>
 	<item>Τυρόψωμο μικρό$5,00</item>
 	<item>Τυρόψωμο μεσαίο$8,00</item>
 	<item>Τυρόψωμο οικογενειακό$9,00</item>
 </string-array>
 
 <string-array name="Fame_merides">
-	<item>Χοιρινό σουβλάκι$6,50</item>
-	<item>Κοτόπουλο σουβλάκι$7,00</item>
-	<item>Γύρος χοιρινός$6,50</item>
-	<item>Γύρος κοτόπουλο$7,00</item>
-	<item>Κοτομπέικον$7,00</item>
-	<item>Κεμπάπ$6,50</item>
-	<item>Μπιφτέκι$6,50</item>
-        <item>Μπιφτέκι γεμιστό με φέτα$7,50</item>
-        <item>Λουκάνικο$6,50</item>
+	<item>Χοιρινό σουβλάκι Μερίδα $6,50</item>
+	<item>Κοτόπουλο σουβλάκι Μερίδα $7,00</item>
+	<item>Γύρος χοιρινός Μερίδα $6,50</item>
+	<item>Γύρος κοτόπουλο Μερίδα $7,00</item>
+	<item>Κοτομπέικον Μερίδα $7,00</item>
+	<item>Κεμπάπ Μερίδα $6,50</item>
+	<item>Μπιφτέκι Μερίδα $6,50</item>
+        <item>Μπιφτέκι γεμιστό με φέτα Μερίδα $7,50</item>
+        <item>Λουκάνικο Μερίδα $6,50</item>
 </string-array>
 
 <string-array name="Fame_spesialite">
@@ -939,26 +939,26 @@
 </string-array>
 
 <string-array name="Fame_pites">
-	<item>Καλαμάκι χοιρινό απλη$2,00</item>
-	<item>Καλαμάκι χοιρινό γιγας$4,00</item>
-	<item>Καλαμάκι κοτόπουλο απλη$2,20</item>
-	<item>Καλαμάκι κοτόπουλο γιγας$4,40</item>
-	<item>Γύρος χοιρινός απλη$2,00</item>
-	<item>Γύρος χοιρινός γιγας$4,00</item>
-	<item>Γύρος κοτόπουλο απλη$2,20</item>
-	<item>Γύρος κοτόπουλο γιγας$4,40</item>
-	<item>Μπιφτέκι απλη$2,20</item>
-	<item>Μπιφτέκι γιγας$4,40</item>
-	<item>Κεμπάπ απλη$2,20</item>
-	<item>Κεμπάπ γιγας$5,00</item>
-	<item>Κοτομπέικον απλη$2,50</item>
-	<item>Κοτομπέικον γιγας$5,00</item>
-        <item>Λουκάνικο απλη$2,50</item>
-        <item>Λουκάνικο γιγας$4,40</item>
-        <item>Οικολογική απλη$1,50</item>\
-        <item>Οικολογική γιγας$3,00</item>
-        <item>Πανσέτα απλη$2,20</item>
-        <item>Πανσέτα γιγας$4,40</item>
+	<item>Πίτα Καλαμάκι χοιρινό απλη$2,00</item>
+	<item>Πίτα Καλαμάκι χοιρινό γιγας$4,00</item>
+	<item>Πίτα Καλαμάκι κοτόπουλο απλη$2,20</item>
+	<item>Πίτα Καλαμάκι κοτόπουλο γιγας$4,40</item>
+	<item>Πίτα Γύρος χοιρινός απλη$2,00</item>
+	<item>Πίτα Γύρος χοιρινός γιγας$4,00</item>
+	<item>Πίτα Γύρος κοτόπουλο απλη$2,20</item>
+	<item>Πίτα Γύρος κοτόπουλο γιγας$4,40</item>
+	<item>Πίτα Μπιφτέκι απλη$2,20</item>
+	<item>Πίτα Μπιφτέκι γιγας$4,40</item>
+	<item>Πίτα Κεμπάπ απλη$2,20</item>
+	<item>Πίτα Κεμπάπ γιγας$5,00</item>
+	<item>Πίτα Κοτομπέικον απλη$2,50</item>
+	<item>Πίτα Κοτομπέικον γιγας$5,00</item>
+        <item>Πίτα Λουκάνικο απλη$2,50</item>
+        <item>Πίτα Λουκάνικο γιγας$4,40</item>
+        <item>Πίτα Οικολογική απλη$1,50</item>\
+        <item>Πίτα Οικολογική γιγας$3,00</item>
+        <item>Πίτα Πανσέτα απλη$2,20</item>
+        <item>Πίτα Πανσέτα γιγας$4,40</item>
 </string-array>
 
 <string-array name="Fame_xwris_pita">
@@ -980,34 +980,34 @@
 </string-array>
 
 <string-array name="Fame_krepes_glukes">
-	<item>Σοκολάτα$3,00</item>
-	<item>Λευκή σοκολάτα$3,50</item>
-	<item>Σοκολάτα και μπανάνα$3,50</item>
-	<item>Σοκολάτα και ανανάς$3,50</item>
-	<item>Σοκολάτα και καρύδι$3,50</item>
-	<item>Σοκολάτα και μπισκότο$4,00</item>
-	<item>Μέλι και καρύδι$3,50</item>
-        <item>Ζάχαρη και κανέλα$3,50</item>
-        <item>Ροδάκινο$3,50</item>
-        <item>Φράουλα$3,50</item>
-        <item>Κεράσι$3,50</item>
-        <item>Fame special$6,00</item>
+	<item>Κρέπα Σοκολάτα$3,00</item>
+	<item>Κρέπα Λευκή σοκολάτα$3,50</item>
+	<item>Κρέπα Σοκολάτα και μπανάνα$3,50</item>
+	<item>Κρέπα Σοκολάτα και ανανάς$3,50</item>
+	<item>Κρέπα Σοκολάτα και καρύδι$3,50</item>
+	<item>Κρέπα Σοκολάτα και μπισκότο$4,00</item>
+	<item>Κρέπα Μέλι και καρύδι$3,50</item>
+        <item>Κρέπα Ζάχαρη και κανέλα$3,50</item>
+        <item>Κρέπα Ροδάκινο$3,50</item>
+        <item>Κρέπα Φράουλα$3,50</item>
+        <item>Κρέπα Κεράσι$3,50</item>
+        <item>Κρέπα Fame special$6,00</item>
         <item>Κρέπα παγωτό$6,00</item>
 </string-array>
 
 <string-array name="Fame_krepes_almures">
-	<item>Τυρί και ζαμπόν$4,00</item>
-	<item>Τυρί και μπέικον$4,00</item>
-	<item>Τυρί,ζαμπόν,μπέικον$4,50</item>
-	<item>Τυρί,σαλάμι,ζαμπόν,μπέικον$5,00</item>
-	<item>Fame special$6,00</item>
+	<item>Κρέπα Τυρί και ζαμπόν$4,00</item>
+	<item>Κρέπα Τυρί και μπέικον$4,00</item>
+	<item>Κρέπα Τυρί,ζαμπόν,μπέικον$4,50</item>
+	<item>Κρέπα Τυρί,σαλάμι,ζαμπόν,μπέικον$5,00</item>
+	<item>Κρέπα Fame special$6,00</item>
 </string-array>
 
 <string-array name="Fame_vafles">
-	<item>Σοκολάτα$3,50</item>
-	<item>Σοκολάτα και μπανάνα$4,00</item>
-	<item>Σοκολάτα και μπισκότο$4,00</item>
-	<item>Σοκολάτα, μπισκότο και μπανάνα$4,50</item>
+	<item>Βάφλα Σοκολάτα$3,50</item>
+	<item>Βάφλα Σοκολάτα και μπανάνα$4,00</item>
+	<item>Βάφλα Σοκολάτα και μπισκότο$4,00</item>
+	<item>Βάφλα Σοκολάτα, μπισκότο και μπανάνα$4,50</item>
 	<item>Βάφλα παγωτού$5,00</item>
 </string-array>
 
@@ -1049,29 +1049,29 @@
 </string-array>
 
 <string-array name="Tazmaniac_krepes_glukes">
-	<item>Σοκολάτα$2,00</item>
-	<item>Σοκολάτα,μπισκότο$3,00</item>
-	<item>Σοκολάτα,μπανάνα$3,50</item>
-	<item>Σοκολάτα,μπανάνα,μπισκότο$4,00</item>
-	<item>Σοκολάτα,φράουλα,σαντιγύ$4,50</item>
-	<item>Σοκολάτα,ξηροί καρποί$3,50</item>
+	<item>Κρέπα Σοκολάτα$2,00</item>
+	<item>Κρέπα Σοκολάτα,μπισκότο$3,00</item>
+	<item>Κρέπα Σοκολάτα,μπανάνα$3,50</item>
+	<item>Κρέπα Σοκολάτα,μπανάνα,μπισκότο$4,00</item>
+	<item>Κρέπα Σοκολάτα,φράουλα,σαντιγύ$4,50</item>
+	<item>Κρέπα Σοκολάτα,ξηροί καρποί$3,50</item>
 	<item>Γιαούρτι,μέλι$4,00</item>
         <item>Μέλι,ξηροί καρποί$4,00</item>
-        <item>Σοκολάτα,κανέλα$3,00</item>
-        <item>Σοκολάτα,κανέλα,σαντιγύ$3,50</item>
+        <item>Κρέπα Σοκολάτα,κανέλα$3,00</item>
+        <item>Κρέπα Σοκολάτα,κανέλα,σαντιγύ$3,50</item>
 </string-array>
 
 <string-array name="Tazmaniac_burger">
-	<item>Μπιφτέκι,ντομάτα,μαρούλι,κρεμμύδι,σως$3,50</item>
+	<item>burger Μπιφτέκι,ντομάτα,μαρούλι,κρεμμύδι,σως$3,50</item>
 	<item>Cheese burger$4,00</item>
 	<item>Chicken burger$5,00</item>
 </string-array>
 
 <string-array name="Tazmaniac_steak_sandwich">
-	<item>Κρέας,τυρί,μαρούλι,σως$2,50</item>
-	<item>Κρέας,τυρί,πατάτες,ντομάτα$3,50</item>
-	<item>Κρέας,τυρί,αυγό,ντομάτα$4,00</item>
-	<item>Steak bonb$5,00</item>
+	<item>sandwich Κρέας,τυρί,μαρούλι,σως$2,50</item>
+	<item>sandwich Κρέας,τυρί,πατάτες,ντομάτα$3,50</item>
+	<item>sandwich Κρέας,τυρί,αυγό,ντομάτα$4,00</item>
+	<item>sandwich Steak bonb$5,00</item>
 </string-array>
 
 <string-array name="Tazmaniac_faghta">

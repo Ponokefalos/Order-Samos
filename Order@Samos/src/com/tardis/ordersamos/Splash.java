@@ -13,23 +13,22 @@ public class Splash extends Activity{
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.splash);
-		
+		getActionBar().hide();
 		Thread timer = new Thread(){
-			public void run(){
-				try{
-					//kathisterei gia 4 sec kai meta anoigei to main menu
-					sleep(4000);
-					
-				}catch (InterruptedException e){
-					e.printStackTrace();
-				}finally{
-					Intent openMainMenu = new Intent("com.tardis.ordersamos.MAINMENU");
-					startActivity(openMainMenu);
-				}
-			}
-		};
-		timer.start();
-	
+			   public void run(){
+			    try{
+			     //kathisterei gia 4 sec kai meta anoigei to main menu
+			     sleep(6000);
+			     
+			    }catch (InterruptedException e){
+			     e.printStackTrace();
+			    }finally{
+			     Intent openMainMenu = new Intent("com.tardis.ordersamos.MainMenu");
+			     startActivity(openMainMenu);
+			    }
+			   }
+			  };
+			  timer.start();
 	
 	
 	}

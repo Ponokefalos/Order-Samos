@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#9c1616"
+    android:background="#560b0b"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
@@ -32,19 +32,17 @@
                     android:background="@null"
                     android:src="@drawable/fame"
                     />
-                    
+
  				<TextView
-                    android:id="@+id/tvEstiatoriaFame"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="57dp"
-                    android:layout_marginTop="18dp"
-                    android:layout_toRightOf="@+id/ibtnFame"
-                    android:gravity="center"
-                    android:textColor="#ffffff"
-                    android:text="Fame" />
-               
+ 				    android:id="@+id/tvEstiatoriaFame"
+ 				    android:layout_width="wrap_content"
+ 				    android:layout_height="wrap_content"
+ 				    android:layout_centerVertical="true"
+ 				    android:layout_marginLeft="26dp"
+ 				    android:layout_toRightOf="@+id/ibtnFame"
+ 				    android:gravity="center"
+ 				    android:text="Fame"
+ 				    android:textColor="#ffffff" />
 
             </RelativeLayout>
 
@@ -54,6 +52,7 @@
 
                 <ImageButton
                     android:id="@+id/ibtnEvris"
+                    android:layout_marginTop="48dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:background="@null"
@@ -63,9 +62,8 @@
                     android:id="@+id/tvEstiatoriaEvrys"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="33dp"
-                    android:layout_marginTop="24dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="26dp"
                     android:layout_toRightOf="@+id/ibtnEvris"
                     android:gravity="center"
                     android:text="Evrys"
@@ -80,6 +78,7 @@
 
                 <ImageButton
                     android:id="@+id/ibtnKoutala"
+                    android:layout_marginTop="48dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
@@ -93,7 +92,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="37dp"
+                    android:layout_marginLeft="26dp"
                     android:layout_toRightOf="@+id/ibtnKoutala"
                     android:gravity="center"
                     android:text="Η Κουτάλα του Μάγειρα"
@@ -109,7 +108,7 @@
                     android:id="@+id/ibtnGiro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                
+                android:layout_marginTop="48dp"
                     android:background="@null"
                     android:src="@drawable/giro" />
 
@@ -117,13 +116,12 @@
                     android:id="@+id/tvEstiatoriaGiro"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginLeft="46dp"
-                    android:layout_marginTop="17dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="28dp"
                     android:layout_toRightOf="@+id/ibtnGiro"
                     android:gravity="center"
-                    android:textColor="#ffffff"
-                    android:text="Γύρο Γύρο Όλοι" />
+                    android:text="Γύρο Γύρο Όλοι"
+                    android:textColor="#ffffff" />
 
             </RelativeLayout>
 
@@ -135,7 +133,7 @@
                     android:id="@+id/ibtnTaz"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                
+                android:layout_marginTop="48dp"
                     android:background="@null"
                     android:src="@drawable/taz" />
 
@@ -144,7 +142,8 @@
                       android:layout_width="wrap_content"
                       android:layout_height="wrap_content"
                       android:layout_alignParentTop="true"
-                      android:layout_marginLeft="50dp"
+                     android:layout_centerVertical="true"
+                    android:layout_marginLeft="28dp"
                       android:layout_marginTop="30dp"
                       android:layout_toRightOf="@+id/ibtnTaz"
                       android:textColor="#ffffff"
@@ -258,7 +257,8 @@
                     android:layout_height="wrap_content"
                     android:layout_alignParentLeft="true"
                     android:layout_centerVertical="true"
-                    android:layout_marginLeft="14dp"
+                   
+                    android:layout_marginTop="48dp"
                     android:background="@null"
                     android:src="@drawable/nostos" />
 
@@ -267,7 +267,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentTop="true"
-                    android:layout_marginLeft="60dp"
+                    android:layout_marginLeft="50dp"
                     android:layout_marginTop="30dp"
                     android:textColor="#ffffff"
                     android:layout_toRightOf="@+id/ibtnNostos"

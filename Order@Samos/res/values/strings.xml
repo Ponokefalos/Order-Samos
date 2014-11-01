@@ -10,6 +10,7 @@
     <string name="title_activity_random_choice">RandomChoice</string>
     <string name="title_activity_prosfores">Prosfores</string>
     <string name="title_activity_ratings">Ratings</string>
+    <string name="title_activity_main_menu.xml">MainMenu</string>
 
     
     <string name="title_Random_Choice">Δεν ξερεις τι να παραγγείλεις;\n Πατα το Random και θα σου προτείνουμε εμείς!</string>
@@ -21,7 +22,7 @@
     <string name="prosforaMegaro">ΜΕΓΑΡΟ: \n Με αγορά 3 ειδών (πίτσα, πεϊνερλί, καλτσόνε ζυμαρικά ) Δώρο 1  Σαλάτα του σεφ ή  1 αναψυκτικό 1.5lt\n Έκπτωση για ΑΜΕΑ 20%</string>
     <string name="prosforaSweet">SWEET N SALTY: \n Με 3 αλμυρές κρέπες Δώρο 1 Κρέπα σοκολάτα-μπισκότοή  1  Coca-Cola 500ml \n Με 4 αλμυρές κρέπες Δώρο 1 Coca-Cola 1.5lt</string>
 	<string name="prosforaTaz">TAZ: \n Όλα τα φαγητά (νερό+αναψυκτικό+ψωμί) 6,80</string>
-	<string name="prosforaEvrys"></string>
+	<string name="prosforaEvrys">EVRYS: \n Τετάρτη:\n Όλες οι μακαρονάδες 4 euro \n Πεμπτη:\n Με κάθε burger δώρο ένα αναψυκτικό \n Παρασκευή: \n Μεγάλες Πίτες 3,80 euro</string>
 
 	
 	<string name="Fame">Fame</string>
@@ -36,48 +37,48 @@
 	<string name="Giro">Γύρο Γύρο Όλοι</string>
 
 <string-array name="Til_Evrys">
-    <item>Stathero1:2273030003</item>
-    <item>Stathero2:2273033868</item>
+    <item>Σταθερό 1:2273030003</item>
+    <item>Σταθερό 2:2273033868</item>
     <item>Whatsup:6981898054</item>
     <item>Vodafone:6944416858</item>
     <item>Wind:6938775152</item>
 </string-array>
 
 <string-array name="Til_Fame">
-    <item>Stathero1:2273035660</item>
-    <item>Stathero2:2273032795</item>
+    <item>Σταθερό 1:2273035660</item>
+    <item>Σταθερό 2:2273032795</item>
     <item>Whatsup:6986900770</item>
     <item>Wind:6934626363</item>
 </string-array>
 
 <string-array name="Til_Koutala">
-    <item>Stathero1:2273030990</item>
-    <item>Stathero2:2273030991</item>
+    <item>Σταθερό 1:2273030990</item>
+    <item>Σταθερό 2:2273030991</item>
     <item>Whatsup:6971608818</item>
     <item>Vodafone:6945416222</item>
     <item>Wind:6934689698</item>
 </string-array>
 
 <string-array name="Til_Giro">
-    <item>Stathero:2273079066</item>
+    <item>Σταθερό:2273079066</item>
     <item>Whatsup:6973683233</item>
     <item>Vodafone:6943251313</item>
     <item>Wind:6909115454</item>
 </string-array>
 
 <string-array name="Til_Nostos">
-    <item>Stathero:2273035365</item>
+    <item>Σταθερό:2273035365</item>
 </string-array>
 
 <string-array name="Til_Megaro">
-    <item>Stather1:2273030666</item>
+    <item>Σταθερό:2273030666</item>
     <item>Whatsup:6978315170</item>
     <item>Vodafone:6947554496</item>
     <item>Wind:6930826536</item>
 </string-array>
 
 <string-array name="Til_Taz">
-    <item>Stathero:2273030555</item>
+    <item>Σταθερό:2273030555</item>
     <item>Whatsup:6983650315</item>
     <item>Vodafone:6940525268</item>
     <item>CosmoteFrog:6976662671</item>
@@ -85,14 +86,14 @@
 </string-array>
 
 <string-array name="Til_Kouzina">
-    <item>Stathero:2273079165</item>
+    <item>Σταθερό:2273079165</item>
     <item>Whatsup:6982309583</item>
     <item>Vodafone:6940949484</item>
     <item>Wind:6909115422</item>
 </string-array>
 
 <string-array name="Til_Vakxos">
-    <item>Stathero:2273035550</item>
+    <item>Σταθερό:2273035550</item>
     <item>Whatsup:6978247166</item>
     <item>Vodafone:6958497907</item>
 </string-array>
@@ -105,12 +106,12 @@
 <string name="Info">Εστιατόρια:\n
 Επιλέγοντας το εικονίδιο εμφανίζεται popup menu με τις επιλογές.\n
 Call:\n
-Εμφανίζει τα όλα τα τηλέφονα του συγκεκριμένου εστιατορίου\n
-Επίσεις ελέγχει αν το εστιατόριο είναι ανοικτό την συγκεκριμένη ώρα\n
+Εμφανίζει τα όλα τα τηλέφωνα του συγκεκριμένου εστιατορίου\n
+Επίσης ελέγχει αν το εστιατόριο είναι ανοικτό την συγκεκριμένη ώρα\n
 Menu:\n
-Εμφανίζει το μενού του συγκεκριμένου εστιατορίου σε εικόνες. Κάνοντας slide γύριζει σελίδα μπροστά ή πίσω.\n
+Εμφανίζει το μενού του συγκεκριμένου εστιατορίου σε εικόνες. Κάνοντας slide γυρίζει σελίδα μπροστά ή πίσω.\n
 Ban:
-Απαγορεύει το συγκεκριμένο εστιατορίο. Όταν ένα εστιατόριο είναι απαγορευμένο εξαφανίζεται από την οθόνη Εστιατόρια. Επίσης δεν συμπεριλαμβάνεται στα αποτελέσματα στην οθόνη Κατηγορίες. Για ανέραιση της απαγόρευσης δείτε την οθόνη Banlist.\n
+Απαγορεύει το συγκεκριμένο εστιατόριο. Όταν ένα εστιατόριο είναι απαγορευμένο εξαφανίζεται από την οθόνη Εστιατόρια. Επίσης δεν συμπεριλαμβάνεται στα αποτελέσματα στην οθόνη Κατηγορίες. Για αναίρεση της απαγόρευσης δείτε την οθόνη Banlist.\n
 \n
 Κατηγορίες:\n
 Εμφανίζει αποτελέσματα από τα μενού όλων των εστιατορίων σύμφωνα με το υπάρχει στην αναζήτηση.\n
@@ -119,13 +120,14 @@ Banlist:\n
 Επιλέξτε το εστιατόριο για απαγόρευση/μη απαγόρευση.\n
 \n
 Random Choice:\n
-Εμφανίζει ένα τυχαίο φαγητό από ένα τυχαίο εστατόριο. Κάντε click στο call αν θέλετε να καλέσετε το εστιατόριο.\n
+Εμφανίζει ένα τυχαίο φαγητό από ένα τυχαίο εστιατόριο. Κάντε click στο call αν θέλετε να καλέσετε το εστιατόριο.\n
 \n
 Προσφορές:\n
 Επιλέξτε εστιατόριο για να δείτε τις προσφορές. Πατήστε πάνω στο κείμενο της προσφοράς για να καλέσετε το εστιατόριο που έχει την προσφορά.\n
 \n
 Ratings:\n
 Επιλέξτε εστιατόριο για να κάνετε like/share/comment.\ntitle_Info
+
 </string>
 <string name="title_activity_Info">Info</string>
 

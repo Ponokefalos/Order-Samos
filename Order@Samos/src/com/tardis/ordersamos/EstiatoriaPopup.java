@@ -1,6 +1,6 @@
 package com.tardis.ordersamos;
 
-import java.util.Calendar;
+
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -12,7 +12,7 @@ import android.content.res.Resources;
 import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.text.format.Time;
-import android.util.MonthDisplayHelper;
+
 import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;

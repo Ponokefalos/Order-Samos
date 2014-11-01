@@ -43,7 +43,7 @@ public class Katigories extends Activity{
 				
 		//auto complete text view
 		actv = (AutoCompleteTextView) findViewById(R.id.atSearch);
-		String[] suggestions = {"souvlaki","burger","salates"};//mporoume na valoume osa key theloume
+		String[] suggestions = {"souvlaki","burger","salates","pites","pitses","sandwich","mageireuta","merides","zumarika"};//mporoume na valoume osa key theloume
 		
 		listview = (ListView) findViewById(R.id.lvKatigories);
 		list = new ArrayList<String>();//arraylist gia na to valei sto adapter tou list view
